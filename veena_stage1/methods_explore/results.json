@@ -1,0 +1,1150 @@
+{
+ "raw | features LR": {
+  "macro_f1": 0.2092939227785673,
+  "recall": {
+   "jaru": 0.2916666666666667,
+   "kampita": 0.07692307692307693,
+   "ravai": 0.3142857142857143,
+   "pratyagata": 0.18518518518518517
+  },
+  "confusion": [
+   [
+    7,
+    11,
+    5,
+    1
+   ],
+   [
+    22,
+    2,
+    0,
+    2
+   ],
+   [
+    3,
+    3,
+    11,
+    18
+   ],
+   [
+    1,
+    1,
+    20,
+    5
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.5,
+   "jaru_desc_melgana": 0.3333333333333333,
+   "jaru_desc_shankravarnam": 0.3333333333333333,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.125,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.14285714285714285,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.45454545454545453,
+   "ravai#02": 0.18181818181818182,
+   "ravai_(kalapriya)": 0.4166666666666667,
+   "ravai_(mayamolagolav)": 0.3333333333333333
+  },
+  "p_single": 0.23376623376623376,
+  "p_family": 0.6663336663336663,
+  "null_mean": 0.15220691593371152,
+  "null_95": 0.3025442931691093
+ },
+ "raw | features 3-NN": {
+  "macro_f1": 0.2967350633202494,
+  "recall": {
+   "jaru": 0.375,
+   "kampita": 0.15384615384615385,
+   "ravai": 0.5714285714285714,
+   "pratyagata": 0.14814814814814814
+  },
+  "confusion": [
+   [
+    9,
+    13,
+    2,
+    0
+   ],
+   [
+    18,
+    4,
+    1,
+    3
+   ],
+   [
+    7,
+    1,
+    20,
+    7
+   ],
+   [
+    1,
+    2,
+    20,
+    4
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.16666666666666666,
+   "jaru_asc [series _OG_1]": 0.16666666666666666,
+   "jaru_desc_melgana": 0.5,
+   "jaru_desc_shankravarnam": 0.6666666666666666,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.125,
+   "kampita_(leena)#01": 0.18181818181818182,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.14285714285714285,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0625,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.2727272727272727,
+   "ravai#02": 0.36363636363636365,
+   "ravai_(kalapriya)": 0.9166666666666666,
+   "ravai_(mayamolagolav)": 0.4166666666666667
+  },
+  "p_single": 0.03596403596403597,
+  "p_family": 0.2887112887112887,
+  "null_mean": 0.17059680621742096,
+  "null_95": 0.2817198701588022
+ },
+ "raw | DTW 3-NN": {
+  "macro_f1": 0.45129670185684334,
+  "recall": {
+   "jaru": 0.25,
+   "kampita": 0.38461538461538464,
+   "ravai": 0.6,
+   "pratyagata": 0.5185185185185185
+  },
+  "confusion": [
+   [
+    6,
+    14,
+    3,
+    1
+   ],
+   [
+    3,
+    10,
+    5,
+    8
+   ],
+   [
+    1,
+    10,
+    21,
+    3
+   ],
+   [
+    1,
+    12,
+    0,
+    14
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.3333333333333333,
+   "jaru_desc_melgana": 0.3333333333333333,
+   "jaru_desc_shankravarnam": 0.3333333333333333,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.625,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.7142857142857143,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.5625,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.45454545454545453,
+   "ravai#02": 0.5454545454545454,
+   "ravai_(kalapriya)": 0.6666666666666666,
+   "ravai_(mayamolagolav)": 0.5833333333333334
+  },
+  "p_single": 0.001998001998001998,
+  "p_family": 0.03196803196803197,
+  "null_mean": 0.15994697803163876,
+  "null_95": 0.28296378497635616
+ },
+ "clean | features LR": {
+  "macro_f1": 0.3909465534465535,
+  "recall": {
+   "jaru": 0.3333333333333333,
+   "kampita": 0.2692307692307692,
+   "ravai": 0.5142857142857142,
+   "pratyagata": 0.4074074074074074
+  },
+  "confusion": [
+   [
+    8,
+    8,
+    5,
+    3
+   ],
+   [
+    2,
+    7,
+    7,
+    10
+   ],
+   [
+    0,
+    3,
+    18,
+    14
+   ],
+   [
+    1,
+    0,
+    15,
+    11
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 1.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.3333333333333333,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.0,
+   "kampita_(leena)#01": 0.09090909090909091,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.8571428571428571,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0625,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.9090909090909091,
+   "ravai#02": 0.2727272727272727,
+   "ravai_(kalapriya)": 0.5,
+   "ravai_(mayamolagolav)": 0.75
+  },
+  "p_single": 0.016983016983016984,
+  "p_family": 0.07892107892107893,
+  "null_mean": 0.1583661328551309,
+  "null_95": 0.3293707388860486
+ },
+ "clean | features 3-NN": {
+  "macro_f1": 0.4928410770516034,
+  "recall": {
+   "jaru": 0.375,
+   "kampita": 0.34615384615384615,
+   "ravai": 0.6571428571428571,
+   "pratyagata": 0.5925925925925926
+  },
+  "confusion": [
+   [
+    9,
+    8,
+    1,
+    6
+   ],
+   [
+    4,
+    9,
+    9,
+    4
+   ],
+   [
+    0,
+    2,
+    23,
+    10
+   ],
+   [
+    1,
+    0,
+    10,
+    16
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 1.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.5,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.25,
+   "kampita_(leena)#01": 0.2727272727272727,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.5714285714285714,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.4375,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.8181818181818182,
+   "ravai#02": 0.2727272727272727,
+   "ravai_(kalapriya)": 0.9166666666666666,
+   "ravai_(mayamolagolav)": 0.75
+  },
+  "p_single": 0.001998001998001998,
+  "p_family": 0.007992007992007992,
+  "null_mean": 0.16558741882438174,
+  "null_95": 0.32213957774936475
+ },
+ "clean | DTW 3-NN": {
+  "macro_f1": 0.5317439027116446,
+  "recall": {
+   "jaru": 0.4166666666666667,
+   "kampita": 0.46153846153846156,
+   "ravai": 0.6285714285714286,
+   "pratyagata": 0.5555555555555556
+  },
+  "confusion": [
+   [
+    10,
+    11,
+    0,
+    3
+   ],
+   [
+    2,
+    12,
+    2,
+    10
+   ],
+   [
+    0,
+    6,
+    22,
+    7
+   ],
+   [
+    1,
+    10,
+    1,
+    15
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 1.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.6666666666666666,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.625,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.5,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.6363636363636364,
+   "ravai#02": 0.2727272727272727,
+   "ravai_(kalapriya)": 0.8333333333333334,
+   "ravai_(mayamolagolav)": 0.75
+  },
+  "p_single": 0.000999000999000999,
+  "p_family": 0.002997002997002997,
+  "null_mean": 0.1625328683832849,
+  "null_95": 0.32096256516460814
+ },
+ "crop | features LR": {
+  "macro_f1": 0.33531886162704777,
+  "recall": {
+   "jaru": 0.3333333333333333,
+   "kampita": 0.2692307692307692,
+   "ravai": 0.6285714285714286,
+   "pratyagata": 0.1111111111111111
+  },
+  "confusion": [
+   [
+    8,
+    8,
+    8,
+    0
+   ],
+   [
+    1,
+    7,
+    7,
+    11
+   ],
+   [
+    1,
+    4,
+    22,
+    8
+   ],
+   [
+    2,
+    5,
+    17,
+    3
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 1.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.3333333333333333,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.0,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.2727272727272727,
+   "ravai#02": 0.5454545454545454,
+   "ravai_(kalapriya)": 0.6666666666666666,
+   "ravai_(mayamolagolav)": 0.6666666666666666
+  },
+  "p_single": 0.04095904095904096,
+  "p_family": 0.1838161838161838,
+  "null_mean": 0.15228864955587096,
+  "null_95": 0.31896690806137074
+ },
+ "crop | features 3-NN": {
+  "macro_f1": 0.48820956039265895,
+  "recall": {
+   "jaru": 0.4166666666666667,
+   "kampita": 0.3076923076923077,
+   "ravai": 0.6571428571428571,
+   "pratyagata": 0.5555555555555556
+  },
+  "confusion": [
+   [
+    10,
+    8,
+    0,
+    6
+   ],
+   [
+    4,
+    8,
+    3,
+    11
+   ],
+   [
+    0,
+    0,
+    23,
+    12
+   ],
+   [
+    2,
+    2,
+    8,
+    15
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.16666666666666666,
+   "jaru_asc [series _OG_1]": 1.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.5,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.5,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.5714285714285714,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.5,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.6363636363636364,
+   "ravai#02": 0.2727272727272727,
+   "ravai_(kalapriya)": 0.9166666666666666,
+   "ravai_(mayamolagolav)": 0.75
+  },
+  "p_single": 0.000999000999000999,
+  "p_family": 0.00999000999000999,
+  "null_mean": 0.16055999779751653,
+  "null_95": 0.326640843837535
+ },
+ "crop | DTW 3-NN": {
+  "macro_f1": 0.6411374904652937,
+  "recall": {
+   "jaru": 0.5,
+   "kampita": 0.5,
+   "ravai": 0.6857142857142857,
+   "pratyagata": 0.8888888888888888
+  },
+  "confusion": [
+   [
+    12,
+    6,
+    5,
+    1
+   ],
+   [
+    1,
+    13,
+    4,
+    8
+   ],
+   [
+    0,
+    2,
+    24,
+    9
+   ],
+   [
+    1,
+    1,
+    1,
+    24
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.6666666666666666,
+   "jaru_asc [series _OG_1]": 0.8333333333333334,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.5,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.75,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.875,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.9090909090909091,
+   "ravai#02": 0.36363636363636365,
+   "ravai_(kalapriya)": 0.9166666666666666,
+   "ravai_(mayamolagolav)": 0.75
+  },
+  "p_single": 0.000999000999000999,
+  "p_family": 0.000999000999000999,
+  "null_mean": 0.16451457557759047,
+  "null_95": 0.33666104883749537,
+  "ci95_takes": [
+   0.456090656390579,
+   0.7985632347292815
+  ]
+ },
+ "crop | DTW 1-NN": {
+  "macro_f1": 0.5512868546611206,
+  "recall": {
+   "jaru": 0.25,
+   "kampita": 0.5,
+   "ravai": 0.6285714285714286,
+   "pratyagata": 0.8888888888888888
+  },
+  "confusion": [
+   [
+    6,
+    12,
+    0,
+    6
+   ],
+   [
+    1,
+    13,
+    6,
+    6
+   ],
+   [
+    0,
+    9,
+    22,
+    4
+   ],
+   [
+    1,
+    1,
+    1,
+    24
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.16666666666666666,
+   "jaru_asc [series _OG_1]": 0.3333333333333333,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.5,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.75,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.875,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.9090909090909091,
+   "ravai#02": 0.36363636363636365,
+   "ravai_(kalapriya)": 0.75,
+   "ravai_(mayamolagolav)": 0.75
+  },
+  "p_single": 0.000999000999000999,
+  "p_family": 0.000999000999000999,
+  "null_mean": 0.16887539968731136,
+  "null_95": 0.34153037443478595
+ },
+ "crop, length removed | features LR": {
+  "macro_f1": 0.21053553553553553,
+  "recall": {
+   "jaru": 0.3333333333333333,
+   "kampita": 0.038461538461538464,
+   "ravai": 0.22857142857142856,
+   "pratyagata": 0.14814814814814814
+  },
+  "confusion": [
+   [
+    8,
+    10,
+    6,
+    0
+   ],
+   [
+    3,
+    1,
+    11,
+    11
+   ],
+   [
+    0,
+    15,
+    8,
+    12
+   ],
+   [
+    1,
+    8,
+    14,
+    4
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 1.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.3333333333333333,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.0,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.14285714285714285,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.36363636363636365,
+   "ravai#02": 0.09090909090909091,
+   "ravai_(kalapriya)": 0.3333333333333333,
+   "ravai_(mayamolagolav)": 0.25
+  },
+  "p_single": 0.22277722277722278,
+  "p_family": 0.6603396603396603,
+  "null_mean": 0.1484325279990734,
+  "null_95": 0.3221094419041333
+ },
+ "crop, length removed | features 3-NN": {
+  "macro_f1": 0.35572501475192336,
+  "recall": {
+   "jaru": 0.375,
+   "kampita": 0.07692307692307693,
+   "ravai": 0.5428571428571428,
+   "pratyagata": 0.4074074074074074
+  },
+  "confusion": [
+   [
+    9,
+    9,
+    0,
+    6
+   ],
+   [
+    3,
+    2,
+    8,
+    13
+   ],
+   [
+    0,
+    5,
+    19,
+    11
+   ],
+   [
+    1,
+    5,
+    10,
+    11
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 1.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.5,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.25,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.3125,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.5454545454545454,
+   "ravai#02": 0.2727272727272727,
+   "ravai_(kalapriya)": 0.9166666666666666,
+   "ravai_(mayamolagolav)": 0.4166666666666667
+  },
+  "p_single": 0.023976023976023976,
+  "p_family": 0.13586413586413587,
+  "null_mean": 0.16171262000720613,
+  "null_95": 0.31405039182841227
+ },
+ "crop, length removed | DTW 3-NN": {
+  "macro_f1": 0.6321097893256669,
+  "recall": {
+   "jaru": 0.375,
+   "kampita": 0.5,
+   "ravai": 0.8,
+   "pratyagata": 0.8888888888888888
+  },
+  "confusion": [
+   [
+    9,
+    8,
+    7,
+    0
+   ],
+   [
+    1,
+    13,
+    2,
+    10
+   ],
+   [
+    0,
+    1,
+    28,
+    6
+   ],
+   [
+    1,
+    1,
+    1,
+    24
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.8333333333333334,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.6666666666666666,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.75,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.9375,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.8181818181818182,
+   "ravai#02": 0.36363636363636365,
+   "ravai_(kalapriya)": 1.0,
+   "ravai_(mayamolagolav)": 1.0
+  },
+  "p_single": 0.000999000999000999,
+  "p_family": 0.000999000999000999,
+  "null_mean": 0.1630864115224468,
+  "null_95": 0.33927735515009777,
+  "ci95_takes": [
+   0.4168704323211529,
+   0.8260766129403047
+  ]
+ },
+ "crop, length removed | DTW 1-NN": {
+  "macro_f1": 0.5982843038651675,
+  "recall": {
+   "jaru": 0.3333333333333333,
+   "kampita": 0.5,
+   "ravai": 0.7142857142857143,
+   "pratyagata": 0.8888888888888888
+  },
+  "confusion": [
+   [
+    8,
+    9,
+    1,
+    6
+   ],
+   [
+    1,
+    13,
+    4,
+    8
+   ],
+   [
+    0,
+    5,
+    25,
+    5
+   ],
+   [
+    1,
+    0,
+    2,
+    24
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.6666666666666666,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.6666666666666666,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.75,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.9375,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.8181818181818182,
+   "ravai#02": 0.36363636363636365,
+   "ravai_(kalapriya)": 0.8333333333333334,
+   "ravai_(mayamolagolav)": 0.9166666666666666
+  },
+  "p_single": 0.000999000999000999,
+  "p_family": 0.000999000999000999,
+  "null_mean": 0.16563150661520024,
+  "null_95": 0.34445067013541125
+ },
+ "probe: median pitch LR": {
+  "macro_f1": 0.06741573033707865,
+  "recall": {
+   "jaru": 0.0,
+   "kampita": 0.0,
+   "ravai": 0.34285714285714286,
+   "pratyagata": 0.0
+  },
+  "confusion": [
+   [
+    0,
+    6,
+    16,
+    2
+   ],
+   [
+    0,
+    0,
+    13,
+    13
+   ],
+   [
+    9,
+    1,
+    12,
+    13
+   ],
+   [
+    0,
+    14,
+    13,
+    0
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.0,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.0,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.0,
+   "ravai#02": 0.5454545454545454,
+   "ravai_(kalapriya)": 0.0,
+   "ravai_(mayamolagolav)": 0.5
+  }
+ },
+ "length only: raw duration LR": {
+  "macro_f1": 0.14930555555555555,
+  "recall": {
+   "jaru": 0.16666666666666666,
+   "kampita": 0.34615384615384615,
+   "ravai": 0.05714285714285714,
+   "pratyagata": 0.0
+  },
+  "confusion": [
+   [
+    4,
+    12,
+    8,
+    0
+   ],
+   [
+    16,
+    9,
+    1,
+    0
+   ],
+   [
+    4,
+    0,
+    2,
+    29
+   ],
+   [
+    0,
+    1,
+    26,
+    0
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.3333333333333333,
+   "jaru_asc [series _OG_1]": 0.3333333333333333,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.0,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.0,
+   "kampita_(leena)#01": 0.36363636363636365,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.7142857142857143,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.0,
+   "ravai#02": 0.18181818181818182,
+   "ravai_(kalapriya)": 0.0,
+   "ravai_(mayamolagolav)": 0.0
+  }
+ },
+ "length only: crop duration LR": {
+  "macro_f1": 0.055938697318007664,
+  "recall": {
+   "jaru": 0.0,
+   "kampita": 0.15384615384615385,
+   "ravai": 0.05714285714285714,
+   "pratyagata": 0.0
+  },
+  "confusion": [
+   [
+    0,
+    11,
+    13,
+    0
+   ],
+   [
+    10,
+    4,
+    12,
+    0
+   ],
+   [
+    0,
+    2,
+    2,
+    31
+   ],
+   [
+    0,
+    2,
+    25,
+    0
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.0,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.5,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.0,
+   "ravai#02": 0.18181818181818182,
+   "ravai_(kalapriya)": 0.0,
+   "ravai_(mayamolagolav)": 0.0
+  }
+ },
+ "scramble: crop features LR": {
+  "macro_f1": 0.5085510419812745,
+  "recall": {
+   "jaru": 0.7083333333333334,
+   "kampita": 0.46153846153846156,
+   "ravai": 0.5428571428571428,
+   "pratyagata": 0.25925925925925924
+  },
+  "confusion": [
+   [
+    17,
+    2,
+    4,
+    1
+   ],
+   [
+    0,
+    12,
+    6,
+    8
+   ],
+   [
+    1,
+    2,
+    19,
+    13
+   ],
+   [
+    1,
+    6,
+    13,
+    7
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 1.0,
+   "jaru_desc_melgana": 1.0,
+   "jaru_desc_shankravarnam": 0.8333333333333334,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.625,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.6363636363636364,
+   "ravai#02": 0.2727272727272727,
+   "ravai_(kalapriya)": 0.6666666666666666,
+   "ravai_(mayamolagolav)": 0.6666666666666666
+  }
+ },
+ "scramble: crop features 3-NN": {
+  "macro_f1": 0.5600261884561595,
+  "recall": {
+   "jaru": 0.6666666666666666,
+   "kampita": 0.46153846153846156,
+   "ravai": 0.6285714285714286,
+   "pratyagata": 0.4444444444444444
+  },
+  "confusion": [
+   [
+    16,
+    4,
+    4,
+    0
+   ],
+   [
+    2,
+    12,
+    2,
+    10
+   ],
+   [
+    0,
+    4,
+    22,
+    9
+   ],
+   [
+    1,
+    8,
+    6,
+    12
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.16666666666666666,
+   "jaru_asc [series _OG_1]": 1.0,
+   "jaru_desc_melgana": 1.0,
+   "jaru_desc_shankravarnam": 0.5,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.625,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.3125,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.6363636363636364,
+   "ravai#02": 0.2727272727272727,
+   "ravai_(kalapriya)": 0.9166666666666666,
+   "ravai_(mayamolagolav)": 0.6666666666666666
+  }
+ },
+ "scramble: crop DTW 3-NN": {
+  "macro_f1": 0.5602453102453102,
+  "recall": {
+   "jaru": 0.4166666666666667,
+   "kampita": 0.5,
+   "ravai": 0.5142857142857142,
+   "pratyagata": 0.8148148148148148
+  },
+  "confusion": [
+   [
+    10,
+    8,
+    6,
+    0
+   ],
+   [
+    1,
+    13,
+    7,
+    5
+   ],
+   [
+    0,
+    8,
+    18,
+    9
+   ],
+   [
+    1,
+    0,
+    4,
+    22
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.6666666666666666,
+   "jaru_desc_melgana": 0.5,
+   "jaru_desc_shankravarnam": 0.5,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.75,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.875,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.7272727272727273,
+   "ravai#02": 0.2727272727272727,
+   "ravai_(kalapriya)": 0.8333333333333334,
+   "ravai_(mayamolagolav)": 0.4166666666666667
+  }
+ },
+ "scramble: crop DTW 1-NN": {
+  "macro_f1": 0.5666838996566919,
+  "recall": {
+   "jaru": 0.5,
+   "kampita": 0.5,
+   "ravai": 0.42857142857142855,
+   "pratyagata": 0.8148148148148148
+  },
+  "confusion": [
+   [
+    12,
+    6,
+    6,
+    0
+   ],
+   [
+    1,
+    13,
+    12,
+    0
+   ],
+   [
+    0,
+    10,
+    15,
+    10
+   ],
+   [
+    1,
+    0,
+    4,
+    22
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.6666666666666666,
+   "jaru_desc_melgana": 0.8333333333333334,
+   "jaru_desc_shankravarnam": 0.5,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.75,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.875,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.7272727272727273,
+   "ravai#02": 0.2727272727272727,
+   "ravai_(kalapriya)": 0.6666666666666666,
+   "ravai_(mayamolagolav)": 0.3333333333333333
+  }
+ },
+ "rules (no p: seen the data)": {
+  "macro_f1": 0.5588603995324286,
+  "recall": {
+   "jaru": 0.6666666666666666,
+   "kampita": 0.8461538461538461,
+   "ravai": 0.2571428571428571,
+   "pratyagata": 0.48148148148148145
+  },
+  "confusion": [
+   [
+    16,
+    8,
+    0,
+    0
+   ],
+   [
+    0,
+    22,
+    0,
+    4
+   ],
+   [
+    0,
+    25,
+    9,
+    1
+   ],
+   [
+    1,
+    13,
+    0,
+    13
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.8333333333333334,
+   "jaru_asc [series _OG_1]": 0.8333333333333334,
+   "jaru_desc_melgana": 1.0,
+   "jaru_desc_shankravarnam": 0.0,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 1.0,
+   "kampita_(leena)#01": 0.6363636363636364,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 1.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.375,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.6363636363636364,
+   "ravai#02": 0.09090909090909091,
+   "ravai_(kalapriya)": 0.5,
+   "ravai_(mayamolagolav)": 0.16666666666666666
+  }
+ },
+ "majority": {
+  "macro_f1": 0.11904761904761904
+ },
+ "family_null_95": 0.4201332391611429,
+ "best_overall": "crop | DTW 3-NN",
+ "best_length_removed": "crop, length removed | DTW 3-NN"
+}

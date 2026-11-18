@@ -1,0 +1,72 @@
+{
+ "stem": "Amritha_Murali_December_Season_2010_Pavanatmajagaccha_Pavanatmajagaccha",
+ "raga": "nata",
+ "start": 49.987500000000004,
+ "dur": 20.0,
+ "folder": "2_sa_slipped",
+ "levels": [
+  {
+   "level": "original",
+   "kbps": 159.9,
+   "pred": "nata",
+   "correct": true,
+   "pitch_agree": 1.0,
+   "tonic_dev": 0.0,
+   "wav": "audio/0_original.wav"
+  },
+  {
+   "level": "mp3_96k",
+   "kbps": 96.0,
+   "pred": "nata",
+   "correct": true,
+   "pitch_agree": 0.9879,
+   "tonic_dev": 0.0,
+   "wav": "audio/1_mp3_96k.wav"
+  },
+  {
+   "level": "mp3_56k",
+   "kbps": 56.0,
+   "pred": "nata",
+   "correct": true,
+   "pitch_agree": 0.9799,
+   "tonic_dev": 0.0,
+   "wav": "audio/2_mp3_56k.wav"
+  },
+  {
+   "level": "mp3_32k",
+   "kbps": 32.0,
+   "pred": "nata",
+   "correct": true,
+   "pitch_agree": 0.9661,
+   "tonic_dev": 0.0,
+   "wav": "audio/3_mp3_32k.wav"
+  },
+  {
+   "level": "mp3_24k",
+   "kbps": 24.0,
+   "pred": "nata",
+   "correct": true,
+   "pitch_agree": 0.9636,
+   "tonic_dev": 0.0,
+   "wav": "audio/4_mp3_24k.wav"
+  },
+  {
+   "level": "mp3_16k",
+   "kbps": 16.0,
+   "pred": "nata",
+   "correct": true,
+   "pitch_agree": 0.951,
+   "tonic_dev": 0.0,
+   "wav": "audio/5_mp3_16k.wav"
+  },
+  {
+   "level": "mp3_8k",
+   "kbps": 8.0,
+   "pred": "sanmukhapriya",
+   "correct": false,
+   "pitch_agree": 0.7569,
+   "tonic_dev": -711.2,
+   "wav": "audio/6_mp3_8k.wav"
+  }
+ ]
+}

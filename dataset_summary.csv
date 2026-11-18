@@ -1,0 +1,223 @@
+filename,session,duration_s,timeline_s,has_crepe,frames,expected_frames,length_ok,category,raga,gamaka_type,tonic_hz,session_pooled_mode_hz,clip_mode_hz,clip_mode_vs_session_cents
+ahatam#01.1Guitar_samples_3D_OG.wav,ahatam,2.4,3601.354,Y,240,240,Y,gamaka-type,,ahatam,329.3,164.77,164.73,0
+ahatam#01.3Guitar_samples_3D_OG.wav,ahatam,2.99,3604.109,Y,300,299,Y,gamaka-type,,ahatam,329.3,164.77,164.72,-1
+ahatam#01.5Guitar_samples_3D_OG.wav,ahatam,2.81,3607.812,Y,282,281,Y,gamaka-type,,ahatam,329.3,164.77,164.74,0
+ahatam#01.7Guitar_samples_3D_OG.wav,ahatam,2.6,3611.896,Y,261,260,Y,gamaka-type,,ahatam,329.3,164.77,164.85,1
+ahatam#01.9Guitar_samples_3D_OG.wav,ahatam,2.65,3614.979,Y,265,265,Y,gamaka-type,,ahatam,329.3,164.77,164.81,0
+andolita (shankrabarnam)_1Guitar_samples_3D_OG.wav,andolita (shankrabarnam),2.52,3602.042,Y,253,252,Y,raga,Shankarabharanam,andolita,329.3,248.82,208.97,-302
+andolita (shankrabarnam)_2Guitar_samples_3D_OG.wav,andolita (shankrabarnam),2.65,3604.562,Y,265,265,Y,raga,Shankarabharanam,andolita,329.3,248.82,209.46,-298
+andolita (shankrabarnam)_3Guitar_samples_3D_OG.wav,andolita (shankrabarnam),2.29,3607.208,Y,230,229,Y,raga,Shankarabharanam,andolita,329.3,248.82,208.87,-303
+andolita (shankrabarnam)_4Guitar_samples_3D_OG.wav,andolita (shankrabarnam),2.97,3612.785,Y,297,297,Y,raga,Shankarabharanam,andolita,329.3,248.82,248.84,0
+andolita (shankrabarnam)_5Guitar_samples_3D_OG.wav,andolita (shankrabarnam),2.67,3615.75,Y,267,267,Y,raga,Shankarabharanam,andolita,329.3,248.82,248.81,0
+andolita (shankrabarnam)_6Guitar_samples_3D_OG.wav,andolita (shankrabarnam),3.15,3618.417,Y,315,315,Y,raga,Shankarabharanam,andolita,329.3,248.82,248.81,0
+Jaru_asc_1Guitar_samples_3D_OG.wav,Jaru_asc [take A],3.25,3600.0,Y,326,325,Y,gamaka-type,,jaru,329.3,328.2,328.44,1
+Jaru_asc_1Guitar_samples_3D_OG_1.wav,Jaru_asc [take B],4.0,3604.5,Y,401,400,Y,gamaka-type,,jaru,329.3,371.96,418.17,203
+Jaru_asc_2Guitar_samples_3D_OG.wav,Jaru_asc [take A],2.75,3603.5,Y,276,275,Y,gamaka-type,,jaru,329.3,328.2,327.69,-3
+Jaru_asc_2Guitar_samples_3D_OG_1.wav,Jaru_asc [take B],2.75,3608.5,Y,276,275,Y,gamaka-type,,jaru,329.3,371.96,415.27,191
+Jaru_asc_3Guitar_samples_3D_OG.wav,Jaru_asc [take A],2.75,3607.0,Y,276,275,Y,gamaka-type,,jaru,329.3,328.2,328.15,0
+Jaru_asc_3Guitar_samples_3D_OG_1.wav,Jaru_asc [take B],2.0,3611.25,Y,201,200,Y,gamaka-type,,jaru,329.3,371.96,424.07,227
+Jaru_asc_4Guitar_samples_3D_OG.wav,Jaru_asc [take A],1.58,3610.75,Y,159,158,Y,gamaka-type,,jaru,329.3,328.2,328.34,1
+Jaru_asc_4Guitar_samples_3D_OG_1.wav,Jaru_asc [take B],1.62,3613.25,Y,163,162,Y,gamaka-type,,jaru,329.3,371.96,369.7,-11
+Jaru_asc_5Guitar_samples_3D_OG.wav,Jaru_asc [take A],1.67,3612.333,Y,167,167,Y,gamaka-type,,jaru,329.3,328.2,327.66,-3
+Jaru_asc_5Guitar_samples_3D_OG_1.wav,Jaru_asc [take B],1.5,3614.875,Y,151,150,Y,gamaka-type,,jaru,329.3,371.96,418.67,205
+Jaru_asc_6Guitar_samples_3D_OG.wav,Jaru_asc [take A],2.23,3614.0,Y,223,223,Y,gamaka-type,,jaru,329.3,328.2,328.47,1
+Jaru_asc_6Guitar_samples_3D_OG_1.wav,Jaru_asc [take B],1.88,3616.375,Y,188,188,Y,gamaka-type,,jaru,329.3,371.96,372.11,1
+Jaru_desc_1_melganaGuitar_samples_3D_OG.wav,Jaru_desc_melgana,2.12,3604.0,Y,213,212,Y,unclear,'melgana'?,jaru,329.3,208.51,208.59,1
+Jaru_desc_2_melganaGuitar_samples_3D_OG.wav,Jaru_desc_melgana,1.62,3607.125,Y,163,162,Y,unclear,'melgana'?,jaru,329.3,208.51,208.43,-1
+Jaru_desc_3_melganaGuitar_samples_3D_OG.wav,Jaru_desc_melgana,1.5,3609.0,Y,151,150,Y,unclear,'melgana'?,jaru,329.3,208.51,330.33,797
+Jaru_desc_4_melganaGuitar_samples_3D_OG.wav,Jaru_desc_melgana,0.62,3611.25,Y,63,62,Y,unclear,'melgana'?,jaru,329.3,208.51,208.19,-3
+Jaru_desc_5_melganaGuitar_samples_3D_OG.wav,Jaru_desc_melgana,1.12,3612.5,Y,113,112,Y,unclear,'melgana'?,jaru,329.3,208.51,330.45,797
+Jaru_desc_6_melganaGuitar_samples_3D_OG.wav,Jaru_desc_melgana,1.12,3615.0,Y,113,112,Y,unclear,'melgana'?,jaru,329.3,208.51,329.98,795
+Jaru_desc_shankravarnam_1Guitar_samples_3D_OG.wav,Jaru_desc_shankravarnam,2.75,3603.75,Y,276,275,Y,raga,Shankarabharanam,jaru,329.3,208.06,208.43,3
+Jaru_desc_shankravarnam_2Guitar_samples_3D_OG.wav,Jaru_desc_shankravarnam,2.0,3606.5,Y,201,200,Y,raga,Shankarabharanam,jaru,329.3,208.06,207.86,-2
+Jaru_desc_shankravarnam_3Guitar_samples_3D_OG.wav,Jaru_desc_shankravarnam,3.5,3609.0,Y,351,350,Y,raga,Shankarabharanam,jaru,329.3,208.06,329.02,793
+Jaru_desc_shankravarnam_4Guitar_samples_3D_OG.wav,Jaru_desc_shankravarnam,1.38,3612.5,Y,138,138,Y,raga,Shankarabharanam,jaru,329.3,208.06,208.03,0
+Jaru_desc_shankravarnam_5Guitar_samples_3D_OG.wav,Jaru_desc_shankravarnam,1.25,3613.875,Y,126,125,Y,raga,Shankarabharanam,jaru,329.3,208.06,208.4,3
+Jaru_desc_shankravarnam_6Guitar_samples_3D_OG.wav,Jaru_desc_shankravarnam,1.75,3615.125,Y,176,175,Y,raga,Shankarabharanam,jaru,329.3,208.06,208.29,2
+Kampita (leena)#01.10Guitar_samples_3D_OG.wav,Kampita (leena),1.96,3630.042,Y,196,196,Y,gamaka-type,,kampita,329.3,247.12,312.76,408
+Kampita (leena)#01.11Guitar_samples_3D_OG.wav,Kampita (leena),1.49,3632.0,Y,150,149,Y,gamaka-type,,kampita,329.3,247.12,325.27,476
+Kampita (leena)#01.1Guitar_samples_3D_OG.wav,Kampita (leena),3.03,3604.625,Y,304,303,Y,gamaka-type,,kampita,329.3,247.12,246.92,-1
+Kampita (leena)#01.2Guitar_samples_3D_OG.wav,Kampita (leena),2.84,3607.655,Y,285,284,Y,gamaka-type,,kampita,329.3,247.12,247.18,0
+Kampita (leena)#01.3Guitar_samples_3D_OG.wav,Kampita (leena),3.06,3610.5,Y,307,306,Y,gamaka-type,,kampita,329.3,247.12,247.27,1
+Kampita (leena)#01.4Guitar_samples_3D_OG.wav,Kampita (leena),3.03,3614.346,Y,303,303,Y,gamaka-type,,kampita,329.3,247.12,246.77,-2
+Kampita (leena)#01.5Guitar_samples_3D_OG.wav,Kampita (leena),3.0,3617.375,Y,301,300,Y,gamaka-type,,kampita,329.3,247.12,247.41,2
+Kampita (leena)#01.6Guitar_samples_3D_OG.wav,Kampita (leena),2.27,3621.326,Y,227,227,Y,gamaka-type,,kampita,329.3,247.12,328.97,495
+Kampita (leena)#01.7Guitar_samples_3D_OG.wav,Kampita (leena),2.2,3623.594,Y,220,220,Y,gamaka-type,,kampita,329.3,247.12,327.2,486
+Kampita (leena)#01.8Guitar_samples_3D_OG.wav,Kampita (leena),2.12,3625.792,Y,213,212,Y,gamaka-type,,kampita,329.3,247.12,328.52,493
+Kampita (leena)#01.9Guitar_samples_3D_OG.wav,Kampita (leena),2.12,3627.917,Y,213,212,Y,gamaka-type,,kampita,329.3,247.12,327.16,486
+Kampita (plavita) bhairiga#03.1Guitar_samples_3D_OG.wav,Kampita (plavita) bhairiga,2.9,3619.354,Y,290,290,Y,unclear,'bhairiga'?,kampita,329.3,277.02,276.92,-1
+Kampita (plavita) bhairiga#03.2Guitar_samples_3D_OG.wav,Kampita (plavita) bhairiga,3.08,3622.25,Y,309,308,Y,unclear,'bhairiga'?,kampita,329.3,277.02,277.14,1
+Kampita (plavita) bhairiga#03.3Guitar_samples_3D_OG.wav,Kampita (plavita) bhairiga,2.25,3625.333,Y,226,225,Y,unclear,'bhairiga'?,kampita,329.3,277.02,277.08,0
+Kampita (plavita) bhairiga#03.4Guitar_samples_3D_OG.wav,Kampita (plavita) bhairiga,2.42,3627.583,Y,242,242,Y,unclear,'bhairiga'?,kampita,329.3,277.02,276.94,-1
+Kampita (plavita)#02.1Guitar_samples_3D_OG.wav,Kampita (plavita),3.92,3606.458,Y,392,392,Y,gamaka-type,,kampita,329.3,186.4,186.42,0
+Kampita (plavita)#02.2Guitar_samples_3D_OG.wav,Kampita (plavita),5.59,3610.375,Y,560,559,Y,gamaka-type,,kampita,329.3,186.4,61.85,-1910
+Kampita (plavita)#02.3Guitar_samples_3D_OG.wav,Kampita (plavita),4.04,3602.417,Y,405,404,Y,gamaka-type,,kampita,329.3,186.4,186.26,-1
+Kampita(plavitam) todi#01.1Guitar_samples_3D_OG.wav,Kampita(plavitam) todi,2.43,3602.5,Y,243,243,Y,raga,Todi,kampita,329.3,262.01,186.54,-588
+Kampita(plavitam) todi#01.2Guitar_samples_3D_OG.wav,Kampita(plavitam) todi,2.2,3604.929,Y,220,220,Y,raga,Todi,kampita,329.3,262.01,220.45,-299
+Kampita(plavitam) todi#01.3Guitar_samples_3D_OG.wav,Kampita(plavitam) todi,1.98,3607.125,Y,198,198,Y,raga,Todi,kampita,329.3,262.01,217.85,-320
+Kampita(plavitam) todi#03.1Guitar_samples_3D_OG.wav,Kampita(plavitam) todi,1.87,3612.438,Y,187,187,Y,raga,Todi,kampita,329.3,262.01,81.38,-2024
+Kampita(plavitam) todi#03.2Guitar_samples_3D_OG.wav,Kampita(plavitam) todi,1.86,3614.303,Y,187,186,Y,raga,Todi,kampita,329.3,262.01,331.83,409
+Kampita(plavitam) todi#03.3Guitar_samples_3D_OG.wav,Kampita(plavitam) todi,2.24,3616.167,Y,224,224,Y,raga,Todi,kampita,329.3,262.01,262.68,4
+Kampita(plavitam) todi#03.4Guitar_samples_3D_OG.wav,Kampita(plavitam) todi,2.1,3618.403,Y,210,210,Y,raga,Todi,kampita,329.3,262.01,330.42,402
+Kampita(plavitam) todi#03Guitar_samples_3D_OG.wav,Kampita(plavitam) todi,1.44,3611.0,Y,144,144,Y,raga,Todi,kampita,329.3,262.01,82.12,-2009
+kandippu#02.2Guitar_samples_3D_OG.wav,kandippu,0.88,3605.583,Y,88,88,Y,gamaka-type,,kandippu,329.3,330.45,332.62,11
+kandippu#02Guitar_samples_3D_OG.wav,kandippu,1.97,3600.0,Y,197,197,Y,gamaka-type,,kandippu,329.3,330.45,330.45,0
+kandippu#03.1Guitar_samples_3D_OG.wav,kandippu,1.07,3606.771,Y,108,108,Y,gamaka-type,,kandippu,329.3,330.45,330.53,0
+kandippu#03.3Guitar_samples_3D_OG.wav,kandippu,0.73,3608.146,Y,73,73,Y,gamaka-type,,kandippu,329.3,330.45,330.77,2
+kandippu#06.1Guitar_samples_3D_OG.wav,kandippu,0.85,3609.167,Y,86,85,Y,gamaka-type,,kandippu,329.3,330.45,330.03,-2
+namitam ( begada)_1Guitar_samples_3D_OG.wav,namitam ( begada),3.31,3602.25,Y,332,331,Y,raga,Begada,namitam,329.3,329.2,329.13,0
+namitam ( begada)_2Guitar_samples_3D_OG.wav,namitam ( begada),2.94,3605.562,Y,294,294,Y,raga,Begada,namitam,329.3,329.2,328.93,-1
+namitam ( begada)_3Guitar_samples_3D_OG.wav,namitam ( begada),2.81,3608.5,Y,282,281,Y,raga,Begada,namitam,329.3,329.2,329.27,0
+namitam ( begada)_4Guitar_samples_3D_OG.wav,namitam ( begada),2.56,3611.312,Y,257,256,Y,raga,Begada,namitam,329.3,329.2,329.53,2
+namitam ( begada)_5Guitar_samples_3D_OG.wav,namitam ( begada),2.58,3613.875,Y,259,258,Y,raga,Begada,namitam,329.3,329.2,329.77,3
+nokku_10Guitar_samples_3D_OG.wav,nokku,1.3,3614.487,Y,131,130,Y,gamaka-type,,nokku,329.3,329.81,329.64,-1
+nokku_11Guitar_samples_3D_OG.wav,nokku,1.26,3615.792,Y,127,126,Y,gamaka-type,,nokku,329.3,329.81,221.2,-692
+nokku_12Guitar_samples_3D_OG.wav,nokku,1.29,3617.054,Y,130,129,Y,gamaka-type,,nokku,329.3,329.81,330.35,3
+nokku_13Guitar_samples_3D_OG.wav,nokku,0.63,3618.347,Y,64,63,Y,gamaka-type,,nokku,329.3,329.81,220.09,-700
+nokku_14Guitar_samples_3D_OG.wav,nokku,0.75,3618.979,Y,76,75,Y,gamaka-type,,nokku,329.3,329.81,330.08,1
+nokku_1Guitar_samples_3D_OG.wav,nokku,1.41,3603.104,Y,142,141,Y,gamaka-type,,nokku,329.3,329.81,221.44,-690
+nokku_2Guitar_samples_3D_OG.wav,nokku,1.43,3604.515,Y,143,143,Y,gamaka-type,,nokku,329.3,329.81,329.57,-1
+nokku_3Guitar_samples_3D_OG.wav,nokku,0.68,3605.944,Y,69,68,Y,gamaka-type,,nokku,329.3,329.81,221.58,-689
+nokku_4Guitar_samples_3D_OG.wav,nokku,1.24,3606.625,Y,124,124,Y,gamaka-type,,nokku,329.3,329.81,329.84,0
+nokku_5Guitar_samples_3D_OG.wav,nokku,1.27,3608.958,Y,128,127,Y,gamaka-type,,nokku,329.3,329.81,220.94,-694
+nokku_6Guitar_samples_3D_OG.wav,nokku,1.41,3610.229,Y,141,141,Y,gamaka-type,,nokku,329.3,329.81,330.36,3
+nokku_7Guitar_samples_3D_OG.wav,nokku,0.65,3611.637,Y,66,65,Y,gamaka-type,,nokku,329.3,329.81,220.73,-695
+nokku_7Guitar_samples_3D_OG_1.wav,nokku,1.1,3612.292,Y,110,110,Y,gamaka-type,,nokku,329.3,329.81,328.91,-5
+nokku_9Guitar_samples_3D_OG.wav,nokku,1.1,3613.39,Y,110,110,Y,gamaka-type,,nokku,329.3,329.81,220.75,-695
+odukkul (kambhoji) pa dha sa_!Guitar_samples_3D_OG.wav,odukkul (kambhoji) pa dha sa,4.38,3602.125,Y,438,438,Y,raga,Kambhoji,odukkul,329.3,329.54,329.48,0
+odukkul (kambhoji) pa dha sa_2Guitar_samples_3D_OG.wav,odukkul (kambhoji) pa dha sa,4.38,3606.5,Y,438,438,Y,raga,Kambhoji,odukkul,329.3,329.54,330.36,4
+odukkul (kambhoji) pa dha sa_3Guitar_samples_3D_OG.wav,odukkul (kambhoji) pa dha sa,3.94,3610.875,Y,394,394,Y,raga,Kambhoji,odukkul,329.3,329.54,249.6,-481
+odukkul (kambhoji) pa dha sa_4Guitar_samples_3D_OG.wav,odukkul (kambhoji) pa dha sa,4.5,3614.812,Y,451,450,Y,raga,Kambhoji,odukkul,329.3,329.54,328.66,-5
+odukkul (kambhoji) pa dha sa_5Guitar_samples_3D_OG.wav,odukkul (kambhoji) pa dha sa,4.19,3619.312,Y,419,419,Y,raga,Kambhoji,odukkul,329.3,329.54,249.2,-484
+orikai (sudhsaveri)_!Guitar_samples_3D_OG.wav,orikai (sudhsaveri),1.91,3601.944,Y,191,191,Y,raga,Shuddha Saveri,orikai,329.3,277.87,278.21,2
+orikai (sudhsaveri)_2Guitar_samples_3D_OG.wav,orikai (sudhsaveri),2.4,3603.854,Y,240,240,Y,raga,Shuddha Saveri,orikai,329.3,277.87,277.64,-1
+orikai (sudhsaveri)_3Guitar_samples_3D_OG.wav,orikai (sudhsaveri),1.29,3606.25,Y,129,129,Y,raga,Shuddha Saveri,orikai,329.3,277.87,277.8,0
+orikai (sudhsaveri)_4Guitar_samples_3D_OG.wav,orikai (sudhsaveri),1.46,3607.536,Y,147,146,Y,raga,Shuddha Saveri,orikai,329.3,277.87,186.8,-688
+orikai (sudhsaveri)_5Guitar_samples_3D_OG.wav,orikai (sudhsaveri),1.64,3614.3,Y,164,164,Y,raga,Shuddha Saveri,orikai,329.3,277.87,278.34,3
+orikai (sudhsaveri)_6Guitar_samples_3D_OG.wav,orikai (sudhsaveri),1.2,3617.468,Y,120,120,Y,raga,Shuddha Saveri,orikai,329.3,277.87,277.98,1
+orikai (sudhsaveri)_7Guitar_samples_3D_OG.wav,orikai (sudhsaveri),1.16,3619.125,Y,117,116,Y,raga,Shuddha Saveri,orikai,329.3,277.87,277.72,-1
+orikai (sudhsaveri)_8Guitar_samples_3D_OG.wav,orikai (sudhsaveri),0.99,3620.677,Y,100,99,Y,raga,Shuddha Saveri,orikai,329.3,277.87,277.66,-1
+orikai (sudhsaveri)_9Guitar_samples_3D_OG.wav,orikai (sudhsaveri),1.22,3622.074,Y,122,122,Y,raga,Shuddha Saveri,orikai,329.3,277.87,277.61,-2
+pratayagata (hindola)_10Guitar_samples_3D_OG.wav,pratayagata (hindola),0.79,3614.188,Y,80,79,Y,raga,Hindolam,pratayagata,329.3,330.98,197.34,-895
+pratayagata (hindola)_11Guitar_samples_3D_OG.wav,pratayagata (hindola),1.12,3618.942,Y,113,112,Y,raga,Hindolam,pratayagata,329.3,330.98,330.96,0
+pratayagata (hindola)_12Guitar_samples_3D_OG.wav,pratayagata (hindola),0.76,3620.066,Y,77,76,Y,raga,Hindolam,pratayagata,329.3,330.98,295.44,-197
+pratayagata (hindola)_13Guitar_samples_3D_OG.wav,pratayagata (hindola),0.79,3620.83,Y,80,79,Y,raga,Hindolam,pratayagata,329.3,330.98,263.67,-394
+pratayagata (hindola)_14Guitar_samples_3D_OG.wav,pratayagata (hindola),0.78,3621.625,Y,78,78,Y,raga,Hindolam,pratayagata,329.3,330.98,221.12,-698
+pratayagata (hindola)_15Guitar_samples_3D_OG.wav,pratayagata (hindola),0.7,3622.4,Y,71,70,Y,raga,Hindolam,pratayagata,329.3,330.98,197.54,-894
+pratayagata (hindola)_16Guitar_samples_3D_OG.wav,pratayagata (hindola),0.9,3623.104,Y,90,90,Y,raga,Hindolam,pratayagata,329.3,330.98,164.83,-1207
+pratayagata (hindola)_1Guitar_samples_3D_OG.wav,pratayagata (hindola),0.84,3602.844,Y,85,84,Y,raga,Hindolam,pratayagata,329.3,330.98,332.01,5
+pratayagata (hindola)_2Guitar_samples_3D_OG.wav,pratayagata (hindola),0.77,3603.688,Y,78,77,Y,raga,Hindolam,pratayagata,329.3,330.98,295.99,-193
+pratayagata (hindola)_3Guitar_samples_3D_OG.wav,pratayagata (hindola),0.79,3604.458,Y,80,79,Y,raga,Hindolam,pratayagata,329.3,330.98,263.45,-395
+pratayagata (hindola)_4Guitar_samples_3D_OG.wav,pratayagata (hindola),0.83,3605.25,Y,84,83,Y,raga,Hindolam,pratayagata,329.3,330.98,221.65,-694
+pratayagata (hindola)_5Guitar_samples_3D_OG.wav,pratayagata (hindola),0.83,3606.083,Y,84,83,Y,raga,Hindolam,pratayagata,329.3,330.98,197.78,-891
+pratayagata (hindola)_6Guitar_samples_3D_OG.wav,pratayagata (hindola),0.85,3611.0,Y,86,85,Y,raga,Hindolam,pratayagata,329.3,330.98,331.09,1
+pratayagata (hindola)_7Guitar_samples_3D_OG.wav,pratayagata (hindola),0.78,3611.854,Y,79,78,Y,raga,Hindolam,pratayagata,329.3,330.98,295.33,-197
+pratayagata (hindola)_8Guitar_samples_3D_OG.wav,pratayagata (hindola),0.8,3612.636,Y,81,80,Y,raga,Hindolam,pratayagata,329.3,330.98,263.57,-394
+pratayagata (hindola)_9Guitar_samples_3D_OG.wav,pratayagata (hindola),0.75,3613.438,Y,76,75,Y,raga,Hindolam,pratayagata,329.3,330.98,221.24,-697
+pratayagata (hindola)_continuous_2Guitar_samples_3D_OG.wav,pratayagata (hindola),2.28,3615.761,Y,229,228,Y,raga,Hindolam,pratayagata,329.3,330.98,330.09,-5
+pratayagata (hindola)_continuous_3Guitar_samples_3D_OG.wav,pratayagata (hindola),2.38,3624.0,Y,238,238,Y,raga,Hindolam,pratayagata,329.3,330.98,330.25,-4
+pratayagata (hindola)_continuousGuitar_samples_3D_OG.wav,pratayagata (hindola),2.35,3608.312,Y,236,235,Y,raga,Hindolam,pratayagata,329.3,330.98,330.3,-4
+pratyagata (amritvarshini)#01.14Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),2.48,3617.229,Y,249,248,Y,raga,Amritavarshini,pratyagata,329.3,208.5,207.95,-5
+pratyagata (amritvarshini)_10Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),1.11,3615.806,Y,112,111,Y,raga,Amritavarshini,pratyagata,329.3,208.5,208.71,2
+pratyagata (amritvarshini)_1Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),1.18,3602.5,Y,119,118,Y,raga,Amritavarshini,pratyagata,329.3,208.5,331.76,804
+pratyagata (amritvarshini)_2Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),0.88,3603.684,Y,88,88,Y,raga,Amritavarshini,pratyagata,329.3,208.5,313.55,706
+pratyagata (amritvarshini)_3Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),0.88,3604.562,Y,88,88,Y,raga,Amritavarshini,pratyagata,329.3,208.5,249.71,312
+pratyagata (amritvarshini)_4Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),0.9,3605.438,Y,90,90,Y,raga,Amritavarshini,pratyagata,329.3,208.5,235.28,209
+pratyagata (amritvarshini)_5Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),1.35,3606.333,Y,136,135,Y,raga,Amritavarshini,pratyagata,329.3,208.5,208.76,2
+pratyagata (amritvarshini)_6Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),0.85,3612.458,Y,86,85,Y,raga,Amritavarshini,pratyagata,329.3,208.5,331.47,803
+pratyagata (amritvarshini)_7Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),0.86,3613.312,Y,86,86,Y,raga,Amritavarshini,pratyagata,329.3,208.5,312.84,702
+pratyagata (amritvarshini)_8Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),0.84,3614.172,Y,85,84,Y,raga,Amritavarshini,pratyagata,329.3,208.5,249.91,314
+pratyagata (amritvarshini)_9Guitar_samples_3D_OG.wav,pratyagata (amritvarshini),0.79,3615.017,Y,79,79,Y,raga,Amritavarshini,pratyagata,329.3,208.5,235.37,210
+pratyagata (amritvarshini)_continuousGuitar_samples_3D_OG.wav,pratyagata (amritvarshini),2.41,3609.155,Y,242,241,Y,raga,Amritavarshini,pratyagata,329.3,208.5,208.35,-1
+ravai (kalapriya)_!2Guitar_samples_3D_OG.wav,ravai (kalapriya),0.98,3613.899,Y,98,98,Y,unclear,'kalapriya'?,ravai,329.3,332.71,279.12,-304
+ravai (kalapriya)_11Guitar_samples_3D_OG.wav,ravai (kalapriya),0.8,3613.104,Y,80,80,Y,unclear,'kalapriya'?,ravai,329.3,332.71,296.84,-197
+ravai (kalapriya)_1Guitar_samples_3D_OG.wav,ravai (kalapriya),0.82,3602.625,Y,83,82,Y,unclear,'kalapriya'?,ravai,329.3,332.71,376.92,216
+ravai (kalapriya)_2Guitar_samples_3D_OG.wav,ravai (kalapriya),0.77,3603.45,Y,78,77,Y,unclear,'kalapriya'?,ravai,329.3,332.71,333.62,5
+ravai (kalapriya)_3Guitar_samples_3D_OG.wav,ravai (kalapriya),0.79,3604.223,Y,79,79,Y,unclear,'kalapriya'?,ravai,329.3,332.71,296.8,-198
+ravai (kalapriya)_4Guitar_samples_3D_OG.wav,ravai (kalapriya),0.81,3605.009,Y,82,81,Y,unclear,'kalapriya'?,ravai,329.3,332.71,248.89,-503
+ravai (kalapriya)_5Guitar_samples_3D_OG.wav,ravai (kalapriya),0.8,3606.738,Y,81,80,Y,unclear,'kalapriya'?,ravai,329.3,332.71,331.64,-6
+ravai (kalapriya)_6Guitar_samples_3D_OG.wav,ravai (kalapriya),0.78,3607.542,Y,78,78,Y,unclear,'kalapriya'?,ravai,329.3,332.71,333.12,2
+ravai (kalapriya)_7Guitar_samples_3D_OG.wav,ravai (kalapriya),0.8,3608.317,Y,80,80,Y,unclear,'kalapriya'?,ravai,329.3,332.71,297.21,-195
+ravai (kalapriya)_8Guitar_samples_3D_OG.wav,ravai (kalapriya),0.88,3609.116,Y,89,88,Y,unclear,'kalapriya'?,ravai,329.3,332.71,249.53,-498
+ravai (kalapriya)_9Guitar_samples_3D_OG.wav,ravai (kalapriya),0.79,3611.534,Y,79,79,Y,unclear,'kalapriya'?,ravai,329.3,332.71,331.62,-6
+ravai (kalapriya)Guitar_samples_3D_OG.wav,ravai (kalapriya),0.78,3612.322,Y,79,78,Y,unclear,'kalapriya'?,ravai,329.3,332.71,332.97,1
+ravai (mayamolagolav)_10Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.77,3612.956,Y,77,77,Y,raga,Mayamalavagowla,ravai,329.3,314.1,314.57,3
+ravai (mayamolagolav)_11Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.78,3613.722,Y,78,78,Y,raga,Mayamalavagowla,ravai,329.3,314.1,265.85,-289
+ravai (mayamolagolav)_12Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.89,3614.5,Y,89,89,Y,raga,Mayamalavagowla,ravai,329.3,314.1,252.05,-381
+ravai (mayamolagolav)_1Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.81,3603.051,Y,81,81,Y,raga,Mayamalavagowla,ravai,329.3,314.1,333.88,106
+ravai (mayamolagolav)_2Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.8,3603.857,Y,81,80,Y,raga,Mayamalavagowla,ravai,329.3,314.1,314.88,4
+ravai (mayamolagolav)_3Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.8,3604.661,Y,80,80,Y,raga,Mayamalavagowla,ravai,329.3,314.1,265.36,-292
+ravai (mayamolagolav)_4Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.94,3605.458,Y,95,94,Y,raga,Mayamalavagowla,ravai,329.3,314.1,251.48,-385
+ravai (mayamolagolav)_5Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.81,3607.531,Y,81,81,Y,raga,Mayamalavagowla,ravai,329.3,314.1,333.66,105
+ravai (mayamolagolav)_6Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.81,3608.339,Y,81,81,Y,raga,Mayamalavagowla,ravai,329.3,314.1,315.37,7
+ravai (mayamolagolav)_7Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.79,3609.146,Y,79,79,Y,raga,Mayamalavagowla,ravai,329.3,314.1,265.68,-290
+ravai (mayamolagolav)_8Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.84,3609.935,Y,84,84,Y,raga,Mayamalavagowla,ravai,329.3,314.1,251.8,-383
+ravai (mayamolagolav)_9Guitar_samples_3D_OG.wav,ravai (mayamolagolav),0.81,3612.15,Y,81,81,Y,raga,Mayamalavagowla,ravai,329.3,314.1,332.72,100
+ravai#02.10Guitar_samples_3D_OG.wav,ravai,0.81,3614.544,Y,81,81,Y,gamaka-type,,ravai,329.3,331.1,278.61,-299
+ravai#02.11Guitar_samples_3D_OG.wav,ravai,1.5,3615.35,Y,151,150,Y,gamaka-type,,ravai,329.3,331.1,250.15,-485
+ravai#02.1Guitar_samples_3D_OG.wav,ravai,1.44,3602.975,Y,145,144,Y,gamaka-type,,ravai,329.3,331.1,250.4,-484
+ravai#02.2Guitar_samples_3D_OG.wav,ravai,1.73,3604.419,Y,174,173,Y,gamaka-type,,ravai,329.3,331.1,329.57,-8
+ravai#02.3Guitar_samples_3D_OG.wav,ravai,1.39,3606.151,Y,139,139,Y,gamaka-type,,ravai,329.3,331.1,250.84,-481
+ravai#02.4Guitar_samples_3D_OG.wav,ravai,1.43,3607.536,Y,143,143,Y,gamaka-type,,ravai,329.3,331.1,332.41,7
+ravai#02.5Guitar_samples_3D_OG.wav,ravai,1.33,3608.964,Y,133,133,Y,gamaka-type,,ravai,329.3,331.1,250.49,-483
+ravai#02.6Guitar_samples_3D_OG.wav,ravai,1.83,3610.292,Y,184,183,Y,gamaka-type,,ravai,329.3,331.1,331.16,0
+ravai#02.7Guitar_samples_3D_OG.wav,ravai,0.83,3612.125,Y,83,83,Y,gamaka-type,,ravai,329.3,331.1,331.53,2
+ravai#02.8Guitar_samples_3D_OG.wav,ravai,0.82,3612.953,Y,82,82,Y,gamaka-type,,ravai,329.3,331.1,332.09,5
+ravai#02.9Guitar_samples_3D_OG.wav,ravai,0.77,3613.771,Y,78,77,Y,gamaka-type,,ravai,329.3,331.1,296.3,-192
+Sphuritam (kanahalpriya) _1Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.85,3603.542,Y,86,85,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,248.8,-491
+Sphuritam (kanahalpriya) _6Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.8,3607.75,Y,81,80,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,393.33,302
+Sphuritam (kanahalpriya) _8Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.39,3610.268,Y,39,39,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,249.4,-487
+Sphuritam (kanahalpriya)_ continuous_7Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),2.75,3620.416,Y,276,275,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,442.7,506
+Sphuritam (kanahalpriya)_10Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.4,3611.039,Y,41,40,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,296.04,-190
+Sphuritam (kanahalpriya)_11Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.37,3611.441,Y,38,37,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,330.34,0
+Sphuritam (kanahalpriya)_12Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.41,3611.812,Y,41,41,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,374.07,215
+Sphuritam (kanahalpriya)_13Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.38,3612.219,Y,39,38,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,393.6,303
+Sphuritam (kanahalpriya)_14Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.46,3612.6,Y,47,46,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,442.8,507
+Sphuritam (kanahalpriya)_15Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.81,3613.842,Y,81,81,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,247.99,-497
+Sphuritam (kanahalpriya)_16Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.83,3614.65,Y,83,83,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,277.31,-303
+Sphuritam (kanahalpriya)_17Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.83,3615.476,Y,83,83,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,295.05,-196
+Sphuritam (kanahalpriya)_18Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.82,3616.305,Y,82,82,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,330.37,0
+Sphuritam (kanahalpriya)_19Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.82,3617.125,Y,83,82,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,371.67,204
+Sphuritam (kanahalpriya)_20Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.83,3617.948,Y,83,83,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,393.59,303
+Sphuritam (kanahalpriya)_21Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.69,3618.775,Y,70,69,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,441.63,502
+Sphuritam (kanahalpriya)_2Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.84,3604.396,Y,84,84,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,277.47,-302
+Sphuritam (kanahalpriya)_3Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.84,3605.234,Y,84,84,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,294.61,-199
+Sphuritam (kanahalpriya)_4Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.82,3606.072,Y,83,82,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,330.27,-1
+Sphuritam (kanahalpriya)_5Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.85,3606.896,Y,86,85,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,372.12,206
+Sphuritam (kanahalpriya)_7Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.73,3608.553,Y,73,73,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,442.25,505
+Sphuritam (kanahalpriya)_9Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),0.39,3610.653,Y,39,39,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,277.41,-303
+Sphuritam (kanahalpriya)_continuous_7_2 Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),5.62,3623.625,Y,563,562,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,330.56,1
+Sphuritam (kanahalpriya)_continuous_7_3Guitar_samples_3D_OG.wav,Sphuritam (kanahalpriya),2.85,3630.125,Y,285,285,Y,raga,Kharaharapriya,sphuritam,329.3,330.41,444.87,515
+Sphutitam#01Guitar_samples_3D_OG.wav,Sphutitam,35.41,3600.0,Y,3541,3541,Y,gamaka-type,,sphutitam,329.3,329.16,329.16,0
+tribhinna_!2Guitar_samples_3D_OG.wav,tribhinna,0.86,3612.051,Y,86,86,Y,gamaka-type,,tribhinna,329.3,222.38,209.52,-103
+tribhinna_!5Guitar_samples_3D_OG.wav,tribhinna,0.65,3614.221,Y,66,65,Y,gamaka-type,,tribhinna,329.3,222.38,220.54,-14
+tribhinna_10Guitar_samples_3D_OG.wav,tribhinna,0.8,3610.417,Y,81,80,Y,gamaka-type,,tribhinna,329.3,222.38,209.5,-103
+tribhinna_11Guitar_samples_3D_OG.wav,tribhinna,0.83,3611.218,Y,84,83,Y,gamaka-type,,tribhinna,329.3,222.38,158.12,-590
+tribhinna_13Guitar_samples_3D_OG.wav,tribhinna,0.68,3612.908,Y,68,68,Y,gamaka-type,,tribhinna,329.3,222.38,185.89,-310
+tribhinna_14Guitar_samples_3D_OG.wav,tribhinna,0.64,3613.583,Y,64,64,Y,gamaka-type,,tribhinna,329.3,222.38,208.05,-115
+tribhinna_16Guitar_samples_3D_OG.wav,tribhinna,1.18,3614.875,Y,118,118,Y,gamaka-type,,tribhinna,329.3,222.38,61.8,-2217
+tribhinna_1Guitar_samples_3D_OG.wav,tribhinna,0.92,3602.875,Y,92,92,Y,gamaka-type,,tribhinna,329.3,222.38,247.89,188
+tribhinna_2Guitar_samples_3D_OG.wav,tribhinna,0.81,3603.792,Y,82,81,Y,gamaka-type,,tribhinna,329.3,222.38,247.99,189
+tribhinna_3Guitar_samples_3D_OG.wav,tribhinna,0.88,3604.604,Y,88,88,Y,gamaka-type,,tribhinna,329.3,222.38,248.62,193
+tribhinna_4Guitar_samples_3D_OG.wav,tribhinna,0.82,3605.479,Y,82,82,Y,gamaka-type,,tribhinna,329.3,222.38,62.28,-2203
+tribhinna_5Guitar_samples_3D_OG.wav,tribhinna,0.81,3606.297,Y,81,81,Y,gamaka-type,,tribhinna,329.3,222.38,222.13,-2
+tribhinna_6Guitar_samples_3D_OG.wav,tribhinna,0.81,3607.104,Y,82,81,Y,gamaka-type,,tribhinna,329.3,222.38,222.68,2
+tribhinna_7Guitar_samples_3D_OG.wav,tribhinna,0.83,3607.917,Y,84,83,Y,gamaka-type,,tribhinna,329.3,222.38,222.53,1
+tribhinna_8Guitar_samples_3D_OG.wav,tribhinna,0.84,3608.75,Y,85,84,Y,gamaka-type,,tribhinna,329.3,222.38,223.26,7
+tribhinna_9Guitar_samples_3D_OG.wav,tribhinna,0.82,3609.592,Y,83,82,Y,gamaka-type,,tribhinna,329.3,222.38,158.08,-591
+vali#01.11Guitar_samples_3D_OG.wav,vali,2.17,3614.833,Y,217,217,Y,gamaka-type,,vali,329.3,332.65,249.68,-497
+vali#01.12Guitar_samples_3D_OG.wav,vali,2.0,3617.0,Y,201,200,Y,gamaka-type,,vali,329.3,332.65,249.79,-496
+vali#01.13Guitar_samples_3D_OG.wav,vali,3.04,3619.0,Y,305,304,Y,gamaka-type,,vali,329.3,332.65,331.73,-5
+vali#01.14Guitar_samples_3D_OG.wav,vali,1.42,3622.042,Y,142,142,Y,gamaka-type,,vali,329.3,332.65,333.26,3
+vali#01.15Guitar_samples_3D_OG.wav,vali,1.35,3623.458,Y,136,135,Y,gamaka-type,,vali,329.3,332.65,332.18,-2
+vali#01.16Guitar_samples_3D_OG.wav,vali,1.12,3624.812,Y,113,112,Y,gamaka-type,,vali,329.3,332.65,333.35,4
+vali#01.17Guitar_samples_3D_OG.wav,vali,1.06,3625.938,Y,107,106,Y,gamaka-type,,vali,329.3,332.65,333.07,2
+vali#01.18Guitar_samples_3D_OG.wav,vali,1.61,3627.0,Y,162,161,Y,gamaka-type,,vali,329.3,332.65,333.86,6
+vali#01.1Guitar_samples_3D_OG.wav,vali,1.38,3602.0,Y,138,138,Y,gamaka-type,,vali,329.3,332.65,331.28,-7
+vali#01.2Guitar_samples_3D_OG.wav,vali,1.19,3603.375,Y,119,119,Y,gamaka-type,,vali,329.3,332.65,331.63,-5
+vali#01.3Guitar_samples_3D_OG.wav,vali,1.19,3604.562,Y,119,119,Y,gamaka-type,,vali,329.3,332.65,332.42,-1
+vali#01.4Guitar_samples_3D_OG.wav,vali,1.08,3605.75,Y,109,108,Y,gamaka-type,,vali,329.3,332.65,332.91,1
+vali#01.5Guitar_samples_3D_OG.wav,vali,0.71,3606.833,Y,71,71,Y,gamaka-type,,vali,329.3,332.65,332.66,0
+vali#01.6Guitar_samples_3D_OG.wav,vali,1.58,3608.375,Y,159,158,Y,gamaka-type,,vali,329.3,332.65,250.53,-491
+vali#01.8Guitar_samples_3D_OG.wav,vali,1.58,3609.958,Y,159,158,Y,gamaka-type,,vali,329.3,332.65,249.35,-499
+vali#01.9Guitar_samples_3D_OG.wav,vali,1.46,3611.542,Y,146,146,Y,gamaka-type,,vali,329.3,332.65,250.42,-492

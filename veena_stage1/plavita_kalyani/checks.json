@@ -1,0 +1,90 @@
+{
+ "heldout_branch": {
+  "#02": {
+   "precision": 0.8631452581032413,
+   "recall": 0.9112801013941698,
+   "f1": 0.8865598027127004,
+   "flagged_voiced": 0.6580547112462006
+  },
+  "bhairiga#03": {
+   "precision": 0.9451530612244898,
+   "recall": 0.9673629242819843,
+   "f1": 0.9561290322580646,
+   "flagged_voiced": 0.7845010615711253
+  },
+  "todi#01": {
+   "precision": 0.8957264957264958,
+   "recall": 0.9943074003795066,
+   "f1": 0.9424460431654677,
+   "flagged_voiced": 0.9564541213063764
+  },
+  "todi#03": {
+   "precision": 0.9887459807073955,
+   "recall": 0.9476117103235747,
+   "f1": 0.967741935483871,
+   "flagged_voiced": 0.8272383354350568
+  }
+ },
+ "heldout_pooled": {
+  "precision": 0.9203257790368272,
+  "recall": 0.9516660563896009,
+  "f1": 0.9357335733573358
+ },
+ "heldout_flagged_voiced_mean": 0.8065620573896899,
+ "steady_note_flagged": {
+  "jitter_0c": 0.0,
+  "jitter_3c": 0.0,
+  "jitter_10c": 0.0
+ },
+ "other_veena": {
+  "jaru": {
+   "clips": 24,
+   "flagged_voiced_mean": 0.693172944999484,
+   "clips_with_a_detection": 0.9583333333333334
+  },
+  "ravai": {
+   "clips": 35,
+   "flagged_voiced_mean": 0.7056234924655626,
+   "clips_with_a_detection": 0.9142857142857143
+  },
+  "pratyagata": {
+   "clips": 27,
+   "flagged_voiced_mean": 0.5963977163778948,
+   "clips_with_a_detection": 0.9259259259259259
+  },
+  "kampita leena (also a kampita)": {
+   "clips": 11,
+   "flagged_voiced_mean": 0.0,
+   "clips_with_a_detection": 0.0
+  }
+ },
+ "kalyani": {
+  "kalyani #02": {
+   "seconds": 48.89,
+   "voiced_s": 40.39,
+   "flagged_voiced": 0.8086159940579352,
+   "moving_rule_voiced": 0.8395642485763803,
+   "overlap_with_rule": 0.9167866397926865,
+   "events": 7,
+   "seed_agreement": 0.9486671618387389
+  },
+  "kalyani2 #03": {
+   "seconds": 33.0,
+   "voiced_s": 22.92,
+   "flagged_voiced": 0.8202443280977313,
+   "moving_rule_voiced": 0.8599476439790575,
+   "overlap_with_rule": 0.928392588883325,
+   "events": 7,
+   "seed_agreement": 0.9642233856893543
+  },
+  "kalyani3 #02": {
+   "seconds": 24.61,
+   "voiced_s": 18.28,
+   "flagged_voiced": 0.925601750547046,
+   "moving_rule_voiced": 0.9562363238512035,
+   "overlap_with_rule": 0.9468024900962083,
+   "events": 3,
+   "seed_agreement": 0.9095550692924873
+  }
+ }
+}

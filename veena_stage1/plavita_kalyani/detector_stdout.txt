@@ -1,0 +1,25 @@
+Check 1: held-out branch
+  seed 0: last epoch loss 0.002, label share kampita 0.83
+  #02 {'precision': 0.86, 'recall': 0.91, 'f1': 0.89, 'flagged_voiced': 0.66}
+  seed 0: last epoch loss 0.005, label share kampita 0.74
+  bhairiga#03 {'precision': 0.95, 'recall': 0.97, 'f1': 0.96, 'flagged_voiced': 0.78}
+  seed 0: last epoch loss 0.009, label share kampita 0.73
+  todi#01 {'precision': 0.9, 'recall': 0.99, 'f1': 0.94, 'flagged_voiced': 0.96}
+  seed 0: last epoch loss 0.008, label share kampita 0.72
+  todi#03 {'precision': 0.99, 'recall': 0.95, 'f1': 0.97, 'flagged_voiced': 0.83}
+Final model on all 14 clips
+  seed 0: last epoch loss 0.007, label share kampita 0.75
+  seed 1: last epoch loss 0.011, label share kampita 0.75
+  seed 2: last epoch loss 0.006, label share kampita 0.75
+Check 2: steady note (SIMULATED input)
+  {'jitter_0c': 0.0, 'jitter_3c': 0.0, 'jitter_10c': 0.0}
+Check 3: other veena clips
+  jaru {'clips': 24, 'flagged_voiced_mean': 0.69, 'clips_with_a_detection': 0.96}
+  ravai {'clips': 35, 'flagged_voiced_mean': 0.71, 'clips_with_a_detection': 0.91}
+  pratyagata {'clips': 27, 'flagged_voiced_mean': 0.6, 'clips_with_a_detection': 0.93}
+  kampita leena (also a kampita) {'clips': 11, 'flagged_voiced_mean': 0.0, 'clips_with_a_detection': 0.0}
+Kalyani
+  kalyani #02 {'seconds': 48.89, 'voiced_s': 40.39, 'flagged_voiced': 0.81, 'moving_rule_voiced': 0.84, 'overlap_with_rule': 0.92, 'events': 7, 'seed_agreement': 0.95}
+  kalyani2 #03 {'seconds': 33.0, 'voiced_s': 22.92, 'flagged_voiced': 0.82, 'moving_rule_voiced': 0.86, 'overlap_with_rule': 0.93, 'events': 7, 'seed_agreement': 0.96}
+  kalyani3 #02 {'seconds': 24.61, 'voiced_s': 18.28, 'flagged_voiced': 0.93, 'moving_rule_voiced': 0.96, 'overlap_with_rule': 0.95, 'events': 3, 'seed_agreement': 0.91}
+done in 700s, 17 events

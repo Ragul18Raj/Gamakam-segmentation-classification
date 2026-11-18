@@ -1,0 +1,20 @@
+Final clip feature table for the write-up.
+
+Command (run from D:\PROJECTS\Gamaka on 2026-09-24):
+  python gamaka_clips.py --crepe_dir crepe_output --tonic 329.3 --out clip_features.csv --takes_csv takes.csv
+
+Inputs:
+  crepe_output/*.npy  CREPE full model, 10 ms hop, Viterbi off, 222 veena clips
+  tonic 329.3 Hz      fixed dataset tonic (Sa = E4), an inference from audio statistics,
+                      not a confirmed ground truth (see tonic_estimates_NOTE.md)
+  takes.csv           23 takes from Logic timeline contiguity (bext TimeReference)
+
+Scripts used (copied here as they were at run time) and their SHA-256:
+eb62324183011ea2340b88c6ad2c6884d987a29b98c75e4b69c815eda7d98130 *gamaka_clips.py
+dd95e48b452259e4cf5063f66be8e20a85e1597dbffcbc70a18fc7f8ab04a3fc *movement_features_v2.py
+3df0080830878baa4fbbde18cd3a62230d1c6ec1a5c39e3b019ad8aa5ccb0fc4 *anchor_feasibility_check_v3.py
+
+Output checksum:
+09563fbbffc770caddf1bb23a6bf38fa0414048521cf1394c479403cbfcf434b *clip_features.csv
+
+Printed output of this run: gamaka_clips_output_v4.txt

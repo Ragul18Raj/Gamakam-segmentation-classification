@@ -1,0 +1,63 @@
+DTW matrices...
+raw | features LR                          0.209
+raw | features 3-NN                        0.297
+raw | DTW 3-NN                             0.451
+clean | features LR                        0.391
+clean | features 3-NN                      0.493
+clean | DTW 3-NN                           0.532
+crop | features LR                         0.335
+crop | features 3-NN                       0.488
+crop | DTW 3-NN                            0.641
+crop | DTW 1-NN                            0.551
+crop, length removed | features LR         0.211
+crop, length removed | features 3-NN       0.356
+crop, length removed | DTW 3-NN            0.632
+crop, length removed | DTW 1-NN            0.598
+probe: median pitch LR                     0.067
+length only: raw duration LR               0.149
+length only: crop duration LR              0.056
+scramble: crop features LR                 0.509
+scramble: crop features 3-NN               0.560
+scramble: crop DTW 3-NN                    0.560
+scramble: crop DTW 1-NN                    0.567
+rules (no p: seen the data)                0.559
+permutations...
+  100
+  200
+  300
+  400
+  500
+  600
+  700
+  800
+  900
+  1000
+
+config                                         F1       p   p_fam
+raw | features LR                           0.209   0.234   0.666
+raw | features 3-NN                         0.297   0.036   0.289
+raw | DTW 3-NN                              0.451   0.002   0.032
+clean | features LR                         0.391   0.017   0.079
+clean | features 3-NN                       0.493   0.002   0.008
+clean | DTW 3-NN                            0.532   0.001   0.003
+crop | features LR                          0.335   0.041   0.184
+crop | features 3-NN                        0.488   0.001   0.010
+crop | DTW 3-NN                             0.641   0.001   0.001
+crop | DTW 1-NN                             0.551   0.001   0.001
+crop, length removed | features LR          0.211   0.223   0.660
+crop, length removed | features 3-NN        0.356   0.024   0.136
+crop, length removed | DTW 3-NN             0.632   0.001   0.001
+crop, length removed | DTW 1-NN             0.598   0.001   0.001
+family null 95th 0.42 majority 0.119
+crop, length removed | DTW 3-NN CI [0.4168704323211529, 0.8260766129403047] recall {'jaru': 0.38, 'kampita': 0.5, 'ravai': 0.8, 'pratyagata': 0.89}
+[[ 9  8  7  0]
+ [ 1 13  2 10]
+ [ 0  1 28  6]
+ [ 1  1  1 24]]
+{np.str_('jaru_asc'): 0.0, np.str_('jaru_asc [series _OG_1]'): 0.83, np.str_('jaru_desc_melgana'): 0.0, np.str_('jaru_desc_shankravarnam'): 0.67, np.str_('kampita(plavitam)_todi#01+kampita(plavitam)_todi#03'): 0.75, np.str_('kampita_(leena)#01'): 0.0, np.str_('kampita_(plavita)#02+kampita_(plavita)_bhairiga#03'): 1.0, np.str_('pratayagata_(hindola)+pratayagata_(hindola)_continuous'): 0.94, np.str_('pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous'): 0.82, np.str_('ravai#02'): 0.36, np.str_('ravai_(kalapriya)'): 1.0, np.str_('ravai_(mayamolagolav)'): 1.0}
+crop | DTW 3-NN CI [0.456090656390579, 0.7985632347292815] recall {'jaru': 0.5, 'kampita': 0.5, 'ravai': 0.69, 'pratyagata': 0.89}
+[[12  6  5  1]
+ [ 1 13  4  8]
+ [ 0  2 24  9]
+ [ 1  1  1 24]]
+{np.str_('jaru_asc'): 0.67, np.str_('jaru_asc [series _OG_1]'): 0.83, np.str_('jaru_desc_melgana'): 0.0, np.str_('jaru_desc_shankravarnam'): 0.5, np.str_('kampita(plavitam)_todi#01+kampita(plavitam)_todi#03'): 0.75, np.str_('kampita_(leena)#01'): 0.0, np.str_('kampita_(plavita)#02+kampita_(plavita)_bhairiga#03'): 1.0, np.str_('pratayagata_(hindola)+pratayagata_(hindola)_continuous'): 0.88, np.str_('pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous'): 0.91, np.str_('ravai#02'): 0.36, np.str_('ravai_(kalapriya)'): 0.92, np.str_('ravai_(mayamolagolav)'): 0.75}

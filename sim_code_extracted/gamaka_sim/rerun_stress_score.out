@@ -1,0 +1,69 @@
+7 folds
+stage1:
+  n: 581
+  acc: 0.990
+  macro_f1: 0.990
+  acc_fold_min: 0.976
+  acc_fold_max: 1.000
+  chance: 0.361
+  cm: [[189, 0, 3], [2, 207, 1], [0, 0, 179]]
+all_none:
+  event_f1_per_class:
+    G1: 0.000
+    G2: 0.000
+    G3: 0.000
+  event_f1_macro: 0.000
+  count_mae_per_type_per_clip: 1.537
+  clips_all_counts_exact: 0.000
+  event_f1_fold_min: 0.000
+  event_f1_fold_max: 0.000
+  event_f1_by_tempo:
+    fast: 0.000
+    medium: 0.000
+    slow: 0.000
+  event_f1_by_octave:
+    high: 0.000
+    low: 0.000
+  frame_macro_f1: 0.236
+rule_knn:
+  frame_macro_f1: 0.859
+  frame_cm: [[240360, 1190, 1630, 883], [2444, 10519, 0, 23], [2661, 0, 7545, 0], [976, 0, 0, 4395]]
+  event_f1_per_class:
+    G1: 0.904
+    G2: 0.867
+    G3: 0.969
+  event_f1_macro: 0.913
+  count_mae_per_type_per_clip: 0.204
+  clips_all_counts_exact: 0.556
+  event_f1_fold_min: 0.841
+  event_f1_fold_max: 0.961
+  event_f1_by_tempo:
+    fast: 0.903
+    medium: 0.906
+    slow: 0.930
+  event_f1_by_octave:
+    high: 0.918
+    low: 0.908
+cnn:
+  frame_macro_f1: 0.846
+  frame_cm: [[233972, 4008, 4355, 1728], [962, 11960, 64, 0], [1244, 0, 8962, 0], [390, 0, 0, 4981]]
+  event_f1_per_class:
+    G1: 0.828
+    G2: 0.820
+    G3: 0.994
+  event_f1_macro: 0.881
+  count_mae_per_type_per_clip: 0.381
+  clips_all_counts_exact: 0.349
+  event_f1_fold_min: 0.803
+  event_f1_fold_max: 0.956
+  event_f1_by_tempo:
+    fast: 0.887
+    medium: 0.907
+    slow: 0.851
+  event_f1_by_octave:
+    high: 0.881
+    low: 0.881
+  frame_macro_f1_before_postprocessing: 0.846
+n_clips: 126
+n_ref_events: 581
+frame_share_none: 0.895

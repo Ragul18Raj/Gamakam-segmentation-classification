@@ -1,0 +1,172 @@
+{
+ "kalyani3 #02": {
+  "rising": {
+   "pieces": 132,
+   "mean": 1.845,
+   "share_positive": 0.947,
+   "per_seed_mean": [
+    1.885,
+    1.938,
+    1.713
+   ]
+  },
+  "falling": {
+   "pieces": 157,
+   "mean": 0.384,
+   "share_positive": 0.777,
+   "per_seed_mean": [
+    0.318,
+    0.309,
+    0.526
+   ]
+  },
+  "flat": {
+   "pieces": 52,
+   "mean": -0.081,
+   "share_positive": 0.558,
+   "per_seed_mean": [
+    0.025,
+    -0.163,
+    -0.106
+   ]
+  },
+  "corr_with_signed_slope": 0.481
+ },
+ "kalyani #02": {
+  "rising": {
+   "pieces": 234,
+   "mean": 1.901,
+   "share_positive": 0.919,
+   "per_seed_mean": [
+    1.901,
+    1.867,
+    1.934
+   ]
+  },
+  "falling": {
+   "pieces": 277,
+   "mean": 0.744,
+   "share_positive": 0.809,
+   "per_seed_mean": [
+    0.683,
+    0.672,
+    0.878
+   ]
+  },
+  "flat": {
+   "pieces": 276,
+   "mean": -0.678,
+   "share_positive": 0.312,
+   "per_seed_mean": [
+    -0.413,
+    -0.79,
+    -0.83
+   ]
+  },
+  "corr_with_signed_slope": 0.303
+ },
+ "kalyani2 #03 (pattern spotted here), blank": {
+  "rising": {
+   "pieces": 148,
+   "mean": 1.986,
+   "share_positive": 0.932,
+   "per_seed_mean": [
+    1.915,
+    2.043,
+    2.001
+   ]
+  },
+  "falling": {
+   "pieces": 166,
+   "mean": 0.616,
+   "share_positive": 0.849,
+   "per_seed_mean": [
+    0.51,
+    0.562,
+    0.776
+   ]
+  },
+  "flat": {
+   "pieces": 128,
+   "mean": -0.753,
+   "share_positive": 0.312,
+   "per_seed_mean": [
+    -0.6,
+    -0.751,
+    -0.909
+   ]
+  },
+  "corr_with_signed_slope": 0.396
+ },
+ "kalyani2 #03, flatten check": {
+  "rising": {
+   "pieces": 148,
+   "mean": 0.111,
+   "share_positive": 0.649,
+   "per_seed_mean": [
+    0.147,
+    0.168,
+    0.019
+   ]
+  },
+  "falling": {
+   "pieces": 166,
+   "mean": -0.115,
+   "share_positive": 0.47,
+   "per_seed_mean": [
+    -0.032,
+    -0.111,
+    -0.201
+   ]
+  },
+  "flat": {
+   "pieces": 128,
+   "mean": 0.178,
+   "share_positive": 0.828,
+   "per_seed_mean": [
+    0.138,
+    0.145,
+    0.252
+   ]
+  },
+  "corr_with_signed_slope": 0.16
+ },
+ "kalyani2 #03, untrained model, blank": {
+  "rising": {
+   "pieces": 148,
+   "mean": 0.004,
+   "share_positive": 0.486,
+   "per_seed_mean": [
+    0.004,
+    0.004,
+    0.004
+   ]
+  },
+  "falling": {
+   "pieces": 166,
+   "mean": -0.002,
+   "share_positive": 0.476,
+   "per_seed_mean": [
+    -0.002,
+    -0.002,
+    -0.002
+   ]
+  },
+  "flat": {
+   "pieces": 128,
+   "mean": -0.025,
+   "share_positive": 0.102,
+   "per_seed_mean": [
+    -0.025,
+    -0.025,
+    -0.025
+   ]
+  },
+  "corr_with_signed_slope": 0.082
+ },
+ "plavita_training_pieces": {
+  "rising": 146,
+  "falling": 153,
+  "flat": 255
+ }
+}

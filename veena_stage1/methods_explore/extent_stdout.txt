@@ -1,0 +1,14 @@
+extent only (p95-p5) | LR                            0.200  p 0.144  null95 0.282   {'jaru': 0.75, 'kamp': 0.0, 'rava': 0.0, 'prat': 0.0}
+extent only (p95-p5) | 3-NN                          0.414  p 0.019  null95 0.353   {'jaru': 0.75, 'kamp': 0.0, 'rava': 0.46, 'prat': 0.41}
+pitch-value percentiles, no order | 3-NN             0.546  p 0.003  null95 0.368   {'jaru': 0.54, 'kamp': 0.19, 'rava': 0.51, 'prat': 0.81}
+length removed | DTW 3-NN (from classify.py)         0.632  p 0.001  null95 0.339   {'jaru': 0.38, 'kamp': 0.5, 'rava': 0.8, 'prat': 0.89}
+length and extent removed: pure shape | DTW 3-NN     0.628  p 0.001  null95 0.375   {'jaru': 0.62, 'kamp': 0.35, 'rava': 0.71, 'prat': 0.89}
+scrambled, length removed | DTW 3-NN {'mean': 0.468, 'min': 0.434, 'max': 0.493, 'n': 20}
+scrambled, pure shape | DTW 3-NN {'mean': 0.268, 'min': 0.223, 'max': 0.333, 'n': 20}
+[[15  3  5  1]
+ [10  9  1  6]
+ [ 3  2 25  5]
+ [ 2  0  1 24]]
+{'jaru_asc': 1.0, 'jaru_asc [series _OG_1]': 1.0, 'jaru_desc_melgana': 0.0, 'jaru_desc_shankravarnam': 0.5, 'kampita(plavitam)_todi#01+kamp': 0.5, 'kampita_(leena)#01': 0.0, 'kampita_(plavita)#02+kampita_(': 0.71, 'pratayagata_(hindola)+pratayag': 0.94, 'pratyagata_(amritvarshini)+pra': 0.82, 'ravai#02': 0.73, 'ravai_(kalapriya)': 0.83, 'ravai_(mayamolagolav)': 0.58}
+extent by class (median): {'jaru': 716.0, 'kampita': 301.0, 'ravai': 272.0, 'pratyagata': 105.0}
+extent by take (median): {'jaru_asc': 498.0, 'jaru_asc [series _OG_1]': 904.0, 'jaru_desc_melgana': 804.0, 'jaru_desc_shankravarnam': 704.0, 'kampita(plavitam)_todi#01+kamp': 403.0, 'kampita_(leena)#01': 78.0, 'kampita_(plavita)#02+kampita_(': 307.0, 'pratayagata_(hindola)+pratayag': 112.0, 'pratyagata_(amritvarshini)+pra': 90.0, 'ravai#02': 172.0, 'ravai_(kalapriya)': 288.0, 'ravai_(mayamolagolav)': 291.0}

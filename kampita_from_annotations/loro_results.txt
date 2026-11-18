@@ -1,0 +1,37 @@
+Kampita (plavita) bhairiga#03       frame P=1.00 R=0.79 F1=0.88
+Kampita (plavita)#02                frame P=1.00 R=0.31 F1=0.47
+Kampita(plavitam) todi#01           frame P=1.00 R=0.80 F1=0.89
+Kampita(plavitam) todi#03           frame P=0.96 R=0.59 F1=0.73
+
+fraction of frames wrongly called kampita, per non-kampita gamaka (held out):
+  Jaru_asc                                 0.00
+  Jaru_desc_1_melgana                      0.00
+  Jaru_desc_2_melgana                      0.00
+  Jaru_desc_3_melgana                      0.00
+  Jaru_desc_4_melgana                      0.00
+  Jaru_desc_5_melgana                      0.00
+  Jaru_desc_6_melgana                      0.00
+  Jaru_desc_shankravarnam                  0.06
+  Sphuritam (kanahalpriya)                 0.00
+  Sphuritam (kanahalpriya)_ continuous     0.00
+  Sphuritam (kanahalpriya)_continuous_7    0.00
+  Sphuritam (kanahalpriya)_continuous_7_2  0.00
+  ahatam#01                                0.00
+  andolita (shankrabarnam)                 0.02
+  kandippu#02                              0.00
+  kandippu#03                              0.00
+  kandippu#06                              0.00
+  namitam ( begada)                        0.02
+  nokku                                    0.01
+  odukkul (kambhoji) pa dha sa             0.17
+  orikai (sudhsaveri)                      0.17
+  pratayagata (hindola)                    0.00
+  pratayagata (hindola)_continuous         0.00
+  pratyagata (amritvarshini)               0.00
+  pratyagata (amritvarshini)#01            0.00
+  pratyagata (amritvarshini)_continuous    0.00
+  ravai (kalapriya)                        0.04
+  ravai (mayamolagolav)                    0.04
+  ravai#02                                 0.00
+  tribhinna                                0.00
+  vali#01                                  0.04

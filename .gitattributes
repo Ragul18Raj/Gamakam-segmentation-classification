@@ -1,0 +1,6 @@
+*.mp3 binary
+*.wav binary
+*.npy binary
+*.npz binary
+*.png binary
+*.xlsx binary

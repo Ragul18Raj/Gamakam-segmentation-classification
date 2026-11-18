@@ -1,0 +1,142 @@
+{
+ "logreg_movement": {
+  "macro_f1": 0.19264474657787645,
+  "bal_acc": 0.19453856328856328,
+  "recall": {
+   "jaru": 0.2916666666666667,
+   "kampita": 0.19230769230769232,
+   "ravai": 0.2571428571428571,
+   "pratyagata": 0.037037037037037035
+  },
+  "confusion": [
+   [
+    7,
+    13,
+    4,
+    0
+   ],
+   [
+    18,
+    5,
+    1,
+    2
+   ],
+   [
+    0,
+    3,
+    9,
+    23
+   ],
+   [
+    2,
+    1,
+    23,
+    1
+   ]
+  ]
+ },
+ "knn3_movement": {
+  "macro_f1": 0.33253324462225825,
+  "bal_acc": 0.35356634106634105,
+  "recall": {
+   "jaru": 0.4166666666666667,
+   "kampita": 0.19230769230769232,
+   "ravai": 0.6571428571428571,
+   "pratyagata": 0.14814814814814814
+  },
+  "confusion": [
+   [
+    10,
+    9,
+    5,
+    0
+   ],
+   [
+    18,
+    5,
+    3,
+    0
+   ],
+   [
+    3,
+    1,
+    23,
+    8
+   ],
+   [
+    3,
+    2,
+    18,
+    4
+   ]
+  ]
+ },
+ "probe_median_pitch": {
+  "macro_f1": 0.06666666666666667,
+  "bal_acc": 0.08571428571428572,
+  "recall": {
+   "jaru": 0.0,
+   "kampita": 0.0,
+   "ravai": 0.34285714285714286,
+   "pratyagata": 0.0
+  },
+  "confusion": [
+   [
+    0,
+    7,
+    16,
+    1
+   ],
+   [
+    0,
+    0,
+    14,
+    12
+   ],
+   [
+    9,
+    0,
+    12,
+    14
+   ],
+   [
+    0,
+    14,
+    13,
+    0
+   ]
+  ]
+ },
+ "majority_macro_f1": 0.11904761904761904,
+ "perm": {
+  "n": 1000,
+  "p": 0.24775224775224775,
+  "null_mean": 0.14706954981453027,
+  "null_95": 0.2964317083882301
+ },
+ "n_clips": {
+  "jaru": 24,
+  "kampita": 26,
+  "ravai": 35,
+  "pratyagata": 27
+ },
+ "n_takes": {
+  "jaru": 4,
+  "kampita": 3,
+  "ravai": 3,
+  "pratyagata": 2
+ },
+ "PASS": false
+}
+per_take logreg {'jaru_asc': 0.0, 'jaru_asc [series _OG_1]': 0.33, 'jaru_desc_melgana': 0.33, 'jaru_desc_shankravarnam': 0.5, 'kampita(plavitam)_todi#01+kampita(plavitam)_todi#03': 0.0, 'kampita_(leena)#01': 0.18, 'kampita_(plavita)#02+kampita_(plavita)_bhairiga#03': 0.43, 'pratayagata_(hindola)+pratayagata_(hindola)_continuous': 0.0, 'pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous': 0.09, 'ravai#02': 0.27, 'ravai_(kalapriya)': 0.33, 'ravai_(mayamolagolav)': 0.17}
+                jaru  kampita  pratyagata   ravai
+dur              2.0      2.6         0.9     0.9
+range         1282.9   1035.1       212.3   656.1
+turns           26.7     32.4        12.8    12.7
+turn_rate       13.0     13.0        13.9    13.3
+net            129.4   -644.3        56.4  -749.0
+abs_net        607.9    999.4       166.8   808.6
+exc_up         972.9    574.3       170.0   168.3
+exc_down       694.8   1128.2       176.9   997.0
+mean_abs_vel  2266.1   1605.8       747.4  1811.8
+median_cents  -247.9   -496.5      -436.5  -191.6

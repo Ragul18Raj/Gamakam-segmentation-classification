@@ -1,0 +1,20 @@
+fold test=song5 val=song6 train=90 clips
+    epoch  1 loss 0.826 val macroF1 0.592 (110s)
+    epoch  2 loss 0.303 val macroF1 0.767 (87s)
+    epoch  3 loss 0.202 val macroF1 0.814 (59s)
+    epoch  4 loss 0.167 val macroF1 0.829 (58s)
+    epoch  5 loss 0.139 val macroF1 0.811 (57s)
+    epoch  6 loss 0.126 val macroF1 0.839 (58s)
+    epoch  7 loss 0.116 val macroF1 0.813 (46s)
+    epoch  8 loss 0.107 val macroF1 0.848 (42s)
+    epoch  9 loss 0.104 val macroF1 0.825 (46s)
+    epoch 10 loss 0.103 val macroF1 0.849 (47s)
+    epoch 11 loss 0.108 val macroF1 0.840 (39s)
+    epoch 12 loss 0.088 val macroF1 0.860 (39s)
+    epoch 13 loss 0.091 val macroF1 0.834 (37s)
+    epoch 14 loss 0.075 val macroF1 0.839 (38s)
+    epoch 15 loss 0.076 val macroF1 0.831 (40s)
+    epoch 16 loss 0.078 val macroF1 0.846 (37s)
+    epoch 17 loss 0.071 val macroF1 0.848 (34s)
+  CNN trained in 876s, best val macroF1 0.860
+  fold song5 saved

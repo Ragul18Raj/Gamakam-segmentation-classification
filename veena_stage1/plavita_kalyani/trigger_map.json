@@ -1,0 +1,88 @@
+{
+ "pieces": 468,
+ "seed_corr_blank": 0.902,
+ "seed_corr_flatten": 0.862,
+ "untrained_corr": 0.245,
+ "blank_vs_flatten": 0.206,
+ "corr_with_local_range": 0.072,
+ "flatten_corr_with_local_range": -0.273,
+ "categories": {
+  "tall_peak": {
+   "seconds": 2.49,
+   "share_time": 0.109,
+   "share_positive": 0.09,
+   "mean_importance": 0.528
+  },
+  "smaller_peak": {
+   "seconds": 5.79,
+   "share_time": 0.255,
+   "share_positive": 0.371,
+   "mean_importance": 1.461
+  },
+  "moving_not_peak": {
+   "seconds": 11.43,
+   "share_time": 0.502,
+   "share_positive": 0.539,
+   "mean_importance": 0.963
+  },
+  "steady": {
+   "seconds": 3.04,
+   "share_time": 0.134,
+   "share_positive": 0.0,
+   "mean_importance": -1.893
+  }
+ },
+ "tall_enrichment": 0.83,
+ "tall_peaks": 12,
+ "smaller_peaks": 29,
+ "reach_half_height_frames": [
+  -30,
+  70
+ ],
+ "reach_profile": {
+  "-150": 0.0,
+  "-140": 0.0,
+  "-130": 0.002,
+  "-120": 0.016,
+  "-110": 0.084,
+  "-100": 0.215,
+  "-90": 0.345,
+  "-80": 0.503,
+  "-70": 0.622,
+  "-60": 0.703,
+  "-50": 0.802,
+  "-40": 1.322,
+  "-30": 2.195,
+  "-20": 3.04,
+  "-10": 3.318,
+  "0": 3.25,
+  "10": 2.705,
+  "20": 2.497,
+  "30": 2.394,
+  "40": 2.419,
+  "50": 2.306,
+  "60": 2.215,
+  "70": 1.931,
+  "80": 1.501,
+  "90": 1.025,
+  "100": 0.549,
+  "110": 0.228,
+  "120": 0.054,
+  "130": 0.008,
+  "140": 0.002,
+  "150": 0.0
+ },
+ "importance_quantiles": [
+  -2.133,
+  -0.212,
+  0.815,
+  1.644,
+  3.257
+ ],
+ "share_pieces_positive": 0.714,
+ "margin_sung_q": [
+  -15.36,
+  14.21,
+  33.25
+ ]
+}

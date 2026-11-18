@@ -1,0 +1,58 @@
+# Allowlist: nothing at the top level is published unless it is listed here.
+/*
+
+!/.gitignore
+!/.gitattributes
+
+# Top-level code, tables, notes and annotation sheets
+!/*.py
+!/*.csv
+!/*.md
+!/*.xlsx
+!/gamaka_clips_output_v4.txt
+
+# Recordings and labels
+!/vocal rec/
+!/vocal_dataset/
+!/Gamaka_veena_dataset/
+!/crepe_output/
+
+# Methods, experiments and results
+!/veena_stage1/
+!/kampita_from_annotations/
+!/results/
+!/sim_code_extracted/
+!/sonified_synthetic/
+!/fourier_demo/
+!/annotation visual/
+
+# Non-audio parts only: these WAVs are concert excerpts or of unconfirmed source
+!/compressed raga/
+/compressed raga/**/*.wav
+/compressed raga/compressing/logs/
+!/kalyani recorded/
+/kalyani recorded/**/*.wav
+
+# Evaluation only: the rest of this folder builds slides
+!/vocal_plan/
+/vocal_plan/*
+!/vocal_plan/eval/
+/vocal_plan/eval/add_eval_slide.py
+
+# Process note only: the other two hold personal and supervisor details
+!/contexts 29_10/
+/contexts 29_10/*
+!/contexts 29_10/vocal_process_after_annotation.md
+
+# Never publish, in any folder
+__pycache__/
+*.pyc
+*.log
+*.zip
+*.pptx
+*.docx
+*.pdf
+~$*
+.claude/
+.DS_Store
+Thumbs.db

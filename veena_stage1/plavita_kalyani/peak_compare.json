@@ -1,0 +1,132 @@
+{
+ "plavita": {
+  "seconds": 28.9,
+  "peaks": 45,
+  "peaks_per_second": 1.56,
+  "prominence_cents_q": [
+   267.0,
+   288.0,
+   303.0
+  ],
+  "width_ms_q": [
+   202.0,
+   244.0,
+   270.0
+  ],
+  "rise_cents_per_s_q": [
+   1010.0,
+   1505.0,
+   1994.0
+  ],
+  "fall_cents_per_s_q": [
+   483.0,
+   934.0,
+   1495.0
+  ],
+  "peak_to_peak_ms_q": [
+   390.0,
+   450.0,
+   510.0
+  ],
+  "swings_per_s_from_median_gap": 2.22,
+  "slow_drift_cents_q": [
+   210.0,
+   280.0,
+   372.0
+  ],
+  "share_nearly_still": 0.258
+ },
+ "kalyani": {
+  "seconds": 80.7,
+  "peaks": 154,
+  "peaks_per_second": 1.91,
+  "prominence_cents_q": [
+   124.0,
+   153.0,
+   261.0
+  ],
+  "width_ms_q": [
+   80.0,
+   98.0,
+   190.0
+  ],
+  "rise_cents_per_s_q": [
+   973.0,
+   1373.0,
+   2334.0
+  ],
+  "fall_cents_per_s_q": [
+   844.0,
+   1208.0,
+   1844.0
+  ],
+  "peak_to_peak_ms_q": [
+   210.0,
+   270.0,
+   375.0
+  ],
+  "swings_per_s_from_median_gap": 3.7,
+  "slow_drift_cents_q": [
+   431.0,
+   553.0,
+   746.0
+  ],
+  "share_nearly_still": 0.162
+ },
+ "model_on_kalyani": {
+  "peak": {
+   "frames": 2850,
+   "mean_score": 0.839,
+   "share_marked": 0.864
+  },
+  "moving_not_peak": {
+   "frames": 4582,
+   "mean_score": 0.887,
+   "share_marked": 0.928
+  }
+ },
+ "tall_peaks_200c": {
+  "plavita": {
+   "peaks": 37,
+   "per_second": 1.28,
+   "prominence_q": [
+    280.0,
+    297.0,
+    309.0
+   ],
+   "width_ms_q": [
+    216.0,
+    254.0,
+    286.0
+   ],
+   "gap_ms_q": [
+    395.0,
+    460.0,
+    498.0
+   ],
+   "gaps": 22,
+   "share_of_peaks_marked": null
+  },
+  "kalyani": {
+   "peaks": 52,
+   "per_second": 0.64,
+   "prominence_q": [
+    261.0,
+    376.0,
+    655.0
+   ],
+   "width_ms_q": [
+    134.0,
+    231.0,
+    386.0
+   ],
+   "gap_ms_q": [
+    392.0,
+    520.0,
+    708.0
+   ],
+   "gaps": 16,
+   "share_of_peaks_marked": 0.962
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "kalyani2 #03": {
+  "original": 0.823,
+  "tall peaks ironed (200 cents or more)": {
+   "marked": 0.585,
+   "removed": 11
+  },
+  "all peaks ironed (100 cents or more)": {
+   "marked": 0.483,
+   "removed": 26
+  },
+  "also small wobbles ironed (40 cents or more)": {
+   "marked": 0.444,
+   "removed": 33
+  },
+  "heavy smoothing, 1 s median: slow melody line only": 0.298,
+  "each phrase a single flat note": 0.0
+ },
+ "kalyani3 #02": {
+  "original": 0.923,
+  "tall peaks ironed (200 cents or more)": {
+   "marked": 0.71,
+   "removed": 13
+  },
+  "all peaks ironed (100 cents or more)": {
+   "marked": 0.475,
+   "removed": 26
+  },
+  "also small wobbles ironed (40 cents or more)": {
+   "marked": 0.348,
+   "removed": 38
+  },
+  "heavy smoothing, 1 s median: slow melody line only": 0.504,
+  "each phrase a single flat note": 0.0
+ },
+ "kalyani #02": {
+  "original": 0.81,
+  "tall peaks ironed (200 cents or more)": {
+   "marked": 0.512,
+   "removed": 26
+  },
+  "all peaks ironed (100 cents or more)": {
+   "marked": 0.284,
+   "removed": 49
+  },
+  "also small wobbles ironed (40 cents or more)": {
+   "marked": 0.222,
+   "removed": 63
+  },
+  "heavy smoothing, 1 s median: slow melody line only": 0.187,
+  "each phrase a single flat note": 0.0
+ }
+}

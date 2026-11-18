@@ -1,0 +1,32 @@
+recording,group,song_title,raga,tempo,octave,sa_note,sa_hz,complete_marking,notes
+VARNAM,P11,,,,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 1,P01,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 2,P01,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 3,P01,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 4,P02,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 5,P02,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 6,P02,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 7,P03,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 8,P03,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 9,P03,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 10,P04,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 11,P04,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 12,P04,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 13,P05,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 14,P05,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 15,P05,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 16,P06,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 17,P06,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 18,P06,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 19,P07,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 20,P07,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 21,P07,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 22,P08,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 23,P08,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 24,P08,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 25,P09,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 26,P09,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 27,P09,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 28,P10,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 29,P10,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+TRACK 30,P10,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer

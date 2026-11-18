@@ -1,0 +1,32 @@
+{
+ "kalyani2_03": {
+  "sung_s": 22.75,
+  "marked_share_of_sung": 0.8232967032967033,
+  "silence_s": 10.08,
+  "marked_share_of_silence": 0.5654761904761905,
+  "marked_when_moving": 0.9406392694063926,
+  "marked_when_steady": 0.0625,
+  "steady_s": 3.04,
+  "phrases": 7
+ },
+ "kalyani3_02": {
+  "sung_s": 17.71,
+  "marked_share_of_sung": 0.9232072275550537,
+  "silence_s": 6.33,
+  "marked_share_of_silence": 0.919431279620853,
+  "marked_when_moving": 0.956140350877193,
+  "marked_when_steady": 0.0,
+  "steady_s": 0.61,
+  "phrases": 8
+ },
+ "kalyani_02": {
+  "sung_s": 40.21,
+  "marked_share_of_sung": 0.8097488187018155,
+  "silence_s": 8.5,
+  "marked_share_of_silence": 0.8294117647058824,
+  "marked_when_moving": 0.938956060159245,
+  "marked_when_steady": 0.11428571428571428,
+  "steady_s": 6.3,
+  "phrases": 10
+ }
+}

@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Compression Listening Test</title>
+<style>
+:root { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --rule:#e4e3df; }
+body { background:var(--surface); color:var(--ink); font:15px/1.5 system-ui,sans-serif; max-width:1100px;
+       margin:0 auto; padding:16px; }
+h1 { font-size:22px; margin:8px 0 4px; } h2 { font-size:18px; margin:36px 0 4px; }
+.muted { color:var(--ink2); font-weight:normal; font-size:14px; }
+img { width:100%; height:auto; margin:14px 0; border:1px solid var(--rule); }
+table { border-collapse:collapse; width:100%; font-size:14px; }
+th, td { text-align:left; padding:4px 8px; border-bottom:1px solid var(--rule); }
+audio { height:32px; width:260px; max-width:100%; }
+section { overflow-x:auto; }
+</style></head><body>
+<h1>Does MP3 compression change what the raga model hears?</h1>
+<p class="muted">Each recording was compressed to 96 → 8 kbps and sent through the full pipeline
+(CREPE pitch → Essentia Sa → cvD model). Spectrogram = what the file still contains; melody = the pitch line
+the model actually reads; notes = the note pattern a raga is recognised from.</p>
+<img src="summary.png" alt="accuracy, survival and losses for all recordings">
+
+<section><h2>sankarabharanam — <span class="muted">Sanjay_Subrahmanyan_Live_in_USA_-_Sanjay_Subrahmanyan_Shankaracharyam_Shankaracharyam</span></h2>
+<p class="muted">Excerpt 65–85 s of the recording. Listen from the top down.</p>
+<table><thead><tr><th>level</th><th>kbps</th><th>listen</th><th>model's answer</th><th>melody on same pitch</th><th>Sa</th></tr></thead>
+<tbody><tr><td>original</td><td>128</td><td><audio controls preload='none' src='1_melody_damaged/audio/0_original.wav'></audio></td><td>sankarabharanam ✓</td><td>100%</td><td>kept</td></tr><tr><td>96kbps</td><td>96</td><td><audio controls preload='none' src='1_melody_damaged/audio/1_mp3_96k.wav'></audio></td><td>sankarabharanam ✓</td><td>99%</td><td>kept</td></tr><tr><td>56kbps</td><td>56</td><td><audio controls preload='none' src='1_melody_damaged/audio/2_mp3_56k.wav'></audio></td><td>sankarabharanam ✓</td><td>98%</td><td>kept</td></tr><tr><td>32kbps</td><td>32</td><td><audio controls preload='none' src='1_melody_damaged/audio/3_mp3_32k.wav'></audio></td><td>sankarabharanam ✓</td><td>97%</td><td>kept</td></tr><tr><td>24kbps</td><td>24</td><td><audio controls preload='none' src='1_melody_damaged/audio/4_mp3_24k.wav'></audio></td><td>sankarabharanam ✓</td><td>96%</td><td>kept</td></tr><tr><td>16kbps</td><td>16</td><td><audio controls preload='none' src='1_melody_damaged/audio/5_mp3_16k.wav'></audio></td><td>sankarabharanam ✓</td><td>95%</td><td>kept</td></tr><tr><td>8kbps</td><td>8</td><td><audio controls preload='none' src='1_melody_damaged/audio/6_mp3_8k.wav'></audio></td><td>behag ✗ wrong</td><td>75%</td><td>kept</td></tr></tbody></table>
+<img src="1_melody_damaged/1_spectrum.png" alt="spectrogram of each bitrate">
+<img src="1_melody_damaged/2_melody.png" alt="pitch line of each bitrate over the original">
+<img src="1_melody_damaged/3_notes.png" alt="time spent on each note">
+</section>
+<section><h2>nata — <span class="muted">Amritha_Murali_December_Season_2010_Pavanatmajagaccha_Pavanatmajagaccha</span></h2>
+<p class="muted">Excerpt 50–70 s of the recording. Listen from the top down.</p>
+<table><thead><tr><th>level</th><th>kbps</th><th>listen</th><th>model's answer</th><th>melody on same pitch</th><th>Sa</th></tr></thead>
+<tbody><tr><td>original</td><td>160</td><td><audio controls preload='none' src='2_sa_slipped/audio/0_original.wav'></audio></td><td>nata ✓</td><td>100%</td><td>kept</td></tr><tr><td>96kbps</td><td>96</td><td><audio controls preload='none' src='2_sa_slipped/audio/1_mp3_96k.wav'></audio></td><td>nata ✓</td><td>99%</td><td>kept</td></tr><tr><td>56kbps</td><td>56</td><td><audio controls preload='none' src='2_sa_slipped/audio/2_mp3_56k.wav'></audio></td><td>nata ✓</td><td>98%</td><td>kept</td></tr><tr><td>32kbps</td><td>32</td><td><audio controls preload='none' src='2_sa_slipped/audio/3_mp3_32k.wav'></audio></td><td>nata ✓</td><td>97%</td><td>kept</td></tr><tr><td>24kbps</td><td>24</td><td><audio controls preload='none' src='2_sa_slipped/audio/4_mp3_24k.wav'></audio></td><td>nata ✓</td><td>96%</td><td>kept</td></tr><tr><td>16kbps</td><td>16</td><td><audio controls preload='none' src='2_sa_slipped/audio/5_mp3_16k.wav'></audio></td><td>nata ✓</td><td>95%</td><td>kept</td></tr><tr><td>8kbps</td><td>8</td><td><audio controls preload='none' src='2_sa_slipped/audio/6_mp3_8k.wav'></audio></td><td>sanmukhapriya ✗ wrong</td><td>76%</td><td>moved -711 c</td></tr></tbody></table>
+<img src="2_sa_slipped/1_spectrum.png" alt="spectrogram of each bitrate">
+<img src="2_sa_slipped/2_melody.png" alt="pitch line of each bitrate over the original">
+<img src="2_sa_slipped/3_notes.png" alt="time spent on each note">
+</section>
+</body></html>

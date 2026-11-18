@@ -1,0 +1,45 @@
+take boundaries read from takes.csv (23 takes)
+222 clips -> clip_features.csv
+37 of the kept clips have no movement >= 0.05s (all held note)
+
+222 clips, 15 gamaka types, 23 takes
+  ravai:35, pratyagata:31, kampita:26, jaru:24, sphuritam:24, tribhinna:16, vali:16, nokku:14, orikai:9, andolita:6, ahatam:5, kandippu:5, namitam:5, odukkul:5, sphutitam:1
+  WARNING: only one take for sphuritam, sphutitam, ahatam, andolita, kandippu, namitam, nokku, odukkul, orikai, tribhinna, vali -- grouped scoring cannot test these at all
+
+UNSUPERVISED: 15 clusters from shape alone, purity 0.35
+  (purity 1.0 = every cluster is one gamaka; 0.16 = what guessing the commonest gives)
+
+  cluster: what's in it
+    0: 2xkampita, 2xsphuritam, 1xjaru, 1xnokku
+    1: 11xpratyagata, 7xsphuritam, 2xjaru, 2xnokku
+    2: 3xtribhinna, 2xjaru, 1xnamitam
+    3: 6xkampita, 3xsphuritam, 2xravai, 1xjaru
+    4: 12xravai, 6xsphuritam, 5xahatam, 5xtribhinna
+    5: 2xjaru, 1xkampita, 1xnokku
+    6: 5xorikai, 5xravai, 1xjaru, 1xsphuritam
+    7: 1xnokku, 1xpratyagata, 1xvali
+    8: 3xkampita, 1xjaru, 1xnamitam, 1xodukkul
+    9: 6xjaru, 5xvali, 3xpratyagata, 1xandolita
+   10: 7xpratyagata, 6xravai, 5xsphuritam, 3xvali
+   11: 6xjaru, 4xkandippu, 3xravai, 3xtribhinna
+   12: 1xandolita, 1xnamitam, 1xnokku, 1xvali
+   13: 11xkampita, 6xpratyagata, 4xodukkul, 4xravai
+   14: 1xjaru, 1xandolita, 1xnokku, 1xpratyagata
+
+SUPERVISED (3-NN on shape features)
+  leave-one-TAKE-out : 0.14   <- the honest number
+  leave-one-clip-out : 0.36   <- inflated by near-duplicate takes
+
+  most confused pairs (true -> predicted):
+       sphuritam -> pratyagata   10
+      pratyagata -> sphuritam    7
+         kampita -> ravai        6
+            jaru -> orikai       5
+       sphuritam -> ravai        5
+           ravai -> kampita      5
+            vali -> pratyagata   5
+          ahatam -> ravai        4
+
+Pitch alone cannot separate gamakas that differ by articulation (Kandippu/Jaru) or by
+plucking several strings (Tribhinna). Expect those to merge -- that is a finding, not a bug.
+

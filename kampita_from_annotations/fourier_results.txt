@@ -1,0 +1,34 @@
+=== 1) annotated kampitas, treated as one raga ===
+  Kampita (plavita) bhairiga#03.1Guitar_samples speed  2.1 Hz   size   127 cents RMS   dur 0.92s
+  Kampita (plavita) bhairiga#03.2Guitar_samples speed  1.8 Hz   size   122 cents RMS   dur 1.00s
+  Kampita (plavita) bhairiga#03.3Guitar_samples speed  1.9 Hz   size   134 cents RMS   dur 1.09s
+  Kampita (plavita) bhairiga#03.4Guitar_samples speed  1.9 Hz   size   129 cents RMS   dur 1.03s
+  Kampita (plavita)#02.1Guitar_samples_3D_OG    speed  2.1 Hz   size   120 cents RMS   dur 1.94s
+  Kampita (plavita)#02.2Guitar_samples_3D_OG    speed  2.1 Hz   size   116 cents RMS   dur 1.90s
+  Kampita (plavita)#02.3Guitar_samples_3D_OG    speed  2.0 Hz   size   118 cents RMS   dur 1.92s
+  Kampita(plavitam) todi#01.1Guitar_samples_3D_ speed  3.0 Hz   size   125 cents RMS   dur 1.08s
+  Kampita(plavitam) todi#01.2Guitar_samples_3D_ speed  2.7 Hz   size   128 cents RMS   dur 1.13s
+  Kampita(plavitam) todi#01.3Guitar_samples_3D_ speed  2.7 Hz   size   119 cents RMS   dur 1.10s
+  Kampita(plavitam) todi#03.1Guitar_samples_3D_ speed  2.8 Hz   size   139 cents RMS   dur 0.64s
+  Kampita(plavitam) todi#03.2Guitar_samples_3D_ speed  2.3 Hz   size   141 cents RMS   dur 0.81s
+  Kampita(plavitam) todi#03.3Guitar_samples_3D_ speed  2.5 Hz   size   140 cents RMS   dur 0.79s
+  Kampita(plavitam) todi#03.4Guitar_samples_3D_ speed  2.1 Hz   size   139 cents RMS   dur 0.88s
+  POOLED: speed 2.1 Hz (range 1.8-3.0),  size 127 cents (range 116-141)
+
+=== 2) scaling test (model never sees the held-out recording or the scaled versions) ===
+  condition        kampita still recognised   shape distance to template (kampita template vs other gamakas)
+  original            57% of 14              2.88 vs 4.79  -> matches kampita
+  speed x0.5         100% of 14              3.15 vs 5.73  -> matches kampita
+  speed x0.8          64% of 14              2.78 vs 4.92  -> matches kampita
+  speed x1.5          43% of 14              3.27 vs 4.56  -> matches kampita
+  speed x2.5          29% of 14              3.86 vs 4.50  -> matches kampita
+  width x0.5          57% of 14              2.88 vs 4.79  -> matches kampita
+  width x2            57% of 14              2.88 vs 4.79  -> matches kampita
+  Kalyani-like        29% of 14              3.86 vs 4.50  -> matches kampita
+  false alarms on other gamakas: 6% of 314 pieces
+
+=== 3) Kalyani with the Fourier shape detector ===
+  kalyani #02: 13 kampita regions (earlier detector: 2)
+  kalyani2 #03: 8 kampita regions (earlier detector: 0)
+  kalyani3 #02: 4 kampita regions (earlier detector: 2)
+  detected Kalyani windows: speed 1.5 Hz, size 135 cents  vs veena kampita 2.1 Hz, 127 cents

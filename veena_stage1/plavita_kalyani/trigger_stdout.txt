@@ -1,0 +1,13 @@
+  seed 0: last epoch loss 0.007, label share kampita 0.75
+  seed 1: last epoch loss 0.011, label share kampita 0.75
+  seed 2: last epoch loss 0.006, label share kampita 0.75
+retrained in 296s; largest score difference from the saved run: 0.000000
+468 pieces
+blank seed 0: 33s
+blank seed 1: 33s
+blank seed 2: 33s
+flatten seed 0: 33s
+flatten seed 1: 33s
+flatten seed 2: 33s
+untrained: 33s
+done in 527s

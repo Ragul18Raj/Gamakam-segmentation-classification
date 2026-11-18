@@ -1,0 +1,72 @@
+{
+ "stem": "Sanjay_Subrahmanyan_Live_in_USA_-_Sanjay_Subrahmanyan_Shankaracharyam_Shankaracharyam",
+ "raga": "sankarabharanam",
+ "start": 64.98375,
+ "dur": 20.0,
+ "folder": "1_melody_damaged",
+ "levels": [
+  {
+   "level": "original",
+   "kbps": 128.0,
+   "pred": "sankarabharanam",
+   "correct": true,
+   "pitch_agree": 1.0,
+   "tonic_dev": 0.0,
+   "wav": "audio/0_original.wav"
+  },
+  {
+   "level": "mp3_96k",
+   "kbps": 96.0,
+   "pred": "sankarabharanam",
+   "correct": true,
+   "pitch_agree": 0.9902,
+   "tonic_dev": 0.0,
+   "wav": "audio/1_mp3_96k.wav"
+  },
+  {
+   "level": "mp3_56k",
+   "kbps": 56.0,
+   "pred": "sankarabharanam",
+   "correct": true,
+   "pitch_agree": 0.9831,
+   "tonic_dev": 0.0,
+   "wav": "audio/2_mp3_56k.wav"
+  },
+  {
+   "level": "mp3_32k",
+   "kbps": 32.0,
+   "pred": "sankarabharanam",
+   "correct": true,
+   "pitch_agree": 0.9665,
+   "tonic_dev": 0.0,
+   "wav": "audio/3_mp3_32k.wav"
+  },
+  {
+   "level": "mp3_24k",
+   "kbps": 24.0,
+   "pred": "sankarabharanam",
+   "correct": true,
+   "pitch_agree": 0.9554,
+   "tonic_dev": 0.0,
+   "wav": "audio/4_mp3_24k.wav"
+  },
+  {
+   "level": "mp3_16k",
+   "kbps": 16.0,
+   "pred": "sankarabharanam",
+   "correct": true,
+   "pitch_agree": 0.9456,
+   "tonic_dev": 0.0,
+   "wav": "audio/5_mp3_16k.wav"
+  },
+  {
+   "level": "mp3_8k",
+   "kbps": 8.0,
+   "pred": "behag",
+   "correct": false,
+   "pitch_agree": 0.7453,
+   "tonic_dev": 0.0,
+   "wav": "audio/6_mp3_8k.wav"
+  }
+ ]
+}

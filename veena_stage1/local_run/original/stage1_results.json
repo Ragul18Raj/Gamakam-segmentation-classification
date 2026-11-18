@@ -1,0 +1,234 @@
+{
+ "logreg_movement": {
+  "macro_f1": 0.2092939227785673,
+  "bal_acc": 0.21701516076516075,
+  "recall": {
+   "jaru": 0.2916666666666667,
+   "kampita": 0.07692307692307693,
+   "ravai": 0.3142857142857143,
+   "pratyagata": 0.18518518518518517
+  },
+  "confusion": [
+   [
+    7,
+    11,
+    5,
+    1
+   ],
+   [
+    22,
+    2,
+    0,
+    2
+   ],
+   [
+    3,
+    3,
+    11,
+    18
+   ],
+   [
+    1,
+    1,
+    20,
+    5
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.5,
+   "jaru_desc_melgana": 0.3333333333333333,
+   "jaru_desc_shankravarnam": 0.3333333333333333,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.125,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.14285714285714285,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.45454545454545453,
+   "ravai#02": 0.18181818181818182,
+   "ravai_(kalapriya)": 0.4166666666666667,
+   "ravai_(mayamolagolav)": 0.3333333333333333
+  }
+ },
+ "knn3_movement": {
+  "macro_f1": 0.2967350633202494,
+  "bal_acc": 0.3121057183557184,
+  "recall": {
+   "jaru": 0.375,
+   "kampita": 0.15384615384615385,
+   "ravai": 0.5714285714285714,
+   "pratyagata": 0.14814814814814814
+  },
+  "confusion": [
+   [
+    9,
+    13,
+    2,
+    0
+   ],
+   [
+    18,
+    4,
+    1,
+    3
+   ],
+   [
+    7,
+    1,
+    20,
+    7
+   ],
+   [
+    1,
+    2,
+    20,
+    4
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.16666666666666666,
+   "jaru_asc [series _OG_1]": 0.16666666666666666,
+   "jaru_desc_melgana": 0.5,
+   "jaru_desc_shankravarnam": 0.6666666666666666,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.125,
+   "kampita_(leena)#01": 0.18181818181818182,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.14285714285714285,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0625,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.2727272727272727,
+   "ravai#02": 0.36363636363636365,
+   "ravai_(kalapriya)": 0.9166666666666666,
+   "ravai_(mayamolagolav)": 0.4166666666666667
+  }
+ },
+ "probe_median_pitch": {
+  "macro_f1": 0.09375,
+  "bal_acc": 0.12857142857142856,
+  "recall": {
+   "jaru": 0.0,
+   "kampita": 0.0,
+   "ravai": 0.5142857142857142,
+   "pratyagata": 0.0
+  },
+  "confusion": [
+   [
+    0,
+    7,
+    16,
+    1
+   ],
+   [
+    0,
+    0,
+    14,
+    12
+   ],
+   [
+    3,
+    0,
+    18,
+    14
+   ],
+   [
+    0,
+    14,
+    13,
+    0
+   ]
+  ],
+  "per_take": {
+   "jaru_asc": 0.0,
+   "jaru_asc [series _OG_1]": 0.0,
+   "jaru_desc_melgana": 0.0,
+   "jaru_desc_shankravarnam": 0.0,
+   "kampita(plavitam)_todi#01+kampita(plavitam)_todi#03": 0.0,
+   "kampita_(leena)#01": 0.0,
+   "kampita_(plavita)#02+kampita_(plavita)_bhairiga#03": 0.0,
+   "pratayagata_(hindola)+pratayagata_(hindola)_continuous": 0.0,
+   "pratyagata_(amritvarshini)+pratyagata_(amritvarshini)#01+pratyagata_(amritvarshini)_continuous": 0.0,
+   "ravai#02": 0.5454545454545454,
+   "ravai_(kalapriya)": 0.5,
+   "ravai_(mayamolagolav)": 0.5
+  }
+ },
+ "majority_macro_f1": 0.11904761904761904,
+ "perm": {
+  "n": 1000,
+  "p": 0.23376623376623376,
+  "null_mean": 0.15220691593371152,
+  "null_95": 0.3025442931691093
+ },
+ "n_clips": {
+  "jaru": 24,
+  "kampita": 26,
+  "ravai": 35,
+  "pratyagata": 27
+ },
+ "n_takes": {
+  "jaru": 4,
+  "kampita": 3,
+  "ravai": 3,
+  "pratyagata": 2
+ },
+ "class_means": {
+  "dur": {
+   "jaru": 1.96,
+   "kampita": 2.56,
+   "pratyagata": 0.9,
+   "ravai": 0.91
+  },
+  "range": {
+   "jaru": 1521.91,
+   "kampita": 1349.54,
+   "pratyagata": 219.49,
+   "ravai": 758.46
+  },
+  "turns": {
+   "jaru": 27.62,
+   "kampita": 32.38,
+   "pratyagata": 12.78,
+   "ravai": 12.71
+  },
+  "turn_rate": {
+   "jaru": 13.65,
+   "kampita": 13.01,
+   "pratyagata": 13.93,
+   "ravai": 13.3
+  },
+  "net": {
+   "jaru": 47.8,
+   "kampita": -516.09,
+   "pratyagata": 56.39,
+   "ravai": -699.18
+  },
+  "abs_net": {
+   "jaru": 684.62,
+   "kampita": 933.49,
+   "pratyagata": 166.82,
+   "ravai": 758.8
+  },
+  "exc_up": {
+   "jaru": 1002.7,
+   "kampita": 655.7,
+   "pratyagata": 169.97,
+   "ravai": 242.52
+  },
+  "exc_down": {
+   "jaru": 1072.12,
+   "kampita": 1239.78,
+   "pratyagata": 184.65,
+   "ravai": 1309.88
+  },
+  "mean_abs_vel": {
+   "jaru": 3919.96,
+   "kampita": 3685.67,
+   "pratyagata": 743.05,
+   "ravai": 3001.02
+  },
+  "median_cents": {
+   "jaru": -251.16,
+   "kampita": -498.16,
+   "pratyagata": -436.54,
+   "ravai": -185.84
+  }
+ },
+ "PASS": false
+}
