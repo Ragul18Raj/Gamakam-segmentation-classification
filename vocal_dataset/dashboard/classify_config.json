@@ -1,0 +1,5 @@
+{
+  "reject_distance": 24.49,
+  "tuned": false,
+  "note": "PLACEHOLDER, NOT TUNED. 24.49 is the 99th percentile of the leave-one-group-out nearest-neighbour Stage 1 DTW distance among the 293 marked events (stage1_vocal.dtw: mean absolute cents per step, divided by n + m). Replace it with the value from your offline evaluation and set tuned to true. The classifier rereads this file on every request."
+}

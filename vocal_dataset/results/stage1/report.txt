@@ -1,0 +1,87 @@
+STAGE 1 (recorded vocal, 1 singer; grouping PROVISIONAL until the singer confirms it)
+events used 293 (excluded 0 with < 5 voiced frames); per class {'Kampita': 132, 'Nokku': 82, 'Jaaru (Etra)': 45, 'Jaaru (Irakka)': 34}
+octave slips folded: 152 runs over all recordings
+
+--- main_4class  (majority macro-F1 0.155; family null mean 0.257, 95th 0.302)
+configuration                        macroF1    acc p_single p_family tracksonly
+F-LR                                   0.954  0.945    0.001    0.001      0.943
+F-3NN                                  0.947  0.939    0.001    0.001      0.932
+DTW-3NN                                0.950  0.949    0.001    0.001      0.941
+DTW-1NN                                0.952  0.945    0.001    0.001      0.951
+control: duration only LR              0.390  0.683                        0.386
+control: median pitch probe LR         0.162  0.413                        0.181
+control: length removed F-LR           0.894  0.867                        0.902
+control: length removed DTW-3NN        0.966  0.959                        0.960
+control: scramble F-LR                 0.793  0.860                        0.772
+control: scramble DTW-3NN              0.454  0.689                        0.480
+
+--- main_3class  (majority macro-F1 0.207; family null mean 0.344, 95th 0.391)
+configuration                        macroF1    acc p_single p_family tracksonly
+F-LR                                   0.950  0.949    0.001    0.001 
+F-3NN                                  0.940  0.939    0.001    0.001 
+DTW-3NN                                0.949  0.949    0.001    0.001 
+DTW-1NN                                0.946  0.945    0.001    0.001 
+control: duration only LR              0.518  0.621                   
+control: median pitch probe LR         0.243  0.423                   
+control: length removed F-LR           0.861  0.863                   
+control: length removed DTW-3NN        0.960  0.959                   
+control: scramble F-LR                 0.946  0.945                   
+control: scramble DTW-3NN              0.577  0.689                   
+
+--- block6_4class  (majority macro-F1 0.155; family null mean 0.255, 95th 0.298)
+configuration                        macroF1    acc p_single p_family tracksonly
+F-LR                                   0.952  0.942    0.001    0.001 
+F-3NN                                  0.938  0.928    0.001    0.001 
+DTW-3NN                                0.947  0.945    0.001    0.001 
+DTW-1NN                                0.954  0.949    0.001    0.001 
+control: duration only LR              0.390  0.683                   
+control: median pitch probe LR         0.160  0.406                   
+control: length removed F-LR           0.898  0.870                   
+control: length removed DTW-3NN        0.966  0.959                   
+control: scramble F-LR                 0.798  0.860                   
+control: scramble DTW-3NN              0.468  0.693                   
+
+--- block6_3class  (majority macro-F1 0.207; family null mean 0.341, 95th 0.389)
+configuration                        macroF1    acc p_single p_family tracksonly
+F-LR                                   0.946  0.945    0.001    0.001 
+F-3NN                                  0.929  0.928    0.001    0.001 
+DTW-3NN                                0.946  0.945    0.001    0.001 
+DTW-1NN                                0.949  0.949    0.001    0.001 
+control: duration only LR              0.543  0.631                   
+control: median pitch probe LR         0.231  0.413                   
+control: length removed F-LR           0.862  0.863                   
+control: length removed DTW-3NN        0.960  0.959                   
+control: scramble F-LR                 0.943  0.942                   
+control: scramble DTW-3NN              0.585  0.693                   
+
+best trained configuration (main, 4 classes): F-LR, 95% CI over groups [0.9306355611325121, 0.968614504377809]
+DTW-3NN 95% CI over groups [0.914044667441126, 0.9727994343124806]
+
+DTW-3NN: recall Kampita 0.95, Nokku 0.95, Jaaru (Etra) 0.96, Jaaru (Irakka) 0.91
+confusion (rows = singer's label, cols = predicted; order Kampita, Nokku, Jaaru (Etra), Jaaru (Irakka))
+[[126   5   1   0]
+ [  3  78   0   1]
+ [  2   0  43   0]
+ [  3   0   0  31]]
+by tempo: slow n=115 F1=0.96, medium n=74 F1=0.96, fast n=49 F1=0.87, (varnam) n=55 F1=0.98
+per group acc: P01 0.86, P02 0.89, P03 1.00, P04 0.97, P05 0.96, P06 0.85, P07 0.94, P08 0.96, P09 1.00, P10 0.94, P11 0.98
+
+F-LR: recall Kampita 0.92, Nokku 0.94, Jaaru (Etra) 0.98, Jaaru (Irakka) 1.00
+confusion (rows = singer's label, cols = predicted; order Kampita, Nokku, Jaaru (Etra), Jaaru (Irakka))
+[[122   8   2   0]
+ [  4  77   0   1]
+ [  1   0  44   0]
+ [  0   0   0  34]]
+by tempo: slow n=115 F1=0.97, medium n=74 F1=0.94, fast n=49 F1=0.85, (varnam) n=55 F1=0.98
+per group acc: P01 0.91, P02 0.94, P03 0.96, P04 0.93, P05 0.96, P06 0.95, P07 0.88, P08 0.92, P09 0.96, P10 0.94, P11 0.98
+
+class means of the 9 features:
+                 dur   range  turns  turn_rate     net  abs_net  exc_up  exc_down  mean_abs_vel
+label                                                                                          
+Jaaru (Etra)    0.27  494.83   1.49       5.62  472.20   472.20  486.53     19.78       2463.14
+Jaaru (Irakka)  0.37  358.10   2.15       5.88 -315.04   315.04   36.92    339.76       1482.34
+Kampita         0.97  111.01   7.23       7.44  -25.68    77.07   75.88     71.99        562.95
+Nokku           0.31  111.89   2.17       7.22  -25.82    47.52   25.45     96.76        763.62
+
+PASS criterion: best >= 0.50 (0.954), p_family < 0.05 (0.001), beats median-pitch probe (0.162)  ->  PASS
+veena DTW result confirmed on vocal (DTW-3NN >= 0.50 and p_family < 0.05): True

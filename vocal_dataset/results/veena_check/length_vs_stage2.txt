@@ -1,0 +1,45 @@
+A. Marked lengths, all 293 events (s)
+                count   min    5%   50%   95%   max
+label                                              
+Jaaru (Etra)     45.0  0.14  0.15  0.22  0.55  0.67
+Jaaru (Irakka)   34.0  0.14  0.17  0.35  0.62  0.90
+Kampita         132.0  0.18  0.44  0.88  2.02  2.72
+Nokku            82.0  0.17  0.19  0.29  0.47  0.72
+share of events at least 1 s: {'Jaaru (Etra)': 0.0, 'Jaaru (Irakka)': 0.0, 'Kampita': 0.36, 'Nokku': 0.0} | events under 1 s by type: {'Kampita': 85, 'Nokku': 82, 'Jaaru (Etra)': 45, 'Jaaru (Irakka)': 34}
+
+B. CNN result for marked events by length: correct = right type and IoU>=0.3 (293 events)
+           n  correct  located_any_type  touched
+bin                                             
+<0.2      32     0.38              0.38     0.47
+0.2-0.4  105     0.50              0.53     0.60
+0.4-0.8   73     0.56              0.67     0.77
+>=0.8     83     0.95              0.95     0.98
+
+C. Same length, different type: correct/total
+bin      <0.2 0.2-0.4 0.4-0.8  >=0.8
+cls                                 
+Kampita   0/1     3/5   31/44  79/82
+Nokku     2/7   37/65    2/10      -
+Etra     9/20    9/18     3/7      -
+Irakka    1/4    4/17    5/12    0/1
+
+D. CNN events by length
+           n  correct  no_marked_partner  touch_nothing
+bin                                                    
+<0.2     142     0.13                120            110
+0.2-0.4  159     0.28                108             98
+0.4-0.8   95     0.46                 49             46
+>=0.8    104     0.74                 25             23
+
+E. CNN output length vs marked length, median s (n)
+         marked  n_marked   cnn  n_cnn  cnn_correct
+cls                                                
+Kampita    0.88       132  0.74    224          113
+Nokku      0.29        82  0.24    150           41
+Etra       0.22        45  0.16     88           21
+Irakka     0.35        34  0.26     38           10
+
+F. training-signal share: frames per type {'Kampita': 12831, 'Nokku': 2519, 'Etra': 1211, 'Irakka': 1264} {'Kampita': 0.72, 'Nokku': 0.14, 'Etra': 0.07, 'Irakka': 0.07} | event share {'Kampita': 0.45, 'Nokku': 0.28, 'Etra': 0.15, 'Irakka': 0.12} | none share of all frames 0.879
+
+G. CNN events with no marked partner: 302 {'Nokku': 104, 'Kampita': 103, 'Etra': 67, 'Irakka': 28} median length 0.24
+if every marked event were found with the same false alarms, event F1 by type: {'Kampita': 0.72, 'Nokku': 0.61, 'Etra': 0.57, 'Irakka': 0.71}

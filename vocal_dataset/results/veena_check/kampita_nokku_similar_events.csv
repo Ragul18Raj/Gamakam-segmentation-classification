@@ -1,0 +1,29 @@
+figure,event,marked,length_s,range_c,called_by,closest_other_type,other_length_s,other_range_c,dtw_c
+confused,TRACK 2 16.83s,Kampita,0.43,106,LR+DTW,TRACK 17 40.66s,0.23,101,2.9
+confused,TRACK 2 22.51s,Kampita,0.4,84,LR+DTW,TRACK 5 49.96s,0.33,60,3.1
+confused,TRACK 2 37.21s,Kampita,0.64,154,DTW,TRACK 27 26.45s,0.34,154,8.1
+confused,TRACK 4 31.48s,Kampita,0.94,127,DTW,VARNAM 116.51s,0.42,123,2.8
+confused,TRACK 8 28.18s,Kampita,0.51,93,LR,TRACK 11 16.79s,0.34,104,5.9
+confused,TRACK 10 19.65s,Kampita,0.47,83,LR+DTW,TRACK 26 14.81s,0.56,63,4.0
+confused,TRACK 12 24.05s,Kampita,0.36,89,LR,VARNAM 143.04s,0.33,96,5.8
+confused,TRACK 24 13.80s,Kampita,0.45,128,LR,TRACK 4 25.04s,0.6,75,10.3
+confused,TRACK 30 15.00s,Kampita,0.25,184,LR,TRACK 5 60.44s,0.33,103,12.3
+confused,TRACK 30 16.57s,Kampita,0.37,93,LR,TRACK 26 14.81s,0.56,63,4.7
+confused,VARNAM 14.56s,Nokku,0.71,104,LR,TRACK 14 19.17s,0.74,79,8.1
+confused,TRACK 4 25.04s,Nokku,0.6,75,LR,TRACK 14 19.17s,0.74,79,6.1
+confused,TRACK 5 60.44s,Nokku,0.33,103,DTW,TRACK 30 16.57s,0.37,93,5.1
+confused,TRACK 17 19.52s,Nokku,0.25,145,DTW,TRACK 4 31.48s,0.94,127,5.0
+confused,TRACK 21 22.31s,Nokku,0.29,238,LR+DTW,TRACK 24 20.05s,0.35,220,9.0
+confused,TRACK 26 14.81s,Nokku,0.56,63,LR,TRACK 10 19.65s,0.47,83,4.0
+closest_pair,TRACK 4 31.48s,Kampita,0.94,127,,VARNAM 116.51s,0.42,123,2.8
+closest_pair,TRACK 2 16.83s,Kampita,0.43,106,,TRACK 17 40.66s,0.23,101,2.9
+closest_pair,TRACK 2 22.51s,Kampita,0.4,84,,TRACK 5 49.96s,0.33,60,3.1
+closest_pair,TRACK 10 54.58s,Kampita,0.86,97,,TRACK 7 18.34s,0.43,101,3.9
+closest_pair,TRACK 10 19.65s,Kampita,0.47,83,,TRACK 26 14.81s,0.56,63,4.0
+closest_pair,TRACK 9 14.87s,Kampita,0.56,101,,TRACK 29 21.80s,0.35,117,4.3
+closest_pair,TRACK 30 16.57s,Kampita,0.37,93,,TRACK 11 37.24s,0.36,64,5.0
+closest_pair,TRACK 25 40.49s,Kampita,0.82,107,,TRACK 13 67.73s,0.46,147,5.0
+closest_pair,TRACK 12 24.05s,Kampita,0.36,89,,VARNAM 143.04s,0.33,96,5.8
+closest_pair,TRACK 8 28.18s,Kampita,0.51,93,,TRACK 11 16.79s,0.34,104,5.9
+closest_pair,TRACK 2 19.86s,Kampita,0.55,77,,TRACK 5 21.00s,0.47,38,6.1
+closest_pair,TRACK 14 19.17s,Kampita,0.74,79,,TRACK 4 25.04s,0.6,75,6.1

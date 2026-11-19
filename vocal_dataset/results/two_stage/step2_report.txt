@@ -1,0 +1,73 @@
+STEP 2: gamaka-vs-none CNN regions named by Stage 1 DTW-3NN. EXPLORATORY. Recorded vocal, one singer; 11 held-out groups pooled.
+Settings for each held-out group were tuned only on the other 10 groups.
+
+            run  event  frame  detections  correct
+       original  0.395  0.497         500      185
+Step 1 Method B  0.417  0.494         313      156
+    Two-stage A  0.419  0.493         305      155
+    Two-stage B  0.437  0.495         315      155
+
+Per type: F1 / precision / recall / detections
+                                original           Step 1 Method B               Two-stage A               Two-stage B
+Kampita         0.63 / 0.50 / 0.86 / 224  0.68 / 0.58 / 0.83 / 187  0.71 / 0.61 / 0.85 / 184  0.70 / 0.62 / 0.82 / 175
+Nokku           0.35 / 0.27 / 0.50 / 150   0.33 / 0.35 / 0.32 / 75   0.29 / 0.27 / 0.30 / 91   0.25 / 0.25 / 0.26 / 85
+Jaaru (Etra)     0.32 / 0.24 / 0.47 / 88   0.31 / 0.36 / 0.27 / 33   0.29 / 0.50 / 0.20 / 18   0.36 / 0.39 / 0.33 / 38
+Jaaru (Irakka)   0.28 / 0.26 / 0.29 / 38   0.35 / 0.50 / 0.26 / 18   0.39 / 0.75 / 0.26 / 12   0.43 / 0.65 / 0.32 / 17
+
+Region finding with type ignored (IoU >= 0.3), and how often a located region got the marked type
+                 precision  recall     f1  located  right_type_of_located
+original             0.390   0.666  0.492    195.0                  0.938
+Step 1 Method B      0.524   0.560  0.541    164.0                  0.951
+Two-stage A          0.557   0.580  0.569    170.0                  0.912
+Two-stage B          0.533   0.573  0.553    168.0                  0.923
+
+Events shorter than 0.2 s: original 137, Step 1 Method B 1, Two-stage A 3, Two-stage B 3
+Held-out regions dropped before length filtering because they had fewer than 5 voiced frames: A 0, B 1
+
+Per-fold scores and change from the original
+     original event  original frame  Two-stage A event change  Two-stage A frame change  Two-stage B event change  Two-stage B frame change
+P01           0.343           0.370                    -0.085                    -0.031                    -0.060                    -0.021
+P02           0.472           0.530                    -0.122                    -0.126                    -0.022                    -0.073
+P03           0.182           0.318                    -0.011                    -0.009                     0.048                     0.017
+P04           0.412           0.461                     0.077                     0.069                     0.080                     0.065
+P05           0.491           0.522                    -0.181                    -0.115                    -0.195                    -0.129
+P06           0.294           0.420                     0.044                     0.029                     0.006                    -0.066
+P07           0.403           0.511                    -0.109                    -0.086                     0.151                     0.052
+P08           0.319           0.488                     0.163                     0.050                     0.115                     0.017
+P09           0.524           0.586                     0.097                     0.032                     0.059                     0.027
+P10           0.398           0.498                     0.023                    -0.009                    -0.063                    -0.011
+P11           0.295           0.419                    -0.036                    -0.023                    -0.001                    -0.024
+
+Change from the original, pooled score; group bootstrap 2000 resamples; two-sided Wilcoxon over 11 folds
+  Two-stage A event: +0.023 (95% CI -0.042 to +0.084); folds better 5, worse 6; Wilcoxon p = 0.700
+  Two-stage A frame: -0.004 (95% CI -0.046 to +0.037); folds better 4, worse 7; Wilcoxon p = 0.520
+  Two-stage B event: +0.042 (95% CI -0.023 to +0.087); folds better 6, worse 5; Wilcoxon p = 0.700
+  Two-stage B frame: -0.002 (95% CI -0.039 to +0.029); folds better 5, worse 6; Wilcoxon p = 0.577
+
+Two-stage A settings chosen per held-out group
+held_out_group  W_ms  G_ms  E_ms  L_Kampita  L_Nokku  L_Etra  L_Irakka  tuning_event_f1
+           P01  50.0 100.0  40.0       0.60     0.20    0.10       0.1            0.477
+           P02  50.0 100.0  40.0       0.45     0.20    0.10       0.1            0.463
+           P03 110.0 100.0  60.0       0.50     0.25    0.20       0.1            0.481
+           P04 110.0 100.0  60.0       0.60     0.25    0.20       0.1            0.461
+           P05  50.0 100.0  40.0       0.55     0.20    0.10       0.1            0.485
+           P06  50.0 100.0  40.0       0.45     0.20    0.10       0.1            0.475
+           P07  70.0 100.0  40.0       0.45     0.20    0.10       0.1            0.465
+           P08 110.0 100.0  60.0       0.50     0.25    0.20       0.1            0.455
+           P09  50.0 100.0  40.0       0.45     0.20    0.10       0.1            0.455
+           P10 110.0 100.0  60.0       0.50     0.25    0.20       0.1            0.476
+           P11  50.0 100.0  40.0       0.55     0.20    0.25       0.1            0.473
+
+Two-stage B settings chosen per held-out group
+held_out_group  L_Kampita  L_Nokku  L_Etra  L_Irakka  tuning_event_f1  D_region_s  switch  alpha
+           P01        0.6     0.30     0.1      0.35            0.473        0.14     3.0    0.5
+           P02        0.6     0.25     0.1      0.30            0.469        0.20     1.0    0.5
+           P03        0.6     0.30     0.1      0.35            0.464        0.14     1.0    0.5
+           P04        0.6     0.30     0.1      0.35            0.457        0.14     1.0    0.5
+           P05        0.6     0.35     0.1      0.40            0.480        0.20     1.0    0.5
+           P06        0.6     0.25     0.1      0.25            0.478        0.20     1.0    0.5
+           P07        0.6     0.30     0.1      0.30            0.455        0.14     3.0    0.5
+           P08        0.6     0.25     0.1      0.35            0.461        0.14     1.0    0.5
+           P09        0.6     0.15     0.1      0.35            0.445        0.14     1.0    0.5
+           P10        0.6     0.30     0.1      0.35            0.475        0.20     3.0    0.5
+           P11        0.6     0.30     0.1      0.30            0.500        0.20     1.0    0.5

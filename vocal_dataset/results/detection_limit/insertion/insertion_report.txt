@@ -1,0 +1,60 @@
+CONTROLLED INSERTION TEST. EXPLORATORY. Frozen Step 3 detector and Viterbi settings; recorded vocal, one singer; contours from each fold's training groups; held-out tracks.
+Reproduction check passed in all 11 folds (correlation 1.0, event F1 difference 0). Located = paired at IoU >= 0.3 with a final detection of any type.
+
+Trials: 1584 gamaka insertions (44 per type x length) and 396 flat-contour controls. Pitch mismatch with the surrounding melody before smoothing: median 33 c, 90th percentile 57 c.
+Flat control: located 0/396; candidate regions before naming and length filtering 1/396. Upper 97.5% bound on located rate 0.93%.
+
+Located, any type: count / insertions
+length_ms   80    120   160   200    250   300    400    600    800
+type                                                               
+Kampita    0/44  1/44  0/44  1/44   3/44  0/44   5/44   9/44  10/44
+Nokku      0/44  0/44  0/44  3/44   1/44  8/44  13/44  17/44  20/44
+Etra       0/44  1/44  4/44  9/44  12/44  9/44   8/44   9/44   5/44
+Irakka     0/44  0/44  0/44  0/44   0/44  0/44   1/44   7/44  11/44
+
+Located and right type: count / insertions
+length_ms   80    120   160   200    250   300    400    600    800
+type                                                               
+Kampita    0/44  0/44  0/44  0/44   2/44  0/44   4/44   8/44   7/44
+Nokku      0/44  0/44  0/44  3/44   1/44  8/44  11/44  15/44  14/44
+Etra       0/44  1/44  4/44  9/44  12/44  7/44   8/44   8/44   3/44
+Irakka     0/44  0/44  0/44  0/44   0/44  0/44   1/44   5/44   8/44
+
+Group-bootstrap 95% CIs for every rate are in insertion_rates.csv.
+
+Per-type logistic fits: outcome ~ log(length). X values are shown only inside 80-800 ms
+    source    type    outcome   n  successes                  slope                    X50                    X80
+real marks Kampita    located 132        123   1.04 (-2.22 to 2.86)            below 80 ms            246 (0-inf)
+real marks Kampita right_type 132        114  -0.37 (-2.02 to 4.56) no upward length trend no upward length trend
+insertions Kampita    located 396         29   1.89 (-1.09 to 3.23)  not reached by 800 ms  not reached by 800 ms
+insertions Kampita right_type 396         21    2.25 (1.24 to 3.26)  not reached by 800 ms  not reached by 800 ms
+real marks   Nokku    located  82         36  -1.56 (-2.01 to 1.80) no upward length trend no upward length trend
+real marks   Nokku right_type  82         31   0.28 (-2.02 to 1.75)  not reached by 800 ms  not reached by 800 ms
+insertions   Nokku    located 396         62 -2.10 (-2.10 to -0.29) no upward length trend no upward length trend
+insertions   Nokku right_type 396         52  -1.28 (-2.08 to 1.92) no upward length trend no upward length trend
+real marks    Etra    located  45         11  -0.73 (-3.03 to 0.84) no upward length trend no upward length trend
+real marks    Etra right_type  45         11  -0.73 (-3.03 to 0.84) no upward length trend no upward length trend
+insertions    Etra    located 396         57    0.57 (0.37 to 0.80)  not reached by 800 ms  not reached by 800 ms
+insertions    Etra right_type 396         52    0.46 (0.22 to 0.71)  not reached by 800 ms  not reached by 800 ms
+real marks  Irakka    located  34         12  -2.06 (-2.07 to 0.89) no upward length trend no upward length trend
+real marks  Irakka right_type  34         11  -1.87 (-2.08 to 0.85) no upward length trend no upward length trend
+insertions  Irakka    located 396         19   1.14 (-0.86 to 4.65)  not reached by 800 ms  not reached by 800 ms
+insertions  Irakka right_type 396         14    3.83 (0.45 to 4.91)  not reached by 800 ms  not reached by 800 ms
+* inside 80-800 ms but outside the lengths observed for that real-mark type.
+
+Diagnostic: located rate by how far insertion moved the contour from its original pitch class (cents, octaves ignored)
+length_band shift_band  insertions  located  located_rate  right_type
+ 400-800 ms       <100         117       47         0.402          38
+ 400-800 ms    100-300         157        9         0.057           6
+ 400-800 ms      >=300         254       59         0.232          48
+  80-300 ms       <100         222       14         0.063          12
+  80-300 ms    100-300         337       15         0.045          15
+  80-300 ms      >=300         497       23         0.046          20
+
+400-800 ms insertions by type: located/insertions
+shift_band   <100 100-300  >=300
+type                            
+Kampita     11/27    0/41  13/64
+Nokku       22/41    0/31  28/60
+Etra         4/19    5/38  13/75
+Irakka      10/30    4/47   5/55

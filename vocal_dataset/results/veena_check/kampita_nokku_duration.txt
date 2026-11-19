@@ -1,0 +1,14 @@
+events {'Kampita': 132, 'Nokku': 82}
+  Kampita length s: min 0.17, p5 0.44, median 0.88, p95 2.02, max 2.72
+  Nokku length s: min 0.17, p5 0.19, median 0.29, p95 0.47, max 0.71
+overlap zone 0.44-0.47 s: Kampita 2, Nokku 1
+  Duration only          balanced accuracy all 0.928 | overlap zone 0.500  (Kampita 0.00, Nokku 1.00)
+  All 9 features         balanced accuracy all 0.928 | overlap zone 0.750  (Kampita 0.50, Nokku 1.00)
+  No length features     balanced accuracy all 0.814 | overlap zone 0.250  (Kampita 0.50, Nokku 0.00)
+  DTW, length removed    balanced accuracy all 0.947 | overlap zone 1.000  (Kampita 1.00, Nokku 1.00)
+
+length-matched pairs (within 30 ms): 14; lengths 0.20-0.71 s, median 0.43 s; groups 10
+  Duration only          balanced accuracy 0.464 (group bootstrap 95% CI 0.26-0.69)  Kampita 0.29, Nokku 0.64
+  All 9 features         balanced accuracy 0.679 (group bootstrap 95% CI 0.47-0.86)  Kampita 0.57, Nokku 0.79
+  No length features     balanced accuracy 0.536 (group bootstrap 95% CI 0.39-0.67)  Kampita 0.79, Nokku 0.29
+  DTW, length removed    balanced accuracy 0.786 (group bootstrap 95% CI 0.65-0.91)  Kampita 0.71, Nokku 0.86

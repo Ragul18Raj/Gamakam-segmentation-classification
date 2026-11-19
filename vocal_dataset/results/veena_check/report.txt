@@ -1,0 +1,87 @@
+vocal training events 293, median length 0.44 s
+                 25%   50%   75%
+Kampita         0.65  0.88  1.19
+Nokku           0.24  0.30  0.34
+Jaaru (Etra)    0.17  0.22  0.30
+Jaaru (Irakka)  0.26  0.34  0.45
+
+MAIN CLIPS
+clip                          Kampita (plavita) bhairiga#03.1 Kampita (plavita)#02.1 Jaru_asc_1 Jaru_asc_2 Jaru_desc_1_melgana Jaru_desc_2_melgana
+true                                                  Kampita                Kampita       Etra       Etra              Irakka              Irakka
+dur_s                                                    0.91                   1.94        1.3       1.31                0.88                1.01
+Full features                                         Kampita                Kampita    Kampita    Kampita              Irakka              Irakka
+No length features                                    Kampita                Kampita       Etra       Etra              Irakka              Irakka
+Duration only                                         Kampita                Kampita    Kampita    Kampita             Kampita             Kampita
+DTW shape                                             Kampita                Kampita       Etra       Etra               Nokku               Nokku
+DTW, length removed                                   Kampita                Kampita       Etra       Etra              Irakka              Irakka
+Full features, clip stretched                         Kampita                Kampita       Etra       Etra              Irakka              Irakka
+DTW, clip stretched                                   Kampita                Kampita    Kampita       Etra             Kampita             Kampita
+
+ALL CLIPS PASSING THE QUALITY RULE: 31 clips; always-Kampita gets 0.45
+                                all  Kampita  Etra  Irakka
+Full features                  0.90     1.00  0.73    1.00
+No length features             0.97     0.93  1.00    1.00
+Duration only                  0.45     1.00  0.00    0.00
+DTW shape                      0.68     1.00  0.55    0.17
+DTW, length removed            0.97     1.00  0.91    1.00
+Full features, clip stretched  1.00     1.00  1.00    1.00
+DTW, clip stretched            0.55     1.00  0.27    0.00
+
+ALL 38 CLIPS: 38 clips; always-Kampita gets 0.37
+                                all  Kampita  Etra  Irakka
+Full features                  0.76     1.00  0.75    0.50
+No length features             0.82     0.93  1.00    0.50
+Duration only                  0.37     1.00  0.00    0.00
+DTW shape                      0.55     1.00  0.50    0.08
+DTW, length removed            0.79     1.00  0.83    0.50
+Full features, clip stretched  0.84     1.00  1.00    0.50
+DTW, clip stretched            0.45     1.00  0.25    0.00
+
+fails quality rule: [['Jaru_asc_5 [OG_1]', 0.155], ['Jaru_desc_shankravarnam_1', 0.097], ['Jaru_desc_shankravarnam_2', 0.196], ['Jaru_desc_shankravarnam_3', 0.126], ['Jaru_desc_shankravarnam_4', 0.034], ['Jaru_desc_shankravarnam_5', 0.059], ['Jaru_desc_shankravarnam_6', 0.132]]
+
+by take, correct/total
+                                    Full features No length features Duration only DTW shape DTW, length removed Full features, clip stretched DTW, clip stretched
+true           take                                                                                                                                               
+Jaaru (Etra)   asc                            3/6                6/6           0/6       6/6                 6/6                           6/6                 3/6
+               asc [OG_1]                     5/5                5/5           0/5       0/5                 4/5                           5/5                 0/5
+Jaaru (Irakka) desc Melgana                   6/6                6/6           0/6       1/6                 6/6                           6/6                 0/6
+Kampita        plavita #02                    3/3                3/3           3/3       3/3                 3/3                           3/3                 3/3
+               plavita bhairiga #03           4/4                4/4           4/4       4/4                 4/4                           4/4                 4/4
+               plavitam Todi                  7/7                6/7           7/7       7/7                 7/7                           7/7                 7/7
+
+what each clip type is called (passing clips)
+Full features
+Full features  Etra  Irakka  Kampita
+true                                
+Etra              8       0        3
+Irakka            0       6        0
+Kampita           0       0       14
+No length features
+No length features  Etra  Irakka  Kampita
+true                                     
+Etra                  11       0        0
+Irakka                 0       6        0
+Kampita                1       0       13
+Duration only
+Duration only  Kampita
+true                  
+Etra                11
+Irakka               6
+Kampita             14
+DTW, length removed
+DTW, length removed  Etra  Irakka  Kampita  Nokku
+true                                             
+Etra                   10       0        0      1
+Irakka                  0       6        0      0
+Kampita                 0       0       14      0
+
+veena cut length vs vocal
+                 min   50%   max
+true                            
+Jaaru (Etra)    0.82  1.23  1.47
+Jaaru (Irakka)  0.55  0.99  2.06
+Kampita         0.63  1.03  1.94
+
+VOCAL held-out macro-F1, normal vs every test event stretched to one length
+  F-LR    0.954 -> 0.846   per class {'Kampita': 0.71, 'Nokku': 0.71, 'Jaaru (Etra)': 0.98, 'Jaaru (Irakka)': 0.99}
+  DTW-3NN 0.950 -> 0.962   per class {'Kampita': 0.96, 'Nokku': 0.96, 'Jaaru (Etra)': 0.97, 'Jaaru (Irakka)': 0.96}

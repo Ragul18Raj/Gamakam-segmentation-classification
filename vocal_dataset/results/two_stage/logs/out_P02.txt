@@ -1,0 +1,9 @@
+    epoch  1 loss 0.537 val frame macroF1 0.463 (7s)
+    epoch  2 loss 0.419 val frame macroF1 0.720 (7s)
+    epoch  3 loss 0.360 val frame macroF1 0.766 (7s)
+    epoch  4 loss 0.337 val frame macroF1 0.706 (7s)
+    epoch  5 loss 0.288 val frame macroF1 0.759 (6s)
+    epoch  6 loss 0.303 val frame macroF1 0.733 (7s)
+    epoch  7 loss 0.278 val frame macroF1 0.722 (7s)
+    epoch  8 loss 0.263 val frame macroF1 0.761 (6s)
+best val frame macroF1 0.766

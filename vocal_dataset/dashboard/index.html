@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gamaka Detector</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="classify.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Gamaka Detector</h1>
+      <p>Finds and names gamakas from pitch movement</p>
+    </div>
+    <nav class="view-tabs" role="tablist" aria-label="Sections">
+      <button id="tabDetector" role="tab" type="button" aria-selected="true" aria-controls="detectorView">Detector</button>
+      <button id="tabClassify" role="tab" type="button" aria-selected="false" aria-controls="classifyView">Classify a selection</button>
+    </nav>
+    <div class="top-actions">
+      <span id="serviceChip" class="chip" role="status">Connecting</span>
+      <button id="themeButton" class="ghost" type="button">Theme</button>
+    </div>
+  </header>
+
+  <main id="detectorView" role="tabpanel" aria-labelledby="tabDetector">
+    <section class="input-band" aria-label="Choose audio">
+      <label id="dropZone" class="drop-zone" for="fileInput">
+        <input id="fileInput" type="file" accept=".wav,.mp3,.flac,.ogg,.oga,.aif,.aiff,audio/*">
+        <strong>Add a recording</strong>
+        <span>Drop audio here or browse. WAV, MP3, FLAC, OGG or AIFF.</span>
+      </label>
+      <div class="track-picker">
+        <label for="trackSelect">Or open a dataset recording</label>
+        <select id="trackSelect"><option value="">Choose a recording</option></select>
+      </div>
+      <div id="fileSummary" class="file-summary" aria-live="polite"><span>No recording selected</span></div>
+    </section>
+
+    <section id="notice" class="notice" hidden role="status"></section>
+    <section id="progressPanel" class="progress-panel" hidden aria-live="polite">
+      <div class="progress-copy"><strong id="progressTitle">Analysing</strong><span id="progressDetail"></span></div>
+      <div class="progress-track"><div id="progressBar"></div></div>
+    </section>
+    <section id="errorPanel" class="error-panel" hidden role="alert">
+      <h2 id="errorTitle">The analysis could not finish</h2><p id="errorText"></p><pre id="errorLog" hidden></pre>
+    </section>
+
+    <section id="empty" class="empty"><h2>Add audio to see flagged gamakas</h2><p>The timeline will show pitch, detector activity, and each flagged Kampita, Nokku, Etra and Irakka.</p></section>
+
+    <div id="workspace" hidden>
+      <section class="stats" id="stats" aria-label="Summary"></section>
+      <section class="timeline-card" aria-label="Audio timeline">
+        <div class="transport">
+          <button id="playButton" class="primary" type="button">Play</button>
+          <span id="clock" class="clock">0:00.00</span>
+          <div class="legend" id="legend" aria-label="Show or hide gamaka types"></div>
+          <div class="zoom"><button id="zoomOut" class="ghost" type="button" aria-label="Zoom out">−</button><button id="zoomFit" class="ghost" type="button">Fit</button><button id="zoomIn" class="ghost" type="button" aria-label="Zoom in">+</button></div>
+        </div>
+        <div class="canvas-wrap"><canvas id="timeline" tabindex="0" aria-label="Timeline of pitch, detector score and flagged gamakas. The table below lists the same events."></canvas><div id="tooltip" class="tooltip" hidden></div></div>
+        <audio id="audio" preload="metadata"></audio>
+      </section>
+      <section class="lower-grid">
+        <div class="events-card">
+          <div class="section-head"><div><h2>Flagged gamakas</h2><p id="eventCaption"></p></div><button id="exportButton" class="ghost" type="button">Export CSV</button></div>
+          <div class="table-wrap"><table><thead id="eventHead"></thead><tbody id="eventRows"></tbody></table></div>
+        </div>
+        <aside class="model-card"><h2>Model in use</h2><div id="modelInfo"></div></aside>
+      </section>
+    </div>
+  </main>
+  <main id="classifyView" role="tabpanel" aria-labelledby="tabClassify" hidden>
+    <section class="input-band" aria-label="Choose audio to classify">
+      <label id="cDropZone" class="drop-zone" for="cFileInput">
+        <input id="cFileInput" type="file" accept=".wav,.mp3,.flac,.ogg,.oga,.aif,.aiff,audio/*">
+        <strong>Add a song</strong>
+        <span>Drop audio here or browse, then drag across it to select a passage.</span>
+      </label>
+      <div class="track-picker">
+        <label for="cTrackSelect">Or open a dataset recording</label>
+        <select id="cTrackSelect"><option value="">Choose a recording</option></select>
+      </div>
+      <div id="cFileSummary" class="file-summary" aria-live="polite"><span>No recording selected</span></div>
+    </section>
+
+    <section id="cProgress" class="progress-panel" hidden aria-live="polite">
+      <div class="progress-copy"><strong id="cProgressTitle">Preparing</strong><span id="cProgressDetail"></span></div>
+      <div class="progress-track"><div id="cProgressBar" class="indeterminate"></div></div>
+    </section>
+    <section id="cError" class="error-panel" hidden role="alert"><h2 id="cErrorTitle">Something went wrong</h2><p id="cErrorText"></p><pre id="cErrorLog" hidden></pre></section>
+    <section id="cEmpty" class="empty"><h2>Pick a song, then select a passage</h2><p>The selected passage is compared with every gamaka the singer marked, and the closest type is shown with its three nearest examples.</p></section>
+
+    <div id="cWorkspace" class="classify-grid" hidden>
+      <section class="timeline-card c-timeline" aria-label="Recording timeline">
+        <div class="transport">
+          <button id="cPlay" class="primary" type="button">Play</button>
+          <span id="cClock" class="clock">0:00.00</span>
+          <span class="c-hint">Drag on the pitch to select. Drag the song strip below to move. Scroll to zoom.</span>
+          <div class="zoom"><button id="cZoomOut" class="ghost" type="button" aria-label="Zoom out">−</button><button id="cZoomSel" class="ghost" type="button">Selection</button><button id="cZoomFit" class="ghost" type="button">Fit</button><button id="cZoomIn" class="ghost" type="button" aria-label="Zoom in">+</button></div>
+        </div>
+        <div class="canvas-wrap"><canvas id="cTimeline" tabindex="0" aria-label="Pitch timeline. Drag to select a passage; the start and end fields below show the same selection."></canvas><div id="cTooltip" class="tooltip" hidden></div></div>
+        <div class="selection-bar">
+          <label class="num-field">Start <input id="cStart" type="number" step="0.01" min="0" inputmode="decimal"> s</label>
+          <label class="num-field">End <input id="cEnd" type="number" step="0.01" min="0" inputmode="decimal"> s</label>
+          <span id="cLength" class="sel-length">No selection</span>
+          <button id="cPlaySel" class="ghost" type="button" disabled>Play selection</button>
+          <label class="toggle"><input id="cSubseq" type="checkbox"> Search inside selection</label>
+          <label class="toggle"><input id="cBlind" type="checkbox"> Blind mode</label>
+          <button id="cClassify" class="primary" type="button" disabled>Classify region</button>
+        </div>
+      </section>
+      <aside id="cResult" class="result-card" aria-live="polite"></aside>
+    </div>
+  </main>
+  <audio id="cAudio" preload="metadata"></audio>
+  <audio id="cExampleAudio" preload="none"></audio>
+  <script src="app.js"></script>
+  <script src="classify.js"></script>
+</body>
+</html>

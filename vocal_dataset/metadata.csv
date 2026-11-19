@@ -1,32 +1,32 @@
 recording,group,song_title,raga,tempo,octave,sa_note,sa_hz,complete_marking,notes
-VARNAM,P11,,,,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 1,P01,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 2,P01,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 3,P01,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 4,P02,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 5,P02,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 6,P02,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 7,P03,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 8,P03,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 9,P03,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 10,P04,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 11,P04,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 12,P04,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 13,P05,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 14,P05,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 15,P05,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 16,P06,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 17,P06,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 18,P06,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 19,P07,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 20,P07,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 21,P07,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 22,P08,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 23,P08,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 24,P08,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 25,P09,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 26,P09,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 27,P09,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 28,P10,,,slow,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 29,P10,,,medium,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
-TRACK 30,P10,,,fast,,,,,PROVISIONAL: group and tempo inferred from track order and length; confirm with singer
+VARNAM,P11,,,,middle+upper,F#3,185.27,as far as singer could; orikai unmarked,"singer 18 Nov 2026: separate piece, single speed (second speed); raga not stated, held notes fit Kalyani; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)"
+TRACK 1,P01,,Kalyani,slow,lower+middle,F#3,185.21,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 2,P01,,Kalyani,medium,lower+middle,F#3,185.19,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 3,P01,,Kalyani,fast,lower+middle,F#3,185.17,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 4,P02,,Kalyani,slow,middle+upper,F#3,185.21,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 5,P02,,Kalyani,medium,middle+upper,F#3,185.18,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 6,P02,,Kalyani,fast,middle+upper,F#3,185.19,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 7,P03,,Kalyani,slow,middle+upper,F#3,185.2,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 8,P03,,Kalyani,medium,middle+upper,F#3,185.17,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 9,P03,,Kalyani,fast,middle+upper,F#3,185.17,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 10,P04,,Kalyani,slow,middle,F#3,185.19,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 11,P04,,Kalyani,medium,middle,F#3,185.18,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 12,P04,,Kalyani,fast,middle,F#3,185.17,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 13,P05,,Kalyani,slow,middle+upper,F#3,185.19,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 14,P05,,Kalyani,medium,middle+upper,F#3,185.18,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 15,P05,,Kalyani,fast,middle+upper,F#3,185.17,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 16,P06,,Kalyani,slow,middle+upper,F#3,185.17,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 17,P06,,Kalyani,medium,middle+upper,F#3,185.19,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 18,P06,,Kalyani,fast,middle+upper,F#3,185.2,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 19,P07,,Kalyani,slow,lower+middle,F#3,185.18,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 20,P07,,Kalyani,medium,lower+middle,F#3,185.18,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 21,P07,,Kalyani,fast,lower+middle,F#3,185.19,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 22,P08,,Kalyani,slow,middle,F#3,185.17,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 23,P08,,Kalyani,medium,middle,F#3,185.21,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 24,P08,,Kalyani,fast,middle,F#3,185.18,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 25,P09,,Kalyani,slow,middle,F#3,185.18,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 26,P09,,Kalyani,medium,middle,F#3,185.2,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 27,P09,,Kalyani,fast,middle,F#3,185.18,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 28,P10,,Kalyani,slow,middle+upper,F#3,185.19,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 29,P10,,Kalyani,medium,middle+upper,F#3,185.2,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)
+TRACK 30,P10,,Kalyani,fast,middle+upper,F#3,185.21,as far as singer could; orikai unmarked,singer 18 Nov 2026: group and tempo confirmed; octave measured from pitch; Sa measured from opening Sa (tonic_from_opening_sa.py)

@@ -1,0 +1,94 @@
+RAGA-FREE STAGE 2. EXPLORATORY. Recorded vocal, one singer; 11 held-out groups pooled; settings tuned only on the other 10 groups.
+Inputs: cents minus running median, velocity, voiced flag, CREPE confidence. Stage 1 DTW naming uses median-subtracted contours.
+
+                       run  event  frame  detections  correct  count_error_per_type_track  total_count_error_per_track
+                  original  0.395  0.497         500      185                       2.137                        6.871
+frozen raga-aware (Step 3)  0.462  0.513         321      167                       1.194                        1.935
+   RAGA-FREE, tuned window  0.387  0.460         329      146                       1.435                        2.968
+  raga-free, 510 ms window  0.346  0.424         337      142                       1.710                        2.710
+  raga-free, 750 ms window  0.375  0.449         320      144                       1.379                        2.806
+ raga-free, 1010 ms window  0.397  0.469         318      148                       1.460                        2.935
+
+Per type: F1 / precision / recall / detections
+                                             Kampita                     Nokku             Jaaru (Etra)           Jaaru (Irakka)
+original                    0.63 / 0.50 / 0.86 / 224  0.35 / 0.27 / 0.50 / 150  0.32 / 0.24 / 0.47 / 88  0.28 / 0.26 / 0.29 / 38
+frozen raga-aware (Step 3)  0.76 / 0.68 / 0.86 / 168  0.32 / 0.27 / 0.38 / 114  0.31 / 0.44 / 0.24 / 25  0.46 / 0.79 / 0.32 / 14
+RAGA-FREE, tuned window     0.68 / 0.60 / 0.79 / 173  0.25 / 0.22 / 0.29 / 111  0.19 / 0.26 / 0.16 / 27  0.42 / 0.61 / 0.32 / 18
+raga-free, 510 ms window    0.67 / 0.57 / 0.80 / 186   0.23 / 0.22 / 0.24 / 93  0.19 / 0.21 / 0.18 / 38  0.30 / 0.40 / 0.24 / 20
+raga-free, 750 ms window    0.68 / 0.60 / 0.77 / 169  0.27 / 0.25 / 0.30 / 101  0.23 / 0.26 / 0.20 / 34  0.32 / 0.50 / 0.24 / 16
+raga-free, 1010 ms window   0.68 / 0.60 / 0.78 / 171  0.29 / 0.26 / 0.33 / 104  0.23 / 0.31 / 0.18 / 26  0.39 / 0.59 / 0.29 / 17
+
+Region finding with type ignored (IoU >= 0.3)
+                            precision  recall     f1  located  right_type_of_located
+original                        0.390   0.666  0.492    195.0                  0.938
+frozen raga-aware (Step 3)      0.567   0.621  0.593    182.0                  0.918
+RAGA-FREE, tuned window         0.505   0.567  0.534    166.0                  0.867
+raga-free, 510 ms window        0.481   0.553  0.514    162.0                  0.877
+raga-free, 750 ms window        0.497   0.543  0.519    159.0                  0.893
+raga-free, 1010 ms window       0.528   0.573  0.550    168.0                  0.875
+
+Per fold, raga-free against the frozen raga-aware run
+     frozen_event  frozen_frame  RF_event  RF_frame  event_change  frame_change  window_frames
+P01         0.324         0.367     0.278     0.344        -0.046        -0.024            101
+P02         0.483         0.511     0.356     0.430        -0.127        -0.081            101
+P03         0.342         0.416     0.213     0.320        -0.129        -0.096            101
+P04         0.395         0.465     0.440     0.510         0.046         0.045            101
+P05         0.465         0.541     0.372     0.459        -0.094        -0.082            101
+P06         0.259         0.354     0.324     0.408         0.065         0.054            101
+P07         0.319         0.433     0.325     0.439         0.005         0.006            101
+P08         0.561         0.572     0.415     0.478        -0.146        -0.094            101
+P09         0.351         0.454     0.476     0.525         0.125         0.071            101
+P10         0.564         0.566     0.199     0.330        -0.364        -0.236            101
+P11         0.274         0.383     0.347     0.416         0.074         0.033             75
+
+Change from the frozen raga-aware run; group bootstrap 2000 resamples; two-sided Wilcoxon over 11 folds
+  event: -0.075 (95% CI -0.170 to -0.002); folds better 5, worse 6; Wilcoxon p = 0.240
+  frame: -0.053 (95% CI -0.118 to -0.001); folds better 5, worse 6; Wilcoxon p = 0.240
+
+Real marks located, by length band and type: frozen raga-aware -> raga-free (located/marks)
+run              frozen raga-aware raga-free
+type    length_s                            
+All     <0.2                  8/32      5/32
+        0.2-0.3              24/59     23/59
+        0.3-0.4              20/46     14/46
+        0.4-0.6              25/42     19/42
+        0.6-0.8              26/31     25/31
+        >=0.8                79/83     80/83
+Kampita <0.2                   1/1       0/1
+        0.2-0.3                0/1       1/1
+        0.3-0.4                4/4       1/4
+        0.4-0.6              14/18     10/18
+        0.6-0.8              25/26     21/26
+        >=0.8                79/82     80/82
+Nokku   <0.2                   0/7       1/7
+        0.2-0.3              18/36     16/36
+        0.3-0.4              14/29     11/29
+        0.4-0.6                4/9       3/9
+        0.6-0.8                0/1       1/1
+        >=0.8                  0/0       0/0
+Etra    <0.2                  6/20      4/20
+        0.2-0.3               3/13      3/13
+        0.3-0.4                1/5       0/5
+        0.4-0.6                1/5       1/5
+        0.6-0.8                0/2       2/2
+        >=0.8                  0/0       0/0
+Irakka  <0.2                   1/4       0/4
+        0.2-0.3                3/9       3/9
+        0.3-0.4                1/8       2/8
+        0.4-0.6               6/10      5/10
+        0.6-0.8                1/2       1/2
+        >=0.8                  0/1       0/1
+
+Settings chosen for each held-out group
+held_out_group  window_frames  D_region_s  switch  alpha  L_Kampita  L_Nokku  L_Etra  L_Irakka  tuning_event_f1
+           P01            101         0.3     1.0    0.5       0.60      0.1    0.10      0.35            0.430
+           P02            101         0.3     1.0    0.5       0.60      0.1    0.10      0.35            0.409
+           P03            101         0.3     1.0    0.5       0.55      0.1    0.10      0.35            0.430
+           P04            101         0.3     1.0    0.5       0.60      0.1    0.10      0.35            0.414
+           P05            101         0.3     1.0    0.5       0.60      0.1    0.10      0.35            0.427
+           P06            101         0.2     1.0    0.5       0.60      0.1    0.10      0.35            0.412
+           P07            101         0.3     1.0    0.5       0.60      0.1    0.10      0.35            0.416
+           P08            101         0.3     1.0    0.5       0.55      0.1    0.10      0.35            0.411
+           P09            101         0.3     1.0    0.5       0.60      0.1    0.10      0.35            0.414
+           P10            101         0.3     1.0    0.5       0.60      0.1    0.10      0.35            0.439
+           P11             75         0.1     1.0    0.5       0.60      0.2    0.15      0.30            0.424

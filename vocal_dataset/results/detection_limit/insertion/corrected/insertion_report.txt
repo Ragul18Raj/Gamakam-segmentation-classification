@@ -1,0 +1,80 @@
+CONTROLLED INSERTION TEST. EXPLORATORY. Frozen Step 3 detector and Viterbi settings; recorded vocal, one singer; contours from each fold's training groups; held-out tracks.
+Reproduction check passed in all 11 folds (correlation 1.0, event F1 difference 0). Located = paired at IoU >= 0.3 with a final detection of any type.
+
+Trials: 1584 gamaka insertions (44 per type x length) and 396 flat-contour controls. Pitch mismatch with the surrounding melody before smoothing: median 33 c, 90th percentile 57 c.
+Flat control: located 0/396; candidate regions before naming and length filtering 1/396. Upper 97.5% bound on located rate 0.93%.
+
+Located, any type: count / insertions
+length_ms   80    120   160   200    250   300    400    600    800
+type                                                               
+Kampita    0/44  1/44  0/44  1/44   3/44  0/44   5/44   9/44  10/44
+Nokku      0/44  0/44  0/44  3/44   1/44  8/44  13/44  17/44  20/44
+Etra       0/44  1/44  4/44  9/44  12/44  9/44   8/44   9/44   5/44
+Irakka     0/44  0/44  0/44  0/44   0/44  0/44   1/44   7/44  11/44
+
+Located and right type: count / insertions
+length_ms   80    120   160   200    250   300    400    600    800
+type                                                               
+Kampita    0/44  0/44  0/44  0/44   2/44  0/44   4/44   8/44   7/44
+Nokku      0/44  0/44  0/44  3/44   1/44  8/44  11/44  15/44  14/44
+Etra       0/44  1/44  4/44  9/44  12/44  7/44   8/44   8/44   3/44
+Irakka     0/44  0/44  0/44  0/44   0/44  0/44   1/44   5/44   8/44
+
+Group-bootstrap 95% CIs for every rate are in insertion_rates.csv.
+
+Per-type logistic fits: outcome ~ log(length). X values are shown only inside 80-800 ms
+    source    type    outcome   n  successes                 slope                    X50                    X80
+real marks Kampita    located 132        123  1.04 (-5.24 to 3.03)            below 80 ms            246 (0-inf)
+real marks Kampita right_type 132        114   2.87 (1.19 to 5.56)          387 (160-492)          627 (472-733)
+insertions Kampita    located 396         29   1.89 (1.04 to 3.50)  not reached by 800 ms  not reached by 800 ms
+insertions Kampita right_type 396         21   2.25 (1.44 to 3.33)  not reached by 800 ms  not reached by 800 ms
+real marks   Nokku    located  82         36  0.96 (-1.81 to 2.57)           382 (70-inf)  not reached by 800 ms
+real marks   Nokku right_type  82         31  0.28 (-3.29 to 1.72)  not reached by 800 ms  not reached by 800 ms
+insertions   Nokku    located 396         62   2.23 (1.83 to 2.72)         750 (621-1007)  not reached by 800 ms
+insertions   Nokku right_type 396         52   1.91 (1.51 to 2.33)  not reached by 800 ms  not reached by 800 ms
+real marks    Etra    located  45         11 -0.73 (-2.88 to 0.84) no upward length trend no upward length trend
+real marks    Etra right_type  45         11 -0.73 (-2.88 to 0.84) no upward length trend no upward length trend
+insertions    Etra    located 396         57   0.57 (0.37 to 0.80)  not reached by 800 ms  not reached by 800 ms
+insertions    Etra right_type 396         52   0.46 (0.22 to 0.71)  not reached by 800 ms  not reached by 800 ms
+real marks  Irakka    located  34         12  1.08 (-0.09 to 3.54)          613 (260-inf)  not reached by 800 ms
+real marks  Irakka right_type  34         11   1.40 (0.09 to 6.64)       602 (324-242759)  not reached by 800 ms
+insertions  Irakka    located 396         19   4.10 (3.42 to 5.42)  not reached by 800 ms  not reached by 800 ms
+insertions  Irakka right_type 396         14   3.83 (2.98 to 7.25)  not reached by 800 ms  not reached by 800 ms
+* inside 80-800 ms but outside the lengths observed for that real-mark type.
+
+Diagnostic: located rate by how far insertion moved the contour from its original pitch class (cents, octaves ignored)
+length_band shift_band  insertions  located  located_rate  right_type
+ 400-800 ms       <100         117       47         0.402          38
+ 400-800 ms    100-300         157        9         0.057           6
+ 400-800 ms      >=300         254       59         0.232          48
+  80-300 ms       <100         222       14         0.063          12
+  80-300 ms    100-300         337       15         0.045          15
+  80-300 ms      >=300         497       23         0.046          20
+
+400-800 ms insertions by type: located/insertions
+shift_band   <100 100-300  >=300
+type                            
+Kampita     11/27    0/41  13/64
+Nokku       22/41    0/31  28/60
+Etra         4/19    5/38  13/75
+Irakka      10/30    4/47   5/55
+
+Solver check: all 16 per-type point fits agree with scikit-learn (largest slope difference 0.00001).
+
+Recheck of the earlier real-mark models with the corrected solver (point fits converged: True; unconverged bootstrap fits: 0 of 4000)
+                       model                   term     value   ci_low  ci_high
+       located ~ log(length)                 X50_ms   332.219  236.668  400.909
+       located ~ log(length)                 X80_ms   651.517  543.511  770.784
+       located ~ log(length)                  slope     2.058    1.530    2.477
+located ~ log(length) + type                  slope     0.608   -0.683    1.556
+located ~ log(length) + type         Kampita X50_ms    11.248    0.000      inf
+located ~ log(length) + type         Kampita X80_ms   110.018    0.000      inf
+located ~ log(length) + type           Nokku X50_ms   442.859   43.177      inf
+located ~ log(length) + type           Nokku X80_ms  4331.796  569.422      inf
+located ~ log(length) + type  Nokku odds vs Kampita     0.107    0.009    0.565
+located ~ log(length) + type            Etra X50_ms  1600.409  307.381      inf
+located ~ log(length) + type            Etra X80_ms 15654.285  881.941      inf
+located ~ log(length) + type   Etra odds vs Kampita     0.049    0.002    0.309
+located ~ log(length) + type          Irakka X50_ms   938.453  270.280      inf
+located ~ log(length) + type          Irakka X80_ms  9179.406 1354.457      inf
+located ~ log(length) + type Irakka odds vs Kampita     0.068    0.006    0.252

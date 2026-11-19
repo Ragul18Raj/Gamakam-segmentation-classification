@@ -1,0 +1,67 @@
+STEP 1: CNN output clean-up, no retraining. EXPLORATORY. Recorded vocal, one singer; 11 held-out groups pooled.
+Settings for each held-out group were tuned on the held-out predictions of the other 10 groups.
+
+     run  event  frame  detections  correct
+original  0.395  0.497         500      185
+Method A  0.389  0.470         374      166
+Method B  0.417  0.494         313      156
+
+Per type: F1 / precision / recall / detections
+                                original                  Method A                  Method B
+Kampita         0.63 / 0.50 / 0.86 / 224  0.72 / 0.64 / 0.83 / 173  0.68 / 0.58 / 0.83 / 187
+Nokku           0.35 / 0.27 / 0.50 / 150  0.37 / 0.33 / 0.43 / 106   0.33 / 0.35 / 0.32 / 75
+Jaaru (Etra)     0.32 / 0.24 / 0.47 / 88   0.25 / 0.20 / 0.36 / 81   0.31 / 0.36 / 0.27 / 33
+Jaaru (Irakka)   0.28 / 0.26 / 0.29 / 38   0.21 / 0.36 / 0.15 / 14   0.35 / 0.50 / 0.26 / 18
+
+Events shorter than 0.2 s
+  original  137
+  Method A  26
+  Method B  1
+
+Per-fold scores and change from the original
+     original event  original frame  Method A event change  Method A frame change  Method B event change  Method B frame change
+P01           0.343           0.370                 -0.039                 -0.019                  0.097                 -0.005
+P02           0.472           0.530                  0.106                  0.006                  0.064                 -0.005
+P03           0.182           0.318                  0.021                 -0.003                 -0.024                 -0.014
+P04           0.412           0.461                 -0.201                 -0.122                  0.001                 -0.004
+P05           0.491           0.522                 -0.051                 -0.041                 -0.057                 -0.032
+P06           0.294           0.420                  0.034                  0.003                  0.067                  0.021
+P07           0.403           0.511                  0.006                 -0.002                  0.084                  0.021
+P08           0.319           0.488                  0.077                 -0.013                 -0.119                 -0.128
+P09           0.524           0.586                  0.020                 -0.022                  0.120                  0.061
+P10           0.398           0.498                 -0.009                 -0.011                 -0.066                 -0.033
+P11           0.295           0.419                 -0.025                 -0.031                 -0.022                 -0.027
+
+Change from the original, pooled score; group bootstrap 2000 resamples of the 11 groups; two-sided Wilcoxon over 11 folds
+  Method A event: -0.006 (95% CI -0.066 to +0.042); folds better 6, worse 5; Wilcoxon p = 1.000
+  Method A frame: -0.027 (95% CI -0.061 to -0.004); folds better 2, worse 9; Wilcoxon p = 0.014
+  Method B event: +0.022 (95% CI -0.016 to +0.055); folds better 6, worse 5; Wilcoxon p = 0.520
+  Method B frame: -0.003 (95% CI -0.024 to +0.017); folds better 3, worse 8; Wilcoxon p = 0.320
+
+Method A settings chosen per held-out group (ms, length limits in s)
+      W_ms   G_ms  E_ms  L_Kampita  L_Nokku  L_Etra  L_Irakka  tuning_event_f1
+P01   50.0  100.0  40.0        0.5     0.25    0.20      0.45            0.459
+P02   50.0  100.0  40.0        0.5     0.25    0.15      0.30            0.433
+P03   50.0  100.0  40.0        0.5     0.25    0.20      0.45            0.462
+P04   50.0  100.0  40.0        0.5     0.30    0.20      0.60            0.451
+P05   50.0  100.0  40.0        0.5     0.25    0.20      0.45            0.454
+P06   70.0    0.0  40.0        0.5     0.25    0.15      0.45            0.456
+P07   70.0  100.0  40.0        0.5     0.30    0.15      0.45            0.445
+P08   70.0  100.0  40.0        0.5     0.30    0.15      0.45            0.460
+P09  110.0    0.0  40.0        0.5     0.25    0.15      0.30            0.442
+P10   70.0    0.0  40.0        0.5     0.25    0.15      0.45            0.457
+P11  110.0    0.0  40.0        0.5     0.25    0.30      0.30            0.477
+
+Method B settings chosen per held-out group (minimum lengths in s)
+     D_Kampita  D_Nokku  D_Etra  D_Irakka  switch  alpha  tuning_event_f1
+P01        0.4      0.1     0.2       0.1     6.0    0.0            0.445
+P02        0.3      0.1     0.2       0.1     6.0    0.0            0.427
+P03        0.1      0.1     0.2       0.1     6.0    0.0            0.451
+P04        0.3      0.1     0.2       0.1     6.0    0.0            0.434
+P05        0.4      0.1     0.1       0.1    10.0    0.0            0.433
+P06        0.3      0.1     0.2       0.1     6.0    0.0            0.444
+P07        0.3      0.1     0.2       0.1     6.0    0.0            0.425
+P08        0.4      0.1     0.1       0.1    10.0    0.0            0.452
+P09        0.3      0.1     0.2       0.1     6.0    0.0            0.427
+P10        0.4      0.1     0.2       0.1     6.0    0.0            0.449
+P11        0.4      0.1     0.2       0.1    10.0    0.0            0.466

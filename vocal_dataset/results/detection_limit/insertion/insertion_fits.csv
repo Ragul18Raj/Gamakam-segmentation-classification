@@ -1,0 +1,17 @@
+source,type,outcome,n,successes,slope_per_log_length,slope_ci_low,slope_ci_high,bootstrap_fits,X50_status,X50_ms,X50_ci_low,X50_ci_high,X80_status,X80_ms,X80_ci_low,X80_ci_high
+real marks,Kampita,located,132,123,1.0437140050575044,-2.2219851845948746,2.8602001746830936,1993,below 80 ms,,,,inside tested range,245.96750852682098,0.000171617842248429,inf
+real marks,Kampita,right_type,132,114,-0.3733687650690971,-2.0238539336793053,4.563383380580491,2000,no upward length trend,,,,no upward length trend,,,
+insertions,Kampita,located,396,29,1.8947585564900304,-1.0934525808563984,3.2258947688304334,2000,not reached by 800 ms,,,,not reached by 800 ms,,,
+insertions,Kampita,right_type,396,21,2.2466205318899264,1.241087937379907,3.2567536083364987,2000,not reached by 800 ms,,,,not reached by 800 ms,,,
+real marks,Nokku,located,82,36,-1.5612432736169817,-2.0111642904342135,1.7952014238442071,2000,no upward length trend,,,,no upward length trend,,,
+real marks,Nokku,right_type,82,31,0.28425513667084873,-2.0219566329319165,1.7492729291577753,2000,not reached by 800 ms,,,,not reached by 800 ms,,,
+insertions,Nokku,located,396,62,-2.102040955344669,-2.1011425305796374,-0.28900271040960934,2000,no upward length trend,,,,no upward length trend,,,
+insertions,Nokku,right_type,396,52,-1.2790701250687404,-2.0801824749261804,1.9157285655753094,2000,no upward length trend,,,,no upward length trend,,,
+real marks,Etra,located,45,11,-0.7281171402523114,-3.0282167928350496,0.8427469987365691,1984,no upward length trend,,,,no upward length trend,,,
+real marks,Etra,right_type,45,11,-0.7281171402523114,-3.0282167928350496,0.8427469987365691,1984,no upward length trend,,,,no upward length trend,,,
+insertions,Etra,located,396,57,0.5749836565806267,0.36768643667270023,0.803208120200729,2000,not reached by 800 ms,,,,not reached by 800 ms,,,
+insertions,Etra,right_type,396,52,0.4585605924046163,0.21990196178668112,0.7062490160331658,2000,not reached by 800 ms,,,,not reached by 800 ms,,,
+real marks,Irakka,located,34,12,-2.0591849101548276,-2.0713994665437943,0.8935420748949986,1981,no upward length trend,,,,no upward length trend,,,
+real marks,Irakka,right_type,34,11,-1.8681858019631683,-2.0757165685900687,0.8466710934373044,1981,no upward length trend,,,,no upward length trend,,,
+insertions,Irakka,located,396,19,1.1370068321719549,-0.8594722258899177,4.652467820959581,2000,not reached by 800 ms,,,,not reached by 800 ms,,,
+insertions,Irakka,right_type,396,14,3.8278258211032905,0.44675316465427795,4.911715002717926,2000,not reached by 800 ms,,,,not reached by 800 ms,,,

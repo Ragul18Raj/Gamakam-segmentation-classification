@@ -1,0 +1,30 @@
+                event  frame  detections  correct
+run                                              
+original        0.395  0.497         500      185
+both (primary)  0.381  0.490         554      180
+weights only    0.399  0.500         541      182
+mask only       0.389  0.500         492      181
+
+run         original  both (primary)  weights only  mask only
+Kampita F1      0.63            0.63          0.64       0.62
+Kampita P       0.50            0.54          0.57       0.49
+Kampita R       0.86            0.74          0.72       0.86
+Kampita n     224.00          180.00        166.00     233.00
+Nokku F1        0.35            0.32          0.32       0.34
+Nokku P         0.27            0.24          0.23       0.27
+Nokku R         0.50            0.46          0.54       0.46
+Nokku n       150.00          158.00        192.00     139.00
+Etra F1         0.32            0.33          0.38       0.28
+Etra P          0.24            0.22          0.27       0.22
+Etra R          0.47            0.67          0.64       0.38
+Etra n         88.00          139.00        106.00      76.00
+Irakka F1       0.28            0.25          0.25       0.31
+Irakka P        0.26            0.18          0.18       0.27
+Irakka R        0.29            0.41          0.41       0.35
+Irakka n       38.00           77.00         77.00      44.00
+
+both (primary): event change -0.015 (group bootstrap 95% CI -0.077 to +0.036); frame change -0.007 (CI -0.053 to +0.034); folds better 5, worse 6 of 11; Wilcoxon two-sided p 0.413
+
+weights only: event change +0.003 (group bootstrap 95% CI -0.072 to +0.063); frame change +0.003 (CI -0.041 to +0.038); folds better 5, worse 6 of 11; Wilcoxon two-sided p 0.898
+
+mask only: event change -0.006 (group bootstrap 95% CI -0.035 to +0.034); frame change +0.003 (CI -0.015 to +0.025); folds better 5, worse 6 of 11; Wilcoxon two-sided p 1.000

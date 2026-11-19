@@ -1,0 +1,310 @@
+{
+ "n_folds": 11,
+ "n_recordings": 31,
+ "n_ref_events": 293,
+ "frame_share_none": 0.8788527542732865,
+ "filters_chosen": {
+  "P01": 5,
+  "P02": 5,
+  "P03": 5,
+  "P04": 5,
+  "P05": 5,
+  "P06": 3,
+  "P07": 5,
+  "P08": 5,
+  "P09": 3,
+  "P10": 7,
+  "P11": 5
+ },
+ "all_none": {
+  "event_macro_f1": 0.0,
+  "per_class": {
+   "Kampita": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "n_ref": 132,
+    "n_est": 0
+   },
+   "Nokku": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "n_ref": 82,
+    "n_est": 0
+   },
+   "Jaaru (Etra)": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "n_ref": 45,
+    "n_est": 0
+   },
+   "Jaaru (Irakka)": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "n_ref": 34,
+    "n_est": 0
+   }
+  },
+  "event_macro_f1_onset200": 0.0,
+  "count_abs_err_per_type_per_recording": 2.3629032258064515,
+  "count_total_err_per_recording_mean": -9.451612903225806,
+  "recordings_all_counts_exact": 0.0,
+  "per_fold_event_macro_f1": {
+   "P01": 0.0,
+   "P02": 0.0,
+   "P03": 0.0,
+   "P04": 0.0,
+   "P05": 0.0,
+   "P06": 0.0,
+   "P07": 0.0,
+   "P08": 0.0,
+   "P09": 0.0,
+   "P10": 0.0,
+   "P11": 0.0
+  },
+  "by_tempo": {
+   "slow": 0.0,
+   "medium": 0.0,
+   "fast": 0.0,
+   "(varnam)": 0.0
+  },
+  "tracks_only_event_macro_f1": 0.0,
+  "kampita_event_f1": 0.0,
+  "frame_macro_f1": 0.1871041255946029
+ },
+ "rule_knn": {
+  "frame_macro_f1": 0.250265491789377,
+  "frame_cm": [
+   [
+    127109,
+    2183,
+    18,
+    0,
+    0
+   ],
+   [
+    10011,
+    2820,
+    0,
+    0,
+    0
+   ],
+   [
+    2436,
+    83,
+    0,
+    0,
+    0
+   ],
+   [
+    1186,
+    25,
+    0,
+    0,
+    0
+   ],
+   [
+    1264,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "event_macro_f1": 0.04452054794520547,
+  "per_class": {
+   "Kampita": {
+    "precision": 0.1625,
+    "recall": 0.19696969696969696,
+    "f1": 0.17808219178082188,
+    "n_ref": 132,
+    "n_est": 160
+   },
+   "Nokku": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "n_ref": 82,
+    "n_est": 1
+   },
+   "Jaaru (Etra)": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "n_ref": 45,
+    "n_est": 0
+   },
+   "Jaaru (Irakka)": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "n_ref": 34,
+    "n_est": 0
+   }
+  },
+  "event_macro_f1_onset200": 0.05136986301369863,
+  "median_onset_err_ms": 251.99999999999534,
+  "median_offset_err_ms": 283.5000000000001,
+  "count_abs_err_per_type_per_recording": 2.064516129032258,
+  "count_total_err_per_recording_mean": -4.258064516129032,
+  "recordings_all_counts_exact": 0.0,
+  "per_fold_event_macro_f1": {
+   "P01": 0.06060606060606061,
+   "P02": 0.0,
+   "P03": 0.012820512820512818,
+   "P04": 0.08695652173913043,
+   "P05": 0.025000000000000005,
+   "P06": 0.0625,
+   "P07": 0.025,
+   "P08": 0.06944444444444445,
+   "P09": 0.09722222222222222,
+   "P10": 0.027027027027027025,
+   "P11": 0.03571428571428571
+  },
+  "by_tempo": {
+   "slow": 0.04861111111111111,
+   "medium": 0.04545454545454545,
+   "fast": 0.0,
+   "(varnam)": 0.03571428571428571
+  },
+  "tracks_only_event_macro_f1": 0.04496402877697842,
+  "kampita_event_f1": 0.17808219178082188,
+  "event_macro_f1_ci95_recordings": [
+   0.026639041129110485,
+   0.06143344709897611
+  ]
+ },
+ "cnn": {
+  "frame_macro_f1": 0.4969749342222645,
+  "frame_cm": [
+   [
+    116941,
+    7783,
+    2408,
+    1249,
+    929
+   ],
+   [
+    1998,
+    10598,
+    161,
+    74,
+    0
+   ],
+   [
+    1281,
+    298,
+    938,
+    2,
+    0
+   ],
+   [
+    752,
+    16,
+    0,
+    440,
+    3
+   ],
+   [
+    886,
+    15,
+    5,
+    7,
+    351
+   ]
+  ],
+  "event_macro_f1": 0.3954617469995536,
+  "per_class": {
+   "Kampita": {
+    "precision": 0.5044642857142857,
+    "recall": 0.8560606060606061,
+    "f1": 0.6348314606741573,
+    "n_ref": 132,
+    "n_est": 224
+   },
+   "Nokku": {
+    "precision": 0.2733333333333333,
+    "recall": 0.5,
+    "f1": 0.35344827586206895,
+    "n_ref": 82,
+    "n_est": 150
+   },
+   "Jaaru (Etra)": {
+    "precision": 0.23863636363636365,
+    "recall": 0.4666666666666667,
+    "f1": 0.31578947368421056,
+    "n_ref": 45,
+    "n_est": 88
+   },
+   "Jaaru (Irakka)": {
+    "precision": 0.2631578947368421,
+    "recall": 0.29411764705882354,
+    "f1": 0.27777777777777773,
+    "n_ref": 34,
+    "n_est": 38
+   }
+  },
+  "event_macro_f1_onset200": 0.36428367509241916,
+  "median_onset_err_ms": 75.9999999999934,
+  "median_offset_err_ms": 46.999999999997044,
+  "count_abs_err_per_type_per_recording": 2.1370967741935485,
+  "count_total_err_per_recording_mean": 6.67741935483871,
+  "recordings_all_counts_exact": 0.0,
+  "per_fold_event_macro_f1": {
+   "P01": 0.3428571428571429,
+   "P02": 0.47181372549019607,
+   "P03": 0.1820557491289199,
+   "P04": 0.41182795698924735,
+   "P05": 0.49053724053724046,
+   "P06": 0.29429590017825313,
+   "P07": 0.4030797101449275,
+   "P08": 0.3190860215053764,
+   "P09": 0.5239760239760239,
+   "P10": 0.39764705882352946,
+   "P11": 0.29466611819552996
+  },
+  "by_tempo": {
+   "slow": 0.37663931931820405,
+   "medium": 0.4425010319135984,
+   "fast": 0.3573845992107136,
+   "(varnam)": 0.29466611819552996
+  },
+  "tracks_only_event_macro_f1": 0.4139817011334039,
+  "kampita_event_f1": 0.6348314606741573,
+  "frame_macro_f1_before_postprocessing": 0.4931278264886366,
+  "event_macro_f1_ci95_recordings": [
+   0.35581236157393986,
+   0.4416763572663745
+  ]
+ },
+ "kampita_rf": {
+  "kampita_event_f1": 0.47138047138047134,
+  "per_class": {
+   "Kampita": {
+    "precision": 0.42424242424242425,
+    "recall": 0.5303030303030303,
+    "f1": 0.47138047138047134,
+    "n_ref": 132,
+    "n_est": 165
+   }
+  }
+ },
+ "cnn_vs_rule_folds": {
+  "cnn_mean": 0.3756220588933079,
+  "cnn_std": 0.10095677931155587,
+  "rule_mean": 0.045662824961243936,
+  "rule_std": 0.03146391447087765,
+  "p_rule_better_one_sided": 1.0,
+  "p_cnn_better_one_sided": 0.00048828125,
+  "p_two_sided": 0.0009765625
+ },
+ "PASS_stage2": {
+  "event_f1_ge_060": false,
+  "frame_f1_ge_060": false,
+  "cnn_not_worse_than_rule": true,
+  "all": false
+ }
+}

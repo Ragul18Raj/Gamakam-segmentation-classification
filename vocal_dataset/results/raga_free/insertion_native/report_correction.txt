@@ -1,0 +1,1 @@
+Correction to native_insertion_report.txt: flat controls were located 2/396. The printed 0.93% upper bound applies only to zero successes. The exact 95% Clopper-Pearson interval for 2/396 is 0.06% to 1.81%.

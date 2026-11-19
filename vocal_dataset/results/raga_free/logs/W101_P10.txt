@@ -1,0 +1,12 @@
+epoch 1 loss 0.773 val 0.478 largest input change from transposition 4.77e-07 (12s)
+epoch 2 loss 0.695 val 0.560 largest input change from transposition 4.77e-07 (28s)
+epoch 3 loss 0.664 val 0.591 largest input change from transposition 4.77e-07 (50s)
+epoch 4 loss 0.647 val 0.646 largest input change from transposition 4.77e-07 (67s)
+epoch 5 loss 0.540 val 0.656 largest input change from transposition 4.77e-07 (73s)
+epoch 6 loss 0.491 val 0.682 largest input change from transposition 4.77e-07 (78s)
+epoch 7 loss 0.466 val 0.677 largest input change from transposition 4.77e-07 (85s)
+epoch 8 loss 0.427 val 0.634 largest input change from transposition 4.77e-07 (90s)
+epoch 9 loss 0.409 val 0.681 largest input change from transposition 4.77e-07 (95s)
+epoch 10 loss 0.365 val 0.675 largest input change from transposition 4.77e-07 (100s)
+epoch 11 loss 0.364 val 0.660 largest input change from transposition 4.77e-07 (105s)
+best val 0.682; finished 110s

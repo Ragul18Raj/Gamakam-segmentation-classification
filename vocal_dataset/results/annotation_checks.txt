@@ -4,7 +4,7 @@ workbook: pass1.xlsx  sha256=9779bc52b24bb556a876ac3e77e42f51b1645494305441c7b67
 [PASS] All Songs rows == union of per-recording sheets (row by row, multiplicity counted)  -- All Songs 293 rows, sheets 293 rows, mismatched keys 0
 [PASS] no duplicated row in All Songs
 [PASS] S.No runs 1..n within each recording
-raw label spellings: {'Kampita': np.int64(132), 'Nokku': np.int64(82), 'Jaaru (Etra)': np.int64(45), 'Jaaru (Irakka)': np.int64(34)}
+raw label spellings: {'Kampita': 132, 'Nokku': 82, 'Jaaru (Etra)': 45, 'Jaaru (Irakka)': 34}
 [PASS] labels are only the 4 types after trimming/case-fixing  -- unknown: []
 [PASS] labels need no case/space fixing
 [PASS] Duration column == End - Start (within 2 ms)
@@ -29,9 +29,8 @@ touching pairs (gap <= 5 ms): 13
     ('TRACK 18', 'Jaaru (Etra) -> Nokku', 19.208)
     ('TRACK 28', 'Jaaru (Irakka) -> Kampita', 14.63)
     ('TRACK 28', 'Jaaru (Irakka) -> Kampita', 65.791)
-wrote metadata.csv with PROVISIONAL grouping (confirm with singer)
 
-events per label: {'Kampita': np.int64(132), 'Nokku': np.int64(82), 'Jaaru (Etra)': np.int64(45), 'Jaaru (Irakka)': np.int64(34)}  total 293
+events per label: {'Kampita': 132, 'Nokku': 82, 'Jaaru (Etra)': 45, 'Jaaru (Irakka)': 34}  total 293
 
 events per recording x label:
 label      Jaaru (Etra)  Jaaru (Irakka)  Kampita  Nokku

@@ -1,0 +1,92 @@
+STEP 3: detector additions. EXPLORATORY. Recorded vocal, one singer; 11 held-out groups pooled. Settings tuned only on the other 10 groups for each held-out group.
+Primary run: all three additions, Viterbi clean-up, Stage 1 DTW-3NN naming. Existing inputs already include velocity and confidence; context is already about 2.5 s.
+
+Viterbi clean-up (B)
+                 run  event  frame  detections  correct
+            original  0.395  0.497         500      185
+  Step 2 Two-stage B  0.437  0.495         315      155
+        PyTorch base  0.416  0.486         309      149
+    + swara distance  0.441  0.497         364      169
+            + BiLSTM  0.402  0.467         360      160
++ onset/offset heads  0.378  0.466         299      144
+ all three (primary)  0.462  0.513         321      167
+
+Smooth/merge/extend clean-up (A)
+                     run  event  frame  detections  correct
+        PyTorch base (A)  0.426  0.494         306      150
+    + swara distance (A)  0.404  0.491         296      147
+            + BiLSTM (A)  0.395  0.478         309      154
++ onset/offset heads (A)  0.415  0.491         323      159
+ all three (primary) (A)  0.446  0.506         325      165
+
+Per type, Viterbi clean-up: F1 / precision / recall / detections
+                                       Kampita                     Nokku             Jaaru (Etra)           Jaaru (Irakka)
+original              0.63 / 0.50 / 0.86 / 224  0.35 / 0.27 / 0.50 / 150  0.32 / 0.24 / 0.47 / 88  0.28 / 0.26 / 0.29 / 38
+Step 2 Two-stage B    0.70 / 0.62 / 0.82 / 175   0.25 / 0.25 / 0.26 / 85  0.36 / 0.39 / 0.33 / 38  0.43 / 0.65 / 0.32 / 17
+PyTorch base          0.71 / 0.65 / 0.78 / 158  0.26 / 0.23 / 0.30 / 108  0.34 / 0.48 / 0.27 / 25  0.35 / 0.50 / 0.26 / 18
++ swara distance      0.69 / 0.57 / 0.86 / 197  0.32 / 0.27 / 0.39 / 118  0.36 / 0.46 / 0.29 / 28  0.40 / 0.52 / 0.32 / 21
++ BiLSTM              0.68 / 0.56 / 0.86 / 202   0.28 / 0.26 / 0.30 / 95  0.21 / 0.21 / 0.20 / 42  0.44 / 0.57 / 0.35 / 21
++ onset/offset heads  0.72 / 0.64 / 0.81 / 166   0.24 / 0.24 / 0.24 / 83  0.23 / 0.26 / 0.20 / 35  0.33 / 0.53 / 0.24 / 15
+all three (primary)   0.76 / 0.68 / 0.86 / 168  0.32 / 0.27 / 0.38 / 114  0.31 / 0.44 / 0.24 / 25  0.46 / 0.79 / 0.32 / 14
+
+Region finding with type ignored (IoU >= 0.3), Viterbi clean-up
+                      precision  recall     f1  located  right_type_of_located
+original                  0.390   0.666  0.492    195.0                  0.938
+Step 2 Two-stage B        0.533   0.573  0.553    168.0                  0.923
+PyTorch base              0.531   0.560  0.545    164.0                  0.909
++ swara distance          0.516   0.642  0.572    188.0                  0.899
++ BiLSTM                  0.494   0.608  0.545    178.0                  0.899
++ onset/offset heads      0.538   0.549  0.544    161.0                  0.894
+all three (primary)       0.567   0.621  0.593    182.0                  0.918
+
+Events shorter than 0.2 s: original 137, Step 2 Two-stage B 3, PyTorch base 39, + swara distance 0, + BiLSTM 7, + onset/offset heads 14, all three (primary) 31
+
+Change from the original; group bootstrap 2000 resamples; two-sided Wilcoxon over 11 folds
+  PyTorch base event: +0.020 (95% CI -0.083 to +0.093); folds better 4, worse 7; Wilcoxon p = 0.365
+  PyTorch base frame: -0.011 (95% CI -0.067 to +0.035); folds better 4, worse 7; Wilcoxon p = 0.083
+  + swara distance event: +0.045 (95% CI -0.005 to +0.104); folds better 8, worse 3; Wilcoxon p = 0.320
+  + swara distance frame: -0.000 (95% CI -0.029 to +0.035); folds better 5, worse 6; Wilcoxon p = 0.638
+  + BiLSTM event: +0.007 (95% CI -0.048 to +0.054); folds better 3, worse 8; Wilcoxon p = 0.206
+  + BiLSTM frame: -0.030 (95% CI -0.075 to +0.008); folds better 3, worse 8; Wilcoxon p = 0.032
+  + onset/offset heads event: -0.017 (95% CI -0.074 to +0.036); folds better 4, worse 7; Wilcoxon p = 0.240
+  + onset/offset heads frame: -0.031 (95% CI -0.065 to +0.009); folds better 3, worse 8; Wilcoxon p = 0.123
+  all three (primary) event: +0.067 (95% CI +0.004 to +0.135); folds better 4, worse 7; Wilcoxon p = 0.765
+  all three (primary) frame: +0.016 (95% CI -0.025 to +0.063); folds better 5, worse 6; Wilcoxon p = 0.898
+
+Change from the PyTorch base with the same clean-up
+  + swara distance event: +0.025 (95% CI -0.010 to +0.100); folds better 8, worse 3; Wilcoxon p = 0.032
+  + swara distance frame: +0.011 (95% CI -0.029 to +0.060); folds better 8, worse 3; Wilcoxon p = 0.083
+  + BiLSTM event: -0.014 (95% CI -0.061 to +0.067); folds better 4, worse 7; Wilcoxon p = 0.966
+  + BiLSTM frame: -0.019 (95% CI -0.056 to +0.035); folds better 4, worse 7; Wilcoxon p = 0.898
+  + onset/offset heads event: -0.038 (95% CI -0.112 to +0.072); folds better 5, worse 6; Wilcoxon p = 0.966
+  + onset/offset heads frame: -0.020 (95% CI -0.069 to +0.046); folds better 5, worse 6; Wilcoxon p = 0.898
+  all three (primary) event: +0.047 (95% CI -0.023 to +0.146); folds better 9, worse 2; Wilcoxon p = 0.102
+  all three (primary) frame: +0.027 (95% CI -0.015 to +0.070); folds better 10, worse 1; Wilcoxon p = 0.024
+
+Per-fold event F1, Viterbi clean-up
+     original  Step 2 Two-stage B  PyTorch base  + swara distance  + BiLSTM  + onset/offset heads  all three (primary)
+P01     0.343               0.282         0.409             0.535     0.342                 0.233                0.324
+P02     0.472               0.449         0.442             0.472     0.432                 0.474                0.483
+P03     0.182               0.230         0.257             0.250     0.186                 0.231                0.342
+P04     0.412               0.492         0.319             0.319     0.410                 0.408                0.395
+P05     0.491               0.296         0.449             0.441     0.336                 0.451                0.465
+P06     0.294               0.300         0.160             0.348     0.270                 0.354                0.259
+P07     0.403               0.554         0.285             0.426     0.277                 0.283                0.319
+P08     0.319               0.434         0.455             0.524     0.393                 0.386                0.561
+P09     0.524               0.583         0.341             0.419     0.517                 0.326                0.351
+P10     0.398               0.334         0.305             0.410     0.323                 0.337                0.564
+P11     0.295               0.293         0.357             0.349     0.352                 0.235                0.274
+
+Primary run settings by held-out group
+held_out_group  L_Kampita  L_Nokku  L_Etra  L_Irakka  tuning_event_f1  D_region_s  switch  alpha
+           P01       0.30     0.10     0.1      0.30            0.473        0.14     1.0    0.0
+           P02       0.30     0.10     0.1      0.30            0.458        0.14     1.0    0.0
+           P03       0.35     0.10     0.1      0.30            0.462        0.14     1.0    0.0
+           P04       0.30     0.15     0.1      0.30            0.462        0.10     1.0    0.0
+           P05       0.35     0.10     0.1      0.30            0.459        0.14     1.0    0.0
+           P06       0.30     0.10     0.1      0.30            0.479        0.10     1.0    0.0
+           P07       0.35     0.10     0.1      0.30            0.471        0.14     1.0    0.0
+           P08       0.30     0.10     0.1      0.30            0.452        0.14     1.0    0.0
+           P09       0.30     0.10     0.1      0.30            0.466        0.14     1.0    0.0
+           P10       0.35     0.10     0.1      0.30            0.458        0.14     1.0    0.0
+           P11       0.30     0.10     0.1      0.25            0.500        0.14     1.0    0.0

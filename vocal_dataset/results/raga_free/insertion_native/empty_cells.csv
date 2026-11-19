@@ -1,0 +1,10 @@
+type,length_ms,reason,missing_insertions
+Etra,80,no eligible training contour,44
+Etra,800,no eligible training contour,8
+Irakka,80,no eligible training contour,44
+Kampita,80,no eligible training contour,44
+Kampita,120,no eligible training contour,20
+Kampita,160,no eligible training contour,4
+Nokku,80,no eligible training contour,44
+Nokku,120,no eligible training contour,44
+Nokku,800,no eligible training contour,8

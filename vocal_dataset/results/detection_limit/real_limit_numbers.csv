@@ -1,0 +1,104 @@
+section,group,metric,value,ci_low,ci_high,n
+real_model1,All,X50_ms,332.2192946413382,236.66800793120356,400.9085294460693,293
+real_model1,All,X80_ms,651.5168393085421,543.5111920648189,770.7839742157348,293
+real_model1,All,slope_log_length,2.0583191743018885,1.5304699590926023,2.4773969097007984,293
+real_model2,All,slope_log_length,0.6078940907168262,-0.6834663178144349,1.5555242784698162,293
+real_model2,Kampita,X50_ms,11.24764999735091,1.5667045717991787e-14,inf,132
+real_model2,Kampita,X80_ms,110.01820719235299,6.009798940855633e-07,inf,132
+real_model2,Nokku,X50_ms,442.8594559115217,43.177062252451236,inf,82
+real_model2,Nokku,X80_ms,4331.802944529909,569.4216928749827,inf,82
+real_model2,Nokku,odds_ratio_vs_Kampita,0.10722223033289748,0.008914122653964516,0.5650859444349564,82
+real_model2,Etra,X50_ms,1600.4108291163714,307.3806635320907,inf,45
+real_model2,Etra,X80_ms,15654.321590028141,881.9409308083775,inf,45
+real_model2,Etra,odds_ratio_vs_Kampita,0.04910219090754119,0.0016354502860146734,0.3091565005899861,45
+real_model2,Irakka,X50_ms,938.4532089608437,270.2798411757794,inf,34
+real_model2,Irakka,X80_ms,9179.423222459776,1354.4580044068384,inf,34
+real_model2,Irakka,odds_ratio_vs_Kampita,0.06792383278842876,0.005735693800548736,0.25228242471878176,34
+real_bins,All | <0.2,located_rate,0.25,0.16666666666666666,0.42857142857142855,32
+real_bins,All | <0.2,located_and_right_type_rate,0.21875,0.15384615384615385,0.3333333333333333,32
+real_bins,All | 0.2-0.3,located_rate,0.4067796610169492,0.26744186046511625,0.6136363636363636,59
+real_bins,All | 0.2-0.3,located_and_right_type_rate,0.3898305084745763,0.24193548387096775,0.5952380952380952,59
+real_bins,All | 0.3-0.4,located_rate,0.43478260869565216,0.2653061224489796,0.6388888888888888,46
+real_bins,All | 0.3-0.4,located_and_right_type_rate,0.30434782608695654,0.16901408450704225,0.5,46
+real_bins,All | 0.4-0.6,located_rate,0.5952380952380952,0.475,0.6842105263157895,42
+real_bins,All | 0.4-0.6,located_and_right_type_rate,0.47619047619047616,0.375,0.5625,42
+real_bins,All | 0.6-0.8,located_rate,0.8387096774193549,0.7307692307692307,0.9565217391304348,31
+real_bins,All | 0.6-0.8,located_and_right_type_rate,0.7741935483870968,0.631578947368421,0.92,31
+real_bins,All | >=0.8,located_rate,0.9518072289156626,0.9078947368421053,0.9885057471264368,83
+real_bins,All | >=0.8,located_and_right_type_rate,0.9518072289156626,0.9078947368421053,0.9885057471264368,83
+real_bins,Kampita | <0.2,located_rate,1.0,1.0,1.0,1
+real_bins,Kampita | <0.2,located_and_right_type_rate,0.0,0.0,0.0,1
+real_bins,Kampita | 0.2-0.3,located_rate,0.0,0.0,0.0,1
+real_bins,Kampita | 0.2-0.3,located_and_right_type_rate,0.0,0.0,0.0,1
+real_bins,Kampita | 0.3-0.4,located_rate,1.0,1.0,1.0,4
+real_bins,Kampita | 0.3-0.4,located_and_right_type_rate,0.5,0.0,1.0,4
+real_bins,Kampita | 0.4-0.6,located_rate,0.7777777777777778,0.64,1.0,18
+real_bins,Kampita | 0.4-0.6,located_and_right_type_rate,0.5555555555555556,0.4375,0.6923076923076923,18
+real_bins,Kampita | 0.6-0.8,located_rate,0.9615384615384616,0.875,1.0,26
+real_bins,Kampita | 0.6-0.8,located_and_right_type_rate,0.8846153846153846,0.7777777777777778,1.0,26
+real_bins,Kampita | >=0.8,located_rate,0.9634146341463414,0.9193548387096774,1.0,82
+real_bins,Kampita | >=0.8,located_and_right_type_rate,0.9634146341463414,0.9193548387096774,1.0,82
+real_bins,Nokku | <0.2,located_rate,0.0,0.0,0.0,7
+real_bins,Nokku | <0.2,located_and_right_type_rate,0.0,0.0,0.0,7
+real_bins,Nokku | 0.2-0.3,located_rate,0.5,0.2916666666666667,0.7692307692307693,36
+real_bins,Nokku | 0.2-0.3,located_and_right_type_rate,0.5,0.2916666666666667,0.7692307692307693,36
+real_bins,Nokku | 0.3-0.4,located_rate,0.4827586206896552,0.2727272727272727,0.75,29
+real_bins,Nokku | 0.3-0.4,located_and_right_type_rate,0.3448275862068966,0.1836734693877551,0.6,29
+real_bins,Nokku | 0.4-0.6,located_rate,0.4444444444444444,0.14285714285714285,0.75,9
+real_bins,Nokku | 0.4-0.6,located_and_right_type_rate,0.3333333333333333,0.09090909090909091,0.625,9
+real_bins,Nokku | 0.6-0.8,located_rate,0.0,0.0,0.0,1
+real_bins,Nokku | 0.6-0.8,located_and_right_type_rate,0.0,0.0,0.0,1
+real_bins,Nokku | >=0.8,located_rate,,,,0
+real_bins,Nokku | >=0.8,located_and_right_type_rate,,,,0
+real_bins,Etra | <0.2,located_rate,0.3,0.10526315789473684,0.5555555555555556,20
+real_bins,Etra | <0.2,located_and_right_type_rate,0.3,0.10526315789473684,0.5555555555555556,20
+real_bins,Etra | 0.2-0.3,located_rate,0.23076923076923078,0.0,0.5,13
+real_bins,Etra | 0.2-0.3,located_and_right_type_rate,0.23076923076923078,0.0,0.5,13
+real_bins,Etra | 0.3-0.4,located_rate,0.2,0.0,0.6666666666666666,5
+real_bins,Etra | 0.3-0.4,located_and_right_type_rate,0.2,0.0,0.6666666666666666,5
+real_bins,Etra | 0.4-0.6,located_rate,0.2,0.0,0.6666666666666666,5
+real_bins,Etra | 0.4-0.6,located_and_right_type_rate,0.2,0.0,0.6666666666666666,5
+real_bins,Etra | 0.6-0.8,located_rate,0.0,0.0,0.0,2
+real_bins,Etra | 0.6-0.8,located_and_right_type_rate,0.0,0.0,0.0,2
+real_bins,Etra | >=0.8,located_rate,,,,0
+real_bins,Etra | >=0.8,located_and_right_type_rate,,,,0
+real_bins,Irakka | <0.2,located_rate,0.25,0.0,0.8,4
+real_bins,Irakka | <0.2,located_and_right_type_rate,0.25,0.0,0.8,4
+real_bins,Irakka | 0.2-0.3,located_rate,0.3333333333333333,0.0,0.75,9
+real_bins,Irakka | 0.2-0.3,located_and_right_type_rate,0.2222222222222222,0.0,0.6666666666666666,9
+real_bins,Irakka | 0.3-0.4,located_rate,0.125,0.0,0.3333333333333333,8
+real_bins,Irakka | 0.3-0.4,located_and_right_type_rate,0.125,0.0,0.3333333333333333,8
+real_bins,Irakka | 0.4-0.6,located_rate,0.6,0.2222222222222222,1.0,10
+real_bins,Irakka | 0.4-0.6,located_and_right_type_rate,0.6,0.2222222222222222,1.0,10
+real_bins,Irakka | 0.6-0.8,located_rate,0.5,0.0,1.0,2
+real_bins,Irakka | 0.6-0.8,located_and_right_type_rate,0.5,0.0,1.0,2
+real_bins,Irakka | >=0.8,located_rate,0.0,0.0,0.0,1
+real_bins,Irakka | >=0.8,located_and_right_type_rate,0.0,0.0,0.0,1
+false_alarms,All,per_minute,5.6682638393312255,4.62115267242131,6.775442477876105,139
+false_alarms,<0.2,per_minute,0.6932409012131715,0.4310778382883335,0.9157186630507518,17
+false_alarms,<0.2,share_of_detections_unmatched,0.5483870967741935,,,31
+false_alarms,0.2-0.3,per_minute,1.7942705678458555,1.1361914861384639,2.4113917472196236,44
+false_alarms,0.2-0.3,share_of_detections_unmatched,0.8301886792452831,,,53
+false_alarms,0.3-0.4,per_minute,0.6524620246712202,0.24477473924690968,1.0748193706335463,16
+false_alarms,0.3-0.4,share_of_detections_unmatched,0.36363636363636365,,,44
+false_alarms,0.4-0.6,per_minute,0.8971352839229277,0.519873339949903,1.2586239045310461,22
+false_alarms,0.4-0.6,share_of_detections_unmatched,0.4230769230769231,,,52
+false_alarms,0.6-0.8,per_minute,0.8155775308390253,0.5288013102521354,1.1025903806057178,20
+false_alarms,0.6-0.8,share_of_detections_unmatched,0.43478260869565216,,,46
+false_alarms,>=0.8,per_minute,0.8155775308390253,0.4702489184274876,1.1439975086276477,20
+false_alarms,>=0.8,share_of_detections_unmatched,0.21052631578947367,,,95
+minimums,All,marks_below_type_minimum,15.0,,,293
+minimums,All,below_minimum_but_right_type,3.0,,,15
+minimums,All,below_minimum_cannot_reach_iou_0.3,0.0,,,15
+minimums,Kampita,marks_below_type_minimum,2.0,,,132
+minimums,Kampita,below_minimum_but_right_type,0.0,,,2
+minimums,Kampita,below_minimum_cannot_reach_iou_0.3,0.0,,,2
+minimums,Nokku,marks_below_type_minimum,0.0,,,82
+minimums,Nokku,below_minimum_but_right_type,0.0,,,0
+minimums,Nokku,below_minimum_cannot_reach_iou_0.3,0.0,,,0
+minimums,Etra,marks_below_type_minimum,0.0,,,45
+minimums,Etra,below_minimum_but_right_type,0.0,,,0
+minimums,Etra,below_minimum_cannot_reach_iou_0.3,0.0,,,0
+minimums,Irakka,marks_below_type_minimum,13.0,,,34
+minimums,Irakka,below_minimum_but_right_type,3.0,,,13
+minimums,Irakka,below_minimum_cannot_reach_iou_0.3,0.0,,,13

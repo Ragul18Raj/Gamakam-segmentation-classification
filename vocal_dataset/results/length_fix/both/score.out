@@ -1,0 +1,36 @@
+both: 11 folds, 31 recordings, 293 events; none = 87.9% of frames
+filter chosen per fold: {'P01': 5, 'P02': 3, 'P03': 3, 'P04': 7, 'P05': 3, 'P06': 3, 'P07': 3, 'P08': 3, 'P09': 5, 'P10': 5, 'P11': 5}
+
+            frameF1  eventF1 onset200  tracks  Kampita cnt/type  exact
+all_none      0.187    0.000    0.000   0.000    0.000     2.36     0%
+rule_knn      0.250    0.045    0.051   0.045    0.178     2.06     0%
+cnn           0.490    0.381    0.338   0.372    0.628     2.60     0%
+kampita_rf Kampita event F1 0.471  {'Kampita': {'precision': 0.42424242424242425, 'recall': 0.5303030303030303, 'f1': 0.47138047138047134, 'n_ref': 132, 'n_est': 165}}
+
+CNN frame macro-F1 before post-processing 0.481; event macro-F1 95% CI over recordings [0.3370859720039412, 0.4082054606384621]
+
+cnn per class:
+   Kampita          P 0.54 R 0.74 F1 0.63  (ref 132, est 180)
+   Nokku            P 0.24 R 0.46 F1 0.32  (ref 82, est 158)
+   Jaaru (Etra)     P 0.22 R 0.67 F1 0.33  (ref 45, est 139)
+   Jaaru (Irakka)   P 0.18 R 0.41 F1 0.25  (ref 34, est 77)
+   onset/offset median error 80 / 50 ms; by tempo slow 0.33, medium 0.40, fast 0.30, (varnam) 0.32
+   per fold: P01 0.14, P02 0.34, P03 0.22, P04 0.41, P05 0.44, P06 0.26, P07 0.42, P08 0.49, P09 0.47, P10 0.36, P11 0.32
+
+rule_knn per class:
+   Kampita          P 0.16 R 0.20 F1 0.18  (ref 132, est 160)
+   Nokku            P 0.00 R 0.00 F1 0.00  (ref 82, est 1)
+   Jaaru (Etra)     P 0.00 R 0.00 F1 0.00  (ref 45, est 0)
+   Jaaru (Irakka)   P 0.00 R 0.00 F1 0.00  (ref 34, est 0)
+   onset/offset median error 252 / 284 ms; by tempo slow 0.05, medium 0.05, fast 0.00, (varnam) 0.04
+   per fold: P01 0.06, P02 0.00, P03 0.01, P04 0.09, P05 0.03, P06 0.06, P07 0.03, P08 0.07, P09 0.10, P10 0.03, P11 0.04
+
+CNN frame confusion (rows = singer, cols = CNN; none, Kampita, Nokku, Etra, Irakka):
+[[116859   5243   2899   2267   2042]
+ [  3493   9083    207     48      0]
+ [  1333    256    904      6     20]
+ [   540     22      0    643      6]
+ [   716      0      3     11    534]]
+
+folds CNN vs rule: {'cnn_mean': 0.3524330419622353, 'cnn_std': 0.11066703965956456, 'rule_mean': 0.045662824961243936, 'rule_std': 0.03146391447087765, 'p_rule_better_one_sided': 1.0, 'p_cnn_better_one_sided': 0.00048828125, 'p_two_sided': 0.0009765625}
+PASS stage 2: {'event_f1_ge_060': False, 'frame_f1_ge_060': False, 'cnn_not_worse_than_rule': True, 'all': False}

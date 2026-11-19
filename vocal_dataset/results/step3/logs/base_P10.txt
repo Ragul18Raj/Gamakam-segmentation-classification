@@ -1,0 +1,13 @@
+epoch 1 loss 0.510 val 0.474 (3s)
+epoch 2 loss 0.457 val 0.549 (6s)
+epoch 3 loss 0.416 val 0.622 (9s)
+epoch 4 loss 0.368 val 0.636 (12s)
+epoch 5 loss 0.312 val 0.630 (15s)
+epoch 6 loss 0.277 val 0.641 (19s)
+epoch 7 loss 0.266 val 0.677 (22s)
+epoch 8 loss 0.235 val 0.643 (25s)
+epoch 9 loss 0.241 val 0.646 (29s)
+epoch 10 loss 0.222 val 0.648 (32s)
+epoch 11 loss 0.212 val 0.674 (35s)
+epoch 12 loss 0.209 val 0.673 (38s)
+best val 0.677; finished 41s

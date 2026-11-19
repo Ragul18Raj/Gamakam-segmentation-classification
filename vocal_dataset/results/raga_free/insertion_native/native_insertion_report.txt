@@ -1,0 +1,43 @@
+NATIVE-SPEED INSERTION TEST, RAGA-FREE DETECTOR. EXPLORATORY. Recorded vocal, one singer; contours from training groups, held-out tracks.
+Gamaka insertions: 1324. Flat controls: located 2/396, candidate regions 2/396, upper 97.5% bound 0.93%.
+Pitch mismatch before smoothing: median 30 c, 90th percentile 58 c.
+Kampita insertions that repeated cycles: 60/328.
+
+Located, any type: count/insertions, blank = no eligible insertion
+length_ms 80    120   160    200    250    300    400    600    800
+type                                                               
+Kampita        0/24  0/40   2/44  10/44  20/44  23/44  26/44  38/44
+Nokku                1/44  10/44  11/44  16/44  23/44  26/44  19/36
+Etra           3/44  3/44   4/44   9/44   6/44  15/44   8/44   7/36
+Irakka         0/44  0/44   1/44   2/44   3/44   4/44  12/44  17/44
+
+Located and right type: count/insertions, blank = no eligible insertion
+length_ms 80    120   160   200    250    300    400    600    800
+type                                                              
+Kampita        0/24  0/40  1/44   7/44  15/44  19/44  19/44  34/44
+Nokku                1/44  9/44  10/44  15/44  17/44  23/44  18/36
+Etra           3/44  3/44  4/44   9/44   6/44  11/44   4/44   3/36
+Irakka         0/44  0/44  1/44   2/44   2/44   4/44  10/44  14/44
+
+Logistic fits, outcome ~ log(length); X values appear only inside each type's tested lengths
+   type    outcome  insertions  successes               tested_lengths_ms  slope  slope_ci_low  slope_ci_high            X50_status  X50_ms  X50_ci_low  X50_ci_high            X80_status  X80_ms  X80_ci_low  X80_ci_high
+Kampita    located         328        119 120 160 200 250 300 400 600 800  2.782         2.409          3.266   inside tested range 421.105     381.866      471.923   inside tested range 693.105     609.681      786.313
+Kampita right_type         328         95 120 160 200 250 300 400 600 800  2.522         2.088          3.008   inside tested range 518.898     463.088      586.563 not reached by 800 ms     NaN         NaN          NaN
+  Nokku    located         300        106     160 200 250 300 400 600 800  1.547         1.299          1.943   inside tested range 508.582     395.346      678.149 not reached by 800 ms     NaN         NaN          NaN
+  Nokku right_type         300         93     160 200 250 300 400 600 800  1.440         1.122          1.835   inside tested range 608.869     465.670      866.038 not reached by 800 ms     NaN         NaN          NaN
+   Etra    located         344         55 120 160 200 250 300 400 600 800  0.686         0.035          1.525 not reached by 800 ms     NaN         NaN          NaN not reached by 800 ms     NaN         NaN          NaN
+   Etra right_type         344         43 120 160 200 250 300 400 600 800  0.216        -0.367          0.912 not reached by 800 ms     NaN         NaN          NaN not reached by 800 ms     NaN         NaN          NaN
+ Irakka    located         352         39 120 160 200 250 300 400 600 800  2.550         2.102          3.426 not reached by 800 ms     NaN         NaN          NaN not reached by 800 ms     NaN         NaN          NaN
+ Irakka right_type         352         33 120 160 200 250 300 400 600 800  2.393         2.004          3.138 not reached by 800 ms     NaN         NaN          NaN not reached by 800 ms     NaN         NaN          NaN
+
+Missing planned insertions
+   type  length_ms                       reason  missing_insertions
+   Etra         80 no eligible training contour                  44
+   Etra        800 no eligible training contour                   8
+ Irakka         80 no eligible training contour                  44
+Kampita         80 no eligible training contour                  44
+Kampita        120 no eligible training contour                  20
+Kampita        160 no eligible training contour                   4
+  Nokku         80 no eligible training contour                  44
+  Nokku        120 no eligible training contour                  44
+  Nokku        800 no eligible training contour                   8

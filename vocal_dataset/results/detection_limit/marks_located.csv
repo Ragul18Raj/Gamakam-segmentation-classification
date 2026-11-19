@@ -1,0 +1,294 @@
+track,group,type,start_s,end_s,length_s,located,named_correct,detected_type,detected_length_s,type_min_s,lowest_any_type_min_s,below_type_min,max_iou_right_type,max_iou_any_type
+TRACK 1,P01,Kampita,17.488,18.702,1.214,True,True,Kampita,1.37,0.3,0.14,False,1.0,1.0
+TRACK 1,P01,Kampita,23.001,24.302,1.301,True,True,Kampita,1.61,0.3,0.14,False,1.0,1.0
+TRACK 1,P01,Kampita,28.186,29.197,1.011,True,True,Kampita,1.05,0.3,0.14,False,1.0,1.0
+TRACK 1,P01,Kampita,32.957,34.238,1.281,True,True,Kampita,1.23,0.3,0.14,False,1.0,1.0
+TRACK 1,P01,Kampita,38.036,39.597,1.561,True,True,Kampita,1.75,0.3,0.14,False,1.0,1.0
+TRACK 1,P01,Kampita,50.353,51.095,0.742,True,True,Kampita,1.09,0.3,0.14,False,1.0,1.0
+TRACK 1,P01,Nokku,54.603,55.104,0.501,True,False,Kampita,1.0,0.14,0.14,False,1.0,1.0
+TRACK 1,P01,Kampita,63.499,64.646,1.147,True,True,Kampita,1.19,0.3,0.14,False,1.0,1.0
+TRACK 2,P01,Nokku,15.32,15.59,0.27,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 2,P01,Kampita,16.834,17.267,0.433,True,True,Kampita,0.49,0.3,0.14,False,1.0,1.0
+TRACK 2,P01,Kampita,19.86,20.409,0.549,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 2,P01,Kampita,22.51,22.906,0.396,True,False,Nokku,0.41,0.3,0.14,False,1.0,1.0
+TRACK 2,P01,Kampita,27.657,28.294,0.637,True,True,Kampita,0.83,0.3,0.14,False,1.0,1.0
+TRACK 2,P01,Nokku,35.436,35.792,0.356,True,True,Nokku,0.24,0.14,0.14,False,1.0,1.0
+TRACK 2,P01,Kampita,37.209,37.845,0.636,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 2,P01,Nokku,41.72,42.106,0.386,True,True,Nokku,0.31,0.14,0.14,False,1.0,1.0
+TRACK 3,P01,Nokku,14.182,14.491,0.309,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 3,P01,Kampita,15.031,15.551,0.52,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 3,P01,Kampita,17.122,17.633,0.511,True,True,Kampita,0.41,0.3,0.14,False,1.0,1.0
+TRACK 3,P01,Kampita,18.963,19.406,0.443,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 3,P01,Kampita,22.481,23.03,0.549,True,True,Kampita,0.44,0.3,0.14,False,1.0,1.0
+TRACK 3,P01,Kampita,30.085,30.587,0.502,True,True,Kampita,0.67,0.3,0.14,False,1.0,1.0
+TRACK 4,P02,Nokku,25.035,25.633,0.598,True,True,Nokku,0.35,0.14,0.14,False,1.0,1.0
+TRACK 4,P02,Kampita,31.483,32.427,0.944,True,True,Kampita,1.12,0.3,0.14,False,1.0,1.0
+TRACK 4,P02,Irakka,45.593,46.113,0.52,True,True,Irakka,0.87,0.3,0.14,False,1.0,1.0
+TRACK 4,P02,Kampita,56.667,58.238,1.571,True,True,Kampita,2.25,0.3,0.14,False,1.0,1.0
+TRACK 4,P02,Etra,59.241,59.636,0.395,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 4,P02,Kampita,59.636,61.486,1.85,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 4,P02,Nokku,65.004,65.39,0.386,True,True,Nokku,0.38,0.14,0.14,False,1.0,1.0
+TRACK 4,P02,Etra,66.662,66.961,0.299,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 4,P02,Kampita,66.961,67.896,0.935,True,True,Kampita,1.37,0.3,0.14,False,1.0,1.0
+TRACK 5,P02,Nokku,20.995,21.467,0.472,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 5,P02,Irakka,36.549,36.838,0.289,True,True,Irakka,0.55,0.3,0.14,True,0.9633333333333333,1.0
+TRACK 5,P02,Nokku,49.964,50.292,0.328,True,True,Nokku,0.37,0.14,0.14,False,1.0,1.0
+TRACK 5,P02,Nokku,60.44,60.768,0.328,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 6,P02,Nokku,21.313,21.663,0.35,True,False,Kampita,0.48,0.14,0.14,False,1.0,1.0
+TRACK 6,P02,Irakka,26.907,27.196,0.289,True,True,Irakka,0.34,0.3,0.14,True,0.9633333333333333,1.0
+TRACK 6,P02,Kampita,31.235,31.765,0.53,True,True,Kampita,0.43,0.3,0.14,False,1.0,1.0
+TRACK 6,P02,Kampita,35.274,35.804,0.53,True,False,Nokku,0.32,0.3,0.14,False,1.0,1.0
+TRACK 6,P02,Nokku,40.035,40.257,0.222,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 7,P03,Nokku,18.345,18.778,0.433,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 7,P03,Kampita,18.778,19.879,1.101,True,True,Kampita,1.87,0.35,0.14,False,1.0,1.0
+TRACK 7,P03,Kampita,26.14,28.488,2.348,False,False,,,0.35,0.14,False,1.0,1.0
+TRACK 7,P03,Kampita,32.246,34.338,2.092,True,True,Kampita,2.1,0.35,0.14,False,1.0,1.0
+TRACK 7,P03,Kampita,40.298,41.377,1.079,True,True,Kampita,1.24,0.35,0.14,False,1.0,1.0
+TRACK 7,P03,Etra,55.77,55.916,0.146,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 7,P03,Kampita,67.527,68.764,1.237,True,True,Kampita,1.23,0.35,0.14,False,1.0,1.0
+TRACK 7,P03,Kampita,72.159,73.348,1.189,True,True,Kampita,1.69,0.35,0.14,False,1.0,1.0
+TRACK 8,P03,Kampita,13.839,15.043,1.204,True,True,Kampita,1.14,0.35,0.14,False,1.0,1.0
+TRACK 8,P03,Kampita,21.354,22.541,1.187,True,True,Kampita,1.25,0.35,0.14,False,1.0,1.0
+TRACK 8,P03,Kampita,25.655,26.426,0.771,True,True,Kampita,0.96,0.35,0.14,False,1.0,1.0
+TRACK 8,P03,Kampita,28.18,28.686,0.506,True,False,Nokku,0.33,0.35,0.14,False,1.0,1.0
+TRACK 8,P03,Nokku,36.011,36.334,0.323,True,True,Nokku,0.3,0.14,0.14,False,1.0,1.0
+TRACK 8,P03,Kampita,37.714,38.463,0.749,True,True,Kampita,1.05,0.35,0.14,False,1.0,1.0
+TRACK 8,P03,Kampita,41.648,42.463,0.815,True,True,Kampita,0.88,0.35,0.14,False,1.0,1.0
+TRACK 8,P03,Kampita,44.041,44.775,0.734,True,True,Kampita,0.91,0.35,0.14,False,1.0,1.0
+TRACK 9,P03,Kampita,14.865,15.422,0.557,True,True,Kampita,0.53,0.35,0.14,False,1.0,1.0
+TRACK 9,P03,Kampita,18.894,19.494,0.6,True,True,Kampita,0.56,0.35,0.14,False,1.0,1.0
+TRACK 9,P03,Nokku,21.301,21.587,0.286,True,True,Nokku,0.33,0.14,0.14,False,1.0,1.0
+TRACK 9,P03,Irakka,25.939,26.078,0.139,False,False,,,0.3,0.14,True,0.4633333333333334,0.9928571428571429
+TRACK 9,P03,Nokku,27.34,27.546,0.206,True,True,Nokku,0.34,0.14,0.14,False,1.0,1.0
+TRACK 9,P03,Nokku,29.293,29.586,0.293,True,True,Nokku,0.32,0.14,0.14,False,1.0,1.0
+TRACK 9,P03,Nokku,30.54,30.775,0.235,True,True,Nokku,0.17,0.14,0.14,False,1.0,1.0
+TRACK 10,P04,Irakka,13.544,14.44,0.896,False,False,,,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Irakka,14.44,15.04,0.6,True,True,Irakka,0.42,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,19.651,20.128,0.477,True,False,Nokku,0.37,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,34.454,35.848,1.394,True,True,Kampita,1.57,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,37.558,38.386,0.828,True,True,Kampita,0.74,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,39.745,40.355,0.61,True,True,Kampita,0.69,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,45.492,46.41,0.918,True,True,Kampita,1.24,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Etra,49.037,49.184,0.147,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,54.578,55.437,0.859,True,True,Kampita,0.8,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,57.352,58.826,1.474,True,True,Kampita,1.91,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Nokku,60.824,61.147,0.323,True,False,Kampita,0.67,0.15,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,62.409,63.458,1.049,True,True,Kampita,0.96,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,64.53,65.601,1.071,True,True,Kampita,0.84,0.3,0.1,False,1.0,1.0
+TRACK 10,P04,Kampita,68.713,70.717,2.004,True,True,Kampita,1.63,0.3,0.1,False,1.0,1.0
+TRACK 11,P04,Irakka,13.795,14.118,0.323,False,False,,,0.3,0.1,False,1.0,1.0
+TRACK 11,P04,Irakka,14.279,14.712,0.433,True,True,Irakka,0.44,0.3,0.1,False,1.0,1.0
+TRACK 11,P04,Nokku,16.79,17.127,0.337,False,False,,,0.15,0.1,False,1.0,1.0
+TRACK 11,P04,Kampita,23.571,24.782,1.211,True,True,Kampita,1.21,0.3,0.1,False,1.0,1.0
+TRACK 11,P04,Etra,31.462,31.623,0.161,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 11,P04,Nokku,32.893,33.172,0.279,True,True,Nokku,0.35,0.15,0.1,False,1.0,1.0
+TRACK 11,P04,Nokku,37.245,37.605,0.36,False,False,,,0.15,0.1,False,1.0,1.0
+TRACK 11,P04,Nokku,38.398,38.676,0.278,False,False,,,0.15,0.1,False,1.0,1.0
+TRACK 11,P04,Nokku,42.765,43.029,0.264,False,False,,,0.15,0.1,False,1.0,1.0
+TRACK 12,P04,Irakka,13.199,13.375,0.176,True,True,Irakka,0.38,0.3,0.1,True,0.5866666666666667,1.0
+TRACK 12,P04,Etra,21.866,22.012,0.146,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 12,P04,Irakka,22.012,22.357,0.345,False,False,,,0.3,0.1,False,1.0,1.0
+TRACK 12,P04,Kampita,24.045,24.412,0.367,True,False,Nokku,0.32,0.3,0.1,False,1.0,1.0
+TRACK 12,P04,Nokku,24.53,24.955,0.425,False,False,,,0.15,0.1,False,1.0,1.0
+TRACK 12,P04,Nokku,25.124,25.374,0.25,False,False,,,0.15,0.1,False,1.0,1.0
+TRACK 12,P04,Etra,26.79,26.981,0.191,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 13,P05,Irakka,14.352,14.727,0.375,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 13,P05,Kampita,16.613,17.836,1.223,True,True,Kampita,1.26,0.35,0.14,False,1.0,1.0
+TRACK 13,P05,Irakka,19.13,19.431,0.301,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 13,P05,Kampita,27.27,28.826,1.556,True,True,Kampita,1.49,0.35,0.14,False,1.0,1.0
+TRACK 13,P05,Kampita,39.644,40.716,1.072,True,True,Kampita,0.75,0.35,0.14,False,1.0,1.0
+TRACK 13,P05,Etra,45.472,45.78,0.308,True,True,Etra,0.34,0.14,0.14,False,1.0,1.0
+TRACK 13,P05,Kampita,47.182,48.158,0.976,True,True,Kampita,0.74,0.35,0.14,False,1.0,1.0
+TRACK 13,P05,Nokku,52.459,52.76,0.301,True,False,Kampita,0.57,0.14,0.14,False,1.0,1.0
+TRACK 13,P05,Nokku,67.733,68.195,0.462,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 13,P05,Nokku,68.283,68.657,0.374,True,False,Kampita,0.49,0.14,0.14,False,1.0,1.0
+TRACK 13,P05,Etra,69.626,69.846,0.22,True,True,Etra,0.36,0.14,0.14,False,1.0,1.0
+TRACK 13,P05,Kampita,71.057,72.132,1.075,True,True,Kampita,1.1,0.35,0.14,False,1.0,1.0
+TRACK 13,P05,Kampita,74.338,75.172,0.834,True,True,Kampita,0.96,0.35,0.14,False,1.0,1.0
+TRACK 14,P05,Irakka,12.833,13.075,0.242,False,False,,,0.3,0.14,True,0.8066666666666666,1.0
+TRACK 14,P05,Kampita,13.934,14.682,0.748,True,True,Kampita,0.79,0.35,0.14,False,1.0,1.0
+TRACK 14,P05,Kampita,19.167,19.901,0.734,True,True,Kampita,0.68,0.35,0.14,False,1.0,1.0
+TRACK 14,P05,Nokku,22.771,23.071,0.3,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 14,P05,Nokku,23.776,24.062,0.286,True,True,Nokku,0.25,0.14,0.14,False,1.0,1.0
+TRACK 14,P05,Kampita,25.53,26.138,0.608,True,True,Kampita,0.43,0.35,0.14,False,1.0,1.0
+TRACK 14,P05,Etra,28.503,28.693,0.19,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 14,P05,Nokku,31.842,32.15,0.308,True,True,Nokku,0.41,0.14,0.14,False,1.0,1.0
+TRACK 14,P05,Nokku,36.818,37.024,0.206,True,True,Nokku,0.27,0.14,0.14,False,1.0,1.0
+TRACK 14,P05,Etra,40.561,40.737,0.176,True,True,Etra,0.16,0.14,0.14,False,1.0,1.0
+TRACK 15,P05,Nokku,14.343,14.578,0.235,True,True,Nokku,0.18,0.14,0.14,False,1.0,1.0
+TRACK 15,P05,Etra,21.637,21.777,0.14,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 15,P05,Kampita,27.464,27.64,0.176,True,False,Etra,0.16,0.35,0.14,True,0.5028571428571429,1.0
+TRACK 16,P06,Kampita,19.189,20.053,0.864,True,True,Kampita,0.78,0.3,0.1,False,1.0,1.0
+TRACK 16,P06,Kampita,23.233,24.006,0.773,True,True,Kampita,0.66,0.3,0.1,False,1.0,1.0
+TRACK 16,P06,Nokku,25.368,25.684,0.316,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 16,P06,Kampita,31.82,32.772,0.952,True,True,Kampita,0.65,0.3,0.1,False,1.0,1.0
+TRACK 16,P06,Kampita,44.972,45.574,0.602,True,False,Nokku,0.42,0.3,0.1,False,1.0,1.0
+TRACK 16,P06,Etra,52.032,52.289,0.257,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 16,P06,Kampita,57.962,59.3,1.338,True,True,Kampita,0.9,0.3,0.1,False,1.0,1.0
+TRACK 16,P06,Nokku,65.456,65.815,0.359,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 16,P06,Kampita,74.747,75.679,0.932,True,True,Kampita,0.98,0.3,0.1,False,1.0,1.0
+TRACK 16,P06,Etra,88.42,88.883,0.463,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 16,P06,Kampita,90.908,91.554,0.646,True,True,Kampita,0.46,0.3,0.1,False,1.0,1.0
+TRACK 17,P06,Nokku,16.252,16.509,0.257,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 17,P06,Nokku,19.525,19.775,0.25,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 17,P06,Nokku,35.215,35.48,0.265,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 17,P06,Nokku,40.661,40.896,0.235,True,True,Nokku,0.17,0.1,0.1,False,1.0,1.0
+TRACK 17,P06,Nokku,47.501,47.692,0.191,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 17,P06,Etra,51.544,51.809,0.265,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 18,P06,Etra,19.01,19.208,0.198,True,True,Etra,0.17,0.1,0.1,False,1.0,1.0
+TRACK 18,P06,Nokku,19.208,19.634,0.426,False,False,,,0.1,0.1,False,1.0,1.0
+TRACK 18,P06,Irakka,31.752,31.984,0.232,False,False,,,0.3,0.1,True,0.7733333333333334,1.0
+TRACK 19,P07,Irakka,13.2,13.648,0.448,True,True,Irakka,0.55,0.3,0.14,False,1.0,1.0
+TRACK 19,P07,Kampita,19.247,20.062,0.815,True,True,Kampita,0.92,0.35,0.14,False,1.0,1.0
+TRACK 19,P07,Kampita,32.84,33.707,0.867,True,True,Kampita,0.36,0.35,0.14,False,1.0,1.0
+TRACK 19,P07,Etra,41.596,42.027,0.431,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 19,P07,Kampita,43.643,44.539,0.896,False,False,,,0.35,0.14,False,1.0,1.0
+TRACK 19,P07,Kampita,48.862,50.92,2.058,True,True,Kampita,1.52,0.35,0.14,False,1.0,1.0
+TRACK 19,P07,Kampita,54.77,56.81,2.04,True,True,Kampita,0.79,0.35,0.14,False,1.0,1.0
+TRACK 19,P07,Kampita,63.342,64.338,0.996,True,True,Kampita,0.83,0.35,0.14,False,1.0,1.0
+TRACK 20,P07,Irakka,12.841,13.367,0.526,True,True,Irakka,0.3,0.3,0.14,False,1.0,1.0
+TRACK 20,P07,Etra,24.562,25.176,0.614,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 20,P07,Kampita,31.065,31.726,0.661,True,True,Kampita,0.59,0.35,0.14,False,1.0,1.0
+TRACK 20,P07,Kampita,33.972,34.919,0.947,True,True,Kampita,0.9,0.35,0.14,False,1.0,1.0
+TRACK 20,P07,Irakka,38.544,38.97,0.426,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 21,P07,Irakka,12.973,13.26,0.287,False,False,,,0.3,0.14,True,0.9566666666666667,1.0
+TRACK 21,P07,Etra,20.218,20.529,0.311,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 21,P07,Nokku,22.31,22.596,0.286,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 21,P07,Irakka,25.826,26.083,0.257,True,False,Kampita,0.45,0.3,0.14,True,0.8566666666666667,1.0
+TRACK 22,P08,Kampita,16.707,18.975,2.268,True,True,Kampita,2.45,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Kampita,26.321,27.261,0.94,True,True,Kampita,0.91,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Kampita,34.299,35.27,0.971,True,True,Kampita,0.82,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Irakka,35.349,35.745,0.396,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Irakka,36.339,36.728,0.389,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Kampita,41.873,44.39,2.517,True,True,Kampita,2.68,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Kampita,46.482,47.318,0.836,True,True,Kampita,0.84,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Kampita,51.223,52.192,0.969,True,True,Kampita,0.87,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Irakka,56.294,56.742,0.448,True,True,Irakka,0.69,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Kampita,63.376,64.23,0.854,True,True,Kampita,0.75,0.3,0.14,False,1.0,1.0
+TRACK 22,P08,Etra,67.347,67.905,0.558,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 22,P08,Kampita,69.255,70.25,0.995,True,True,Kampita,0.85,0.3,0.14,False,1.0,1.0
+TRACK 23,P08,Kampita,14.505,15.429,0.924,True,True,Kampita,1.32,0.3,0.14,False,1.0,1.0
+TRACK 23,P08,Nokku,19.047,19.334,0.287,True,True,Nokku,0.39,0.14,0.14,False,1.0,1.0
+TRACK 23,P08,Nokku,23.304,23.561,0.257,True,True,Nokku,0.38,0.14,0.14,False,1.0,1.0
+TRACK 23,P08,Kampita,26.995,28.206,1.211,True,True,Kampita,1.33,0.3,0.14,False,1.0,1.0
+TRACK 23,P08,Etra,30.606,30.951,0.345,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 23,P08,Irakka,34.004,34.526,0.522,True,True,Irakka,0.37,0.3,0.14,False,1.0,1.0
+TRACK 23,P08,Etra,39.706,39.963,0.257,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 23,P08,Nokku,40.704,40.968,0.264,True,True,Nokku,0.2,0.14,0.14,False,1.0,1.0
+TRACK 24,P08,Kampita,13.803,14.258,0.455,True,True,Kampita,0.62,0.3,0.14,False,1.0,1.0
+TRACK 24,P08,Nokku,18.031,18.258,0.227,True,True,Nokku,0.19,0.14,0.14,False,1.0,1.0
+TRACK 24,P08,Kampita,20.049,20.394,0.345,True,True,Kampita,0.34,0.3,0.14,False,1.0,1.0
+TRACK 24,P08,Etra,22.963,23.198,0.235,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 24,P08,Irakka,23.492,23.844,0.352,True,True,Irakka,0.39,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,16.276,17.31,1.034,True,True,Kampita,1.05,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,20.922,22.83,1.908,True,True,Kampita,1.97,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,28.122,28.929,0.807,True,True,Kampita,0.79,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,32.731,33.854,1.123,True,True,Kampita,1.22,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,40.489,41.302,0.813,True,True,Kampita,0.91,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Irakka,44.408,44.9,0.492,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,46.199,47.256,1.057,True,True,Kampita,1.06,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,50.794,51.887,1.093,True,True,Kampita,1.01,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,54.955,56.643,1.688,True,True,Kampita,1.82,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,59.205,59.976,0.771,True,True,Kampita,0.93,0.3,0.14,False,1.0,1.0
+TRACK 25,P09,Kampita,63.146,64.109,0.963,True,True,Kampita,1.08,0.3,0.14,False,1.0,1.0
+TRACK 26,P09,Nokku,14.806,15.361,0.555,True,True,Nokku,0.43,0.14,0.14,False,1.0,1.0
+TRACK 26,P09,Kampita,17.587,18.159,0.572,True,True,Kampita,0.56,0.3,0.14,False,1.0,1.0
+TRACK 26,P09,Kampita,23.634,24.103,0.469,True,False,Nokku,0.23,0.3,0.14,False,1.0,1.0
+TRACK 26,P09,Etra,28.945,29.211,0.266,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 26,P09,Nokku,30.664,30.965,0.301,True,True,Nokku,0.47,0.14,0.14,False,1.0,1.0
+TRACK 26,P09,Kampita,35.082,35.988,0.906,True,True,Kampita,0.82,0.3,0.14,False,1.0,1.0
+TRACK 26,P09,Nokku,37.225,37.445,0.22,True,True,Nokku,0.35,0.14,0.14,False,1.0,1.0
+TRACK 26,P09,Nokku,39.147,39.419,0.272,True,True,Nokku,0.4,0.14,0.14,False,1.0,1.0
+TRACK 27,P09,Kampita,15.057,15.725,0.668,True,True,Kampita,0.57,0.3,0.14,False,1.0,1.0
+TRACK 27,P09,Kampita,18.558,19.556,0.998,True,True,Kampita,1.14,0.3,0.14,False,1.0,1.0
+TRACK 27,P09,Etra,22.147,22.33,0.183,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 27,P09,Nokku,26.448,26.785,0.337,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 27,P09,Nokku,27.534,27.769,0.235,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 28,P10,Irakka,14.41,14.63,0.22,False,False,,,0.3,0.14,True,0.7333333333333334,1.0
+TRACK 28,P10,Kampita,14.63,15.452,0.822,True,True,Kampita,0.74,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,16.641,17.485,0.844,True,True,Kampita,0.77,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,19.115,20.047,0.932,True,True,Kampita,0.6,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,22.579,23.398,0.819,True,True,Kampita,0.94,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,24.92,27.638,2.718,True,True,Kampita,2.82,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,29.272,30.254,0.982,True,True,Kampita,0.84,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,34.857,36.062,1.205,True,True,Kampita,1.04,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Etra,47.297,47.803,0.506,True,True,Etra,0.35,0.14,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,59.223,59.8,0.577,False,False,,,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,60.83,62.422,1.592,True,True,Kampita,0.82,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Irakka,65.527,65.791,0.264,False,False,,,0.3,0.14,True,0.8800000000000001,1.0
+TRACK 28,P10,Kampita,65.791,66.547,0.756,True,True,Kampita,0.76,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,69.71,70.261,0.551,True,True,Kampita,0.63,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,75.846,76.535,0.689,True,True,Kampita,1.05,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,85.995,87.288,1.293,True,True,Kampita,1.18,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,89.386,90.224,0.838,True,True,Kampita,1.15,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,93.261,94.035,0.774,True,True,Kampita,0.55,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Irakka,96.013,96.278,0.265,False,False,,,0.3,0.14,True,0.8833333333333334,1.0
+TRACK 28,P10,Kampita,96.47,97.092,0.622,True,True,Kampita,0.78,0.35,0.14,False,1.0,1.0
+TRACK 28,P10,Kampita,99.389,100.064,0.675,True,True,Kampita,0.53,0.35,0.14,False,1.0,1.0
+TRACK 29,P10,Nokku,14.25,14.624,0.374,True,True,Nokku,0.19,0.14,0.14,False,1.0,1.0
+TRACK 29,P10,Nokku,15.358,15.652,0.294,True,True,Nokku,0.21,0.14,0.14,False,1.0,1.0
+TRACK 29,P10,Kampita,19.821,20.65,0.829,True,True,Kampita,0.76,0.35,0.14,False,1.0,1.0
+TRACK 29,P10,Nokku,21.802,22.152,0.35,True,True,Nokku,0.71,0.14,0.14,False,1.0,1.0
+TRACK 29,P10,Etra,30.324,30.485,0.161,True,True,Etra,0.14,0.14,0.14,False,1.0,1.0
+TRACK 29,P10,Kampita,36.79,37.795,1.005,True,True,Kampita,0.91,0.35,0.14,False,1.0,1.0
+TRACK 29,P10,Irakka,38.977,39.647,0.67,False,False,,,0.3,0.14,False,1.0,1.0
+TRACK 29,P10,Nokku,54.823,55.073,0.25,False,False,,,0.14,0.14,False,1.0,1.0
+TRACK 30,P10,Kampita,15.004,15.261,0.257,False,False,,,0.35,0.14,True,0.7342857142857143,1.0
+TRACK 30,P10,Kampita,16.574,16.941,0.367,True,True,Kampita,0.4,0.35,0.14,False,1.0,1.0
+TRACK 30,P10,Etra,22.944,23.157,0.213,True,True,Etra,0.14,0.14,0.14,False,1.0,1.0
+TRACK 30,P10,Irakka,33.879,34.026,0.147,False,False,,,0.3,0.14,True,0.49,1.0
+VARNAM,P11,Nokku,14.562,15.279,0.717,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Irakka,15.279,15.721,0.442,False,False,,,0.25,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,18.631,18.957,0.326,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,29.326,29.659,0.333,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,30.865,31.166,0.301,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,32.299,32.643,0.344,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Kampita,34.465,36.003,1.538,True,True,Kampita,1.27,0.3,0.14,False,1.0,1.0
+VARNAM,P11,Etra,36.557,37.01,0.453,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,37.01,37.289,0.279,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,42.538,42.822,0.284,True,True,Etra,0.14,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Irakka,42.822,43.006,0.184,False,False,,,0.25,0.14,True,0.736,1.0
+VARNAM,P11,Kampita,49.148,49.696,0.548,True,True,Kampita,0.41,0.3,0.14,False,1.0,1.0
+VARNAM,P11,Etra,52.514,52.76,0.246,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,59.713,59.96,0.247,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,61.093,61.767,0.674,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,63.745,63.899,0.154,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,63.899,64.09,0.191,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,69.333,69.523,0.19,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,71.413,71.653,0.24,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,72.68,72.871,0.191,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,77.794,77.979,0.185,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,78.865,79.037,0.172,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,79.382,79.591,0.209,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Irakka,82.176,82.594,0.418,False,False,,,0.25,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,90.853,91.093,0.24,True,True,Nokku,0.26,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,95.831,96.145,0.314,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Irakka,96.145,96.454,0.309,False,False,,,0.25,0.14,False,1.0,1.0
+VARNAM,P11,Etra,96.945,97.099,0.154,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,111.247,111.481,0.234,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Kampita,113.487,114.256,0.769,True,False,Nokku,0.34,0.3,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,116.508,116.921,0.413,True,True,Nokku,0.3,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,119.702,119.868,0.166,True,True,Etra,0.19,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,120.718,121.074,0.356,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Kampita,131.751,132.373,0.622,True,True,Kampita,0.58,0.3,0.14,False,1.0,1.0
+VARNAM,P11,Kampita,134.545,135.751,1.206,True,True,Kampita,1.26,0.3,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,137.745,138.071,0.326,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,143.038,143.364,0.326,True,True,Nokku,0.22,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,146.152,146.342,0.19,True,True,Etra,0.17,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Kampita,160.133,161.401,1.268,True,True,Kampita,1.09,0.3,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,168.459,168.798,0.339,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,171.573,171.752,0.179,True,True,Etra,0.16,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,182.158,182.453,0.295,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,182.915,183.186,0.271,True,True,Nokku,0.2,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,186.121,186.342,0.221,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,192.57,192.749,0.179,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,196.906,197.13,0.224,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,201.019,201.204,0.185,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,227.253,227.426,0.173,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Kampita,229.087,229.838,0.751,True,True,Kampita,0.7,0.3,0.14,False,1.0,1.0
+VARNAM,P11,Etra,232.952,233.235,0.283,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,242.798,242.989,0.191,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Kampita,244.977,245.586,0.609,True,True,Kampita,0.63,0.3,0.14,False,1.0,1.0
+VARNAM,P11,Kampita,247.45,248.651,1.201,True,True,Kampita,0.97,0.3,0.14,False,1.0,1.0
+VARNAM,P11,Nokku,255.567,255.82,0.253,False,False,,,0.14,0.14,False,1.0,1.0
+VARNAM,P11,Etra,258.657,258.811,0.154,False,False,,,0.14,0.14,False,1.0,1.0

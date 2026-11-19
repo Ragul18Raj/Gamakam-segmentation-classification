@@ -1,0 +1,83 @@
+           events  correct  accuracy
+bin                                 
+<0.2 s         31       29     0.935
+0.2-0.4 s     103       96     0.932
+0.4-0.8 s      76       71     0.934
+>=0.8 s        83       82     0.988
+
+correct/total by type
+bin            <0.2 s 0.2-0.4 s 0.4-0.8 s >=0.8 s
+label                                            
+Jaaru (Etra)    19/19     16/18       8/8       -
+Jaaru (Irakka)    3/4     14/16     13/13     1/1
+Kampita           0/1       4/4     41/45   81/82
+Nokku             7/7     62/65      9/10       -
+
+all events: 278/293 = 0.949
+
+what wrong events were called
+      bin          label main_4class | DTW-3NN  n
+   <0.2 s   Jaaru (Etra)          Jaaru (Etra)  0
+   <0.2 s   Jaaru (Etra)               Kampita  0
+   <0.2 s   Jaaru (Etra)                 Nokku  0
+   <0.2 s   Jaaru (Etra)        Jaaru (Irakka)  0
+   <0.2 s Jaaru (Irakka)               Kampita  1
+   <0.2 s Jaaru (Irakka)          Jaaru (Etra)  0
+   <0.2 s Jaaru (Irakka)        Jaaru (Irakka)  0
+   <0.2 s Jaaru (Irakka)                 Nokku  0
+   <0.2 s        Kampita          Jaaru (Etra)  1
+   <0.2 s        Kampita        Jaaru (Irakka)  0
+   <0.2 s        Kampita               Kampita  0
+   <0.2 s        Kampita                 Nokku  0
+   <0.2 s          Nokku          Jaaru (Etra)  0
+   <0.2 s          Nokku        Jaaru (Irakka)  0
+   <0.2 s          Nokku               Kampita  0
+   <0.2 s          Nokku                 Nokku  0
+0.2-0.4 s   Jaaru (Etra)               Kampita  2
+0.2-0.4 s   Jaaru (Etra)          Jaaru (Etra)  0
+0.2-0.4 s   Jaaru (Etra)        Jaaru (Irakka)  0
+0.2-0.4 s   Jaaru (Etra)                 Nokku  0
+0.2-0.4 s Jaaru (Irakka)               Kampita  2
+0.2-0.4 s Jaaru (Irakka)          Jaaru (Etra)  0
+0.2-0.4 s Jaaru (Irakka)        Jaaru (Irakka)  0
+0.2-0.4 s Jaaru (Irakka)                 Nokku  0
+0.2-0.4 s        Kampita          Jaaru (Etra)  0
+0.2-0.4 s        Kampita        Jaaru (Irakka)  0
+0.2-0.4 s        Kampita               Kampita  0
+0.2-0.4 s        Kampita                 Nokku  0
+0.2-0.4 s          Nokku               Kampita  3
+0.2-0.4 s          Nokku          Jaaru (Etra)  0
+0.2-0.4 s          Nokku        Jaaru (Irakka)  0
+0.2-0.4 s          Nokku                 Nokku  0
+0.4-0.8 s   Jaaru (Etra)                 Nokku  0
+0.4-0.8 s   Jaaru (Etra)          Jaaru (Etra)  0
+0.4-0.8 s   Jaaru (Etra)               Kampita  0
+0.4-0.8 s   Jaaru (Etra)        Jaaru (Irakka)  0
+0.4-0.8 s Jaaru (Irakka)                 Nokku  0
+0.4-0.8 s Jaaru (Irakka)               Kampita  0
+0.4-0.8 s Jaaru (Irakka)        Jaaru (Irakka)  0
+0.4-0.8 s Jaaru (Irakka)          Jaaru (Etra)  0
+0.4-0.8 s        Kampita                 Nokku  4
+0.4-0.8 s        Kampita               Kampita  0
+0.4-0.8 s        Kampita        Jaaru (Irakka)  0
+0.4-0.8 s        Kampita          Jaaru (Etra)  0
+0.4-0.8 s          Nokku        Jaaru (Irakka)  1
+0.4-0.8 s          Nokku                 Nokku  0
+0.4-0.8 s          Nokku               Kampita  0
+0.4-0.8 s          Nokku          Jaaru (Etra)  0
+  >=0.8 s   Jaaru (Etra)          Jaaru (Etra)  0
+  >=0.8 s   Jaaru (Etra)        Jaaru (Irakka)  0
+  >=0.8 s   Jaaru (Etra)               Kampita  0
+  >=0.8 s   Jaaru (Etra)                 Nokku  0
+  >=0.8 s Jaaru (Irakka)          Jaaru (Etra)  0
+  >=0.8 s Jaaru (Irakka)        Jaaru (Irakka)  0
+  >=0.8 s Jaaru (Irakka)               Kampita  0
+  >=0.8 s Jaaru (Irakka)                 Nokku  0
+  >=0.8 s        Kampita                 Nokku  1
+  >=0.8 s        Kampita          Jaaru (Etra)  0
+  >=0.8 s        Kampita        Jaaru (Irakka)  0
+  >=0.8 s        Kampita               Kampita  0
+  >=0.8 s          Nokku          Jaaru (Etra)  0
+  >=0.8 s          Nokku        Jaaru (Irakka)  0
+  >=0.8 s          Nokku               Kampita  0
+  >=0.8 s          Nokku                 Nokku  0

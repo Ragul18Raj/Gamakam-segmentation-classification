@@ -1,0 +1,84 @@
+DETECTION LIMIT, REAL MARKS. EXPLORATORY. Frozen Step 3 primary run; recorded vocal, one singer; 293 marks; held-out predictions from 11 groups.
+Located = paired one-to-one with a CNN event of any type at IoU >= 0.3. Located 182/293 (0.621); located and right type 167/293 (0.570). Event macro-F1 check 0.462, detections 321.
+
+1a. located ~ log(length). Length at which located probability reaches 50% and 80%; 95% CI from 2000 resamples of the 11 groups
+point  length_ms       ci95  within_observed_lengths
+  X50        332 237 to 401                     True
+  X80        652 544 to 771                     True
+Slope per log(length): 2.06 (95% CI 1.53 to 2.48); observed mark lengths 139 to 2718 ms
+
+1b. located ~ log(length) + type (Kampita is the reference; one common length slope)
+Likelihood-ratio test for adding type: chi2 = 29.46, df 3, p = 0.0000 (this p-value ignores grouping; use the bootstrap intervals below as the safer guide)
+Slope per log(length): 0.61 (95% CI -0.68 to 1.56)
+   type   n observed_ms  X50_ms   X50_ci95  X50_in_range  X80_ms    X80_ci95  X80_in_range     odds_vs_Kampita
+Kampita 132    176-2718      11   0 to inf         False     110    0 to inf         False           reference
+  Nokku  82     173-717     443  43 to inf          True    4332  569 to inf         False 0.11 (0.01 to 0.57)
+   Etra  45     140-674    1600 307 to inf         False   15654  882 to inf         False 0.05 (0.00 to 0.31)
+ Irakka  34     139-896     938 270 to inf         False    9179 1354 to inf         False 0.07 (0.01 to 0.25)
+
+1c. Located rate by mark length (s): located/n, rate; group-bootstrap 95% CI for each rate
+   type length_s located  located_rate        ci right_type
+    All     <0.2    8/32          0.25 0.17-0.43       7/32
+    All  0.2-0.3   24/59          0.41 0.27-0.61      23/59
+    All  0.3-0.4   20/46          0.43 0.27-0.64      14/46
+    All  0.4-0.6   25/42          0.60 0.47-0.68      20/42
+    All  0.6-0.8   26/31          0.84 0.73-0.96      24/31
+    All    >=0.8   79/83          0.95 0.91-0.99      79/83
+Kampita     <0.2     1/1          1.00 1.00-1.00        0/1
+Kampita  0.2-0.3     0/1          0.00 0.00-0.00        0/1
+Kampita  0.3-0.4     4/4          1.00 1.00-1.00        2/4
+Kampita  0.4-0.6   14/18          0.78 0.64-1.00      10/18
+Kampita  0.6-0.8   25/26          0.96 0.88-1.00      23/26
+Kampita    >=0.8   79/82          0.96 0.92-1.00      79/82
+  Nokku     <0.2     0/7          0.00 0.00-0.00        0/7
+  Nokku  0.2-0.3   18/36          0.50 0.29-0.77      18/36
+  Nokku  0.3-0.4   14/29          0.48 0.27-0.75      10/29
+  Nokku  0.4-0.6     4/9          0.44 0.14-0.75        3/9
+  Nokku  0.6-0.8     0/1          0.00 0.00-0.00        0/1
+  Nokku    >=0.8     0/0           NaN                  0/0
+   Etra     <0.2    6/20          0.30 0.11-0.56       6/20
+   Etra  0.2-0.3    3/13          0.23 0.00-0.50       3/13
+   Etra  0.3-0.4     1/5          0.20 0.00-0.67        1/5
+   Etra  0.4-0.6     1/5          0.20 0.00-0.67        1/5
+   Etra  0.6-0.8     0/2          0.00 0.00-0.00        0/2
+   Etra    >=0.8     0/0           NaN                  0/0
+ Irakka     <0.2     1/4          0.25 0.00-0.80        1/4
+ Irakka  0.2-0.3     3/9          0.33 0.00-0.75        2/9
+ Irakka  0.3-0.4     1/8          0.12 0.00-0.33        1/8
+ Irakka  0.4-0.6    6/10          0.60 0.22-1.00       6/10
+ Irakka  0.6-0.8     1/2          0.50 0.00-1.00        1/2
+ Irakka    >=0.8     0/1          0.00 0.00-0.00        0/1
+
+2. False alarms: detections not paired with any mark. Evaluated audio 24.52 min (after the opening Sa is cut)
+Unmatched detections: 139/321 (43.3%), 5.67 per minute (95% CI 4.62 to 6.78)
+detection_length_s  unmatched  all_detections  unmatched_share  per_minute         ci95
+              <0.2         17              31             0.55        0.69 0.43 to 0.92
+           0.2-0.3         44              53             0.83        1.79 1.14 to 2.41
+           0.3-0.4         16              44             0.36        0.65 0.24 to 1.07
+           0.4-0.6         22              52             0.42        0.90 0.52 to 1.26
+           0.6-0.8         20              46             0.43        0.82 0.53 to 1.10
+             >=0.8         20              95             0.21        0.82 0.47 to 1.14
+These counts treat every unmarked region as false, although the singer says orikai and possibly other gamakas are unmarked.
+
+3. Minimum lengths in the frozen decoder. Viterbi region minimum, then the per-type length filter after naming; effective minimum = the larger of the two
+group  region_min_ms  Kampita_ms  Nokku_ms  Etra_ms  Irakka_ms
+  P01            140         300       140      140        300
+  P02            140         300       140      140        300
+  P03            140         350       140      140        300
+  P04            100         300       150      100        300
+  P05            140         350       140      140        300
+  P06            100         300       100      100        300
+  P07            140         350       140      140        300
+  P08            140         300       140      140        300
+  P09            140         300       140      140        300
+  P10            140         350       140      140        300
+  P11            140         300       140      140        250
+   type  marks  shorter_than_type_minimum  share  still_located  still_right_type  impossible_right_type
+    All    293                         15  0.051              5                 3                      0
+Kampita    132                          2  0.015              1                 0                      0
+  Nokku     82                          0  0.000              0                 0                      0
+   Etra     45                          0  0.000              0                 0                      0
+ Irakka     34                         13  0.382              4                 3                      0
+A detection must meet the minimum, but a shorter mark can still match it when IoU >= 0.3. A mark is impossible for its own type only when mark length / type minimum < 0.3.
+
+4. Controlled insertion test: NOT RUN. The Step 3 networks were not saved, so the frozen detector cannot process new pitch tracks without retraining.

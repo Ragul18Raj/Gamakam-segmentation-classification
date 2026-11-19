@@ -1,0 +1,26 @@
+RAGA-FREE CONTROLS. EXPLORATORY. Recorded vocal, one singer.
+
+Transposition test: every held-out track shifted before the full route
+            model  shift_cents    event    frame  detections  correct  event_change  frame_change  largest_gamaka_probability_change  mean_gamaka_probability_change tracks_with_identical_events
+        raga-free            0 0.387048 0.460105         329      146      0.000000      0.000000                           0.000000                        0.000000                        31/31
+        raga-free          300 0.387048 0.460105         329      146      0.000000      0.000000                           0.000000                        0.000000                        31/31
+        raga-free         -300 0.387048 0.460105         329      146      0.000000      0.000000                           0.000000                        0.000000                        31/31
+frozen raga-aware            0 0.462236 0.513224         321      167      0.000000      0.000000                           0.000000                        0.000000                        31/31
+frozen raga-aware          300 0.044157 0.217353         158       10     -0.418079     -0.295871                           0.986706                        0.192600                         0/31
+frozen raga-aware         -300 0.049357 0.215546         216       11     -0.412879     -0.297678                           0.978569                        0.217032                         0/31
+
+Median-pitch probe: macro-F1 on the singer's marked boundaries 0.162. Event macro-F1 when raga-free regions are named from median pitch alone: 0.162.
+Per type event F1 for that floor: Kampita 0.63, Nokku 0.02, Jaaru (Etra) 0.00, Jaaru (Irakka) 0.00
+
+Information probes. Swara: leave-one-group-out, 7 Kalyani note classes. Track: separate within-track time blocks, 31 classes
+probe             model representation  accuracy  balanced_accuracy  majority_chance  classes
+swara         raga-free          input     0.309              0.256            0.230        7
+track         raga-free          input     0.040              0.041            0.027       31
+swara         raga-free         hidden     0.328              0.274            0.230        7
+track         raga-free         hidden     0.050              0.051            0.027       31
+swara frozen raga-aware          input     0.962              0.957            0.230        7
+track frozen raga-aware          input     0.057              0.057            0.027       31
+swara frozen raga-aware         hidden     0.430              0.393            0.230        7
+track frozen raga-aware         hidden     0.053              0.054            0.027       31
+
+A raga probe and leave-one-raga-out are not possible: TRACK 1-30 are all labelled Kalyani and the VARNAM has no raga label.

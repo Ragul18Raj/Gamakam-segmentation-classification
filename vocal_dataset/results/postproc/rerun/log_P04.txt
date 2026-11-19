@@ -1,0 +1,14 @@
+fold test=P04 val=P05 train=25 recordings, nosa=False, split=group
+    epoch  1 loss 1.157 val frame macroF1 0.233 (12s)
+    epoch  2 loss 0.864 val frame macroF1 0.333 (12s)
+    epoch  3 loss 0.740 val frame macroF1 0.354 (12s)
+    epoch  4 loss 0.590 val frame macroF1 0.427 (12s)
+    epoch  5 loss 0.529 val frame macroF1 0.463 (7s)
+    epoch  6 loss 0.513 val frame macroF1 0.455 (9s)
+    epoch  7 loss 0.477 val frame macroF1 0.408 (7s)
+    epoch  8 loss 0.443 val frame macroF1 0.425 (7s)
+    epoch  9 loss 0.392 val frame macroF1 0.457 (6s)
+    epoch 10 loss 0.359 val frame macroF1 0.454 (6s)
+  CNN trained in 92s, best val frame macroF1 0.463
+  filter chosen on val: 5  {5: 0.3767361111111111, 3: 0.3767361111111111, 7: 0.35699926900584794}
+  fold P04 saved (97s)

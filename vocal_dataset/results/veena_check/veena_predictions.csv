@@ -1,0 +1,39 @@
+clip,true,take,main,passes_quality,off8,how_cut,dur_s,net_c,Full features,No length features,Duration only,DTW shape,"DTW, length removed","Full features, clip stretched","DTW, clip stretched"
+Kampita (plavita) bhairiga#03.1,Kampita,plavita bhairiga #03,True,True,0.0,hand-marked,0.91,10.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita (plavita) bhairiga#03.2,Kampita,plavita bhairiga #03,False,True,0.0,hand-marked,1.0,25.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita (plavita) bhairiga#03.3,Kampita,plavita bhairiga #03,False,True,0.0,hand-marked,1.09,-2.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita (plavita) bhairiga#03.4,Kampita,plavita bhairiga #03,False,True,0.0,hand-marked,0.98,141.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita (plavita)#02.1,Kampita,plavita #02,True,True,0.0,hand-marked,1.94,40.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita (plavita)#02.2,Kampita,plavita #02,False,True,0.0,hand-marked,1.89,174.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita (plavita)#02.3,Kampita,plavita #02,False,True,0.0,hand-marked,1.91,77.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita(plavitam) todi#01.1,Kampita,plavitam Todi,False,True,0.0,hand-marked,1.09,104.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita(plavitam) todi#01.2,Kampita,plavitam Todi,False,True,0.0,hand-marked,1.14,109.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita(plavitam) todi#01.3,Kampita,plavitam Todi,False,True,0.0,hand-marked,1.06,234.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita(plavitam) todi#03.1,Kampita,plavitam Todi,False,True,0.0,hand-marked,0.63,244.0,Kampita,Jaaru (Etra),Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita(plavitam) todi#03.2,Kampita,plavitam Todi,False,True,0.0,hand-marked,0.82,85.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita(plavitam) todi#03.3,Kampita,plavitam Todi,False,True,0.0,hand-marked,0.78,97.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Kampita(plavitam) todi#03.4,Kampita,plavitam Todi,False,True,0.0,hand-marked,0.87,102.0,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita,Kampita
+Jaru_asc_1,Jaaru (Etra),asc,True,True,0.0,movement crop,1.3,481.0,Kampita,Jaaru (Etra),Kampita,Jaaru (Etra),Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_asc_1 [OG_1],Jaaru (Etra),asc [OG_1],False,True,0.0,movement crop,1.23,699.0,Jaaru (Etra),Jaaru (Etra),Kampita,Kampita,Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_asc_2,Jaaru (Etra),asc,True,True,0.0,movement crop,1.31,488.0,Kampita,Jaaru (Etra),Kampita,Jaaru (Etra),Jaaru (Etra),Jaaru (Etra),Jaaru (Etra)
+Jaru_asc_2 [OG_1],Jaaru (Etra),asc [OG_1],False,True,0.0,movement crop,1.28,721.0,Jaaru (Etra),Jaaru (Etra),Kampita,Kampita,Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_asc_3,Jaaru (Etra),asc,False,True,0.0,movement crop,1.22,487.0,Kampita,Jaaru (Etra),Kampita,Jaaru (Etra),Jaaru (Etra),Jaaru (Etra),Jaaru (Etra)
+Jaru_asc_3 [OG_1],Jaaru (Etra),asc [OG_1],False,True,0.0,movement crop,1.05,714.0,Jaaru (Etra),Jaaru (Etra),Kampita,Kampita,Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_asc_4,Jaaru (Etra),asc,False,True,0.0,movement crop,0.82,514.0,Jaaru (Etra),Jaaru (Etra),Kampita,Jaaru (Etra),Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_asc_4 [OG_1],Jaaru (Etra),asc [OG_1],False,True,0.0,movement crop,1.47,713.0,Jaaru (Etra),Jaaru (Etra),Kampita,Kampita,Nokku,Jaaru (Etra),Kampita
+Jaru_asc_5,Jaaru (Etra),asc,False,True,0.0,movement crop,0.88,496.0,Jaaru (Etra),Jaaru (Etra),Kampita,Jaaru (Etra),Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_asc_5 [OG_1],Jaaru (Etra),asc [OG_1],False,False,0.155,movement crop,1.41,460.0,Jaaru (Etra),Jaaru (Etra),Kampita,Kampita,Kampita,Jaaru (Etra),Kampita
+Jaru_asc_6,Jaaru (Etra),asc,False,True,0.0,movement crop,0.88,513.0,Jaaru (Etra),Jaaru (Etra),Kampita,Jaaru (Etra),Jaaru (Etra),Jaaru (Etra),Jaaru (Etra)
+Jaru_asc_6 [OG_1],Jaaru (Etra),asc [OG_1],False,True,0.0,movement crop,0.86,724.0,Jaaru (Etra),Jaaru (Etra),Kampita,Kampita,Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_desc_1_melgana,Jaaru (Irakka),desc Melgana,True,True,0.0,movement crop,0.88,-770.0,Jaaru (Irakka),Jaaru (Irakka),Kampita,Nokku,Jaaru (Irakka),Jaaru (Irakka),Kampita
+Jaru_desc_2_melgana,Jaaru (Irakka),desc Melgana,True,True,0.0,movement crop,1.01,-776.0,Jaaru (Irakka),Jaaru (Irakka),Kampita,Nokku,Jaaru (Irakka),Jaaru (Irakka),Kampita
+Jaru_desc_3_melgana,Jaaru (Irakka),desc Melgana,False,True,0.0,movement crop,0.99,-764.0,Jaaru (Irakka),Jaaru (Irakka),Kampita,Jaaru (Irakka),Jaaru (Irakka),Jaaru (Irakka),Kampita
+Jaru_desc_4_melgana,Jaaru (Irakka),desc Melgana,False,True,0.0,movement crop,0.55,-775.0,Jaaru (Irakka),Jaaru (Irakka),Kampita,Kampita,Jaaru (Irakka),Jaaru (Irakka),Kampita
+Jaru_desc_5_melgana,Jaaru (Irakka),desc Melgana,False,True,0.0,movement crop,0.81,-766.0,Jaaru (Irakka),Jaaru (Irakka),Kampita,Nokku,Jaaru (Irakka),Jaaru (Irakka),Kampita
+Jaru_desc_6_melgana,Jaaru (Irakka),desc Melgana,False,True,0.0,movement crop,0.84,-752.0,Jaaru (Irakka),Jaaru (Irakka),Kampita,Nokku,Jaaru (Irakka),Jaaru (Irakka),Kampita
+Jaru_desc_shankravarnam_1,Jaaru (Irakka),desc Shankarabharanam,False,False,0.097,movement crop,2.06,40.0,Kampita,Kampita,Kampita,Kampita,Jaaru (Etra),Kampita,Kampita
+Jaru_desc_shankravarnam_2,Jaaru (Irakka),desc Shankarabharanam,False,False,0.196,movement crop,1.88,36.0,Kampita,Kampita,Kampita,Kampita,Jaaru (Etra),Kampita,Kampita
+Jaru_desc_shankravarnam_3,Jaaru (Irakka),desc Shankarabharanam,False,False,0.126,movement crop,1.14,544.0,Jaaru (Etra),Jaaru (Etra),Kampita,Jaaru (Etra),Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_desc_shankravarnam_4,Jaaru (Irakka),desc Shankarabharanam,False,False,0.034,movement crop,0.99,214.0,Kampita,Jaaru (Etra),Kampita,Kampita,Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_desc_shankravarnam_5,Jaaru (Irakka),desc Shankarabharanam,False,False,0.059,movement crop,0.96,425.0,Jaaru (Etra),Jaaru (Etra),Kampita,Kampita,Jaaru (Etra),Jaaru (Etra),Kampita
+Jaru_desc_shankravarnam_6,Jaaru (Irakka),desc Shankarabharanam,False,False,0.132,movement crop,1.35,2.0,Kampita,Kampita,Kampita,Kampita,Nokku,Kampita,Kampita

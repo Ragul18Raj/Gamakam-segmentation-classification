@@ -1,0 +1,36 @@
+stage2_block6: 6 folds, 31 recordings, 293 events; none = 87.9% of frames
+filter chosen per fold: {'B1': 5, 'B2': 3, 'B3': 5, 'B4': 5, 'B5': 5, 'B7': 5}
+
+            frameF1  eventF1 onset200  tracks  Kampita cnt/type  exact
+all_none      0.187    0.000    0.000   0.000    0.000     2.36     0%
+rule_knn      0.249    0.042    0.056   0.043    0.169     2.09     0%
+cnn           0.497    0.398    0.330   0.405    0.663     2.14     0%
+kampita_rf Kampita event F1 0.469  {'Kampita': {'precision': 0.43037974683544306, 'recall': 0.5151515151515151, 'f1': 0.4689655172413793, 'n_ref': 132, 'n_est': 158}}
+
+CNN frame macro-F1 before post-processing 0.494; event macro-F1 95% CI over recordings [0.3506740568494274, 0.4487480645343427]
+
+cnn per class:
+   Kampita          P 0.54 R 0.86 F1 0.66  (ref 132, est 212)
+   Nokku            P 0.22 R 0.34 F1 0.27  (ref 82, est 125)
+   Jaaru (Etra)     P 0.24 R 0.53 F1 0.33  (ref 45, est 99)
+   Jaaru (Irakka)   P 0.27 R 0.41 F1 0.33  (ref 34, est 52)
+   onset/offset median error 80 / 50 ms; by tempo slow 0.34, medium 0.46, fast 0.37, (varnam) 0.28
+   per fold: B1 0.27, B2 0.37, B3 0.35, B4 0.59, B5 0.38, B7 0.28
+
+rule_knn per class:
+   Kampita          P 0.15 R 0.19 F1 0.17  (ref 132, est 164)
+   Nokku            P 0.00 R 0.00 F1 0.00  (ref 82, est 1)
+   Jaaru (Etra)     P 0.00 R 0.00 F1 0.00  (ref 45, est 0)
+   Jaaru (Irakka)   P 0.00 R 0.00 F1 0.00  (ref 34, est 1)
+   onset/offset median error 206 / 283 ms; by tempo slow 0.05, medium 0.04, fast 0.00, (varnam) 0.04
+   per fold: B1 0.02, B2 0.02, B3 0.05, B4 0.06, B5 0.06, B7 0.04
+
+CNN frame confusion (rows = singer, cols = CNN; none, Kampita, Nokku, Etra, Irakka):
+[[117532   6752   2291   1481   1254]
+ [  2615  10010    181     25      0]
+ [  1434    342    716      1     26]
+ [   688     21      0    488     14]
+ [   742      0      0     12    510]]
+
+folds CNN vs rule: {'cnn_mean': 0.37473700952179395, 'cnn_std': 0.1128628134891986, 'rule_mean': 0.041110263916106886, 'rule_std': 0.017380159584310863, 'p_rule_better_one_sided': 1.0, 'p_cnn_better_one_sided': 0.015625, 'p_two_sided': 0.03125}
+PASS stage 2: {'event_f1_ge_060': False, 'frame_f1_ge_060': False, 'cnn_not_worse_than_rule': True, 'all': False}
